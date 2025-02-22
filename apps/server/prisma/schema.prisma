@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         String     @id @default(uuid())
+  githubId   String?    @unique
+  googleId   String?    @unique
+  email      String?    @unique
+  firstName  String?
+  lastName   String?
+  password   String?
+  privacy    Boolean    @default(false)
+  acceptTerms Boolean   @default(false)
+  preferences Json?
+  activities UserActivity[]
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+  workspaces Workspace[]
+  lastLogout DateTime?
+
+  @@index([email])
+}
+
+model Workspace {
+  id          String   @id @default(uuid())
+  name        String
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  template    String?
+  language    String?
+  libraries   String[]
+  description String?
+  resources   Json?
+  status      String?
+  editorConfig Json?
+  editorLayout Json?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([userId])
+}
+
+model UserActivity {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  type      String
+  metadata  Json?
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}
