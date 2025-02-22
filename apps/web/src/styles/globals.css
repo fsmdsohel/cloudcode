@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Cursor styles for interactive elements */
+  button,
+  a,
+  [role="button"],
+  select,
+  summary,
+  [type="button"],
+  [type="reset"],
+  [type="submit"],
+  [type="checkbox"],
+  [type="radio"] {
+    @apply cursor-pointer;
+  }
+
+  /* Disabled state */
+  button:disabled,
+  [role="button"]:disabled,
+  [type="button"]:disabled,
+  [type="reset"]:disabled,
+  [type="submit"]:disabled {
+    @apply cursor-not-allowed;
+  }
+
+  /* Text selection cursor */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="url"],
+  textarea {
+    @apply cursor-text;
+  }
+
+  /* Loading state */
+  .loading {
+    @apply cursor-wait;
+  }
+
+  /* Draggable elements */
+  [draggable="true"] {
+    @apply cursor-move;
+  }
+
+  /* Help cursor for elements with title/tooltip */
+  [title]:not(a, button) {
+    @apply cursor-help;
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #030711;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .nav-link {
+    @apply text-gray-400 hover:text-blue-400 transition-all duration-300 py-2 px-4 rounded-lg 
+    hover:bg-blue-600/10 relative overflow-hidden;
+  }
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modalFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes modalSlideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes modalSlideOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}
+
+/* Terminal styles */
+.terminal.xterm.xterm-dom-renderer-owner-1 {
+  flex: 1;
+}
+
+/* NProgress styles */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #29d;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+  opacity: 1;
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Backdrop blur transition */
+@supports (backdrop-filter: blur(0)) {
+  .backdrop-blur-lg {
+    transition: backdrop-filter 0.3s ease;
+  }
+}

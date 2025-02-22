@@ -132,7 +132,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Volumes/Works/turborepo/prisma-turbo/packages/database/generated/client",
+      "value": "/Volumes/Works/turborepo/cloudcode/packages/database/generated/client",
       "fromEnvVar": null
     },
     "config": {
@@ -146,7 +146,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/Volumes/Works/turborepo/prisma-turbo/packages/database/prisma/schema.prisma",
+    "sourceFilePath": "/Volumes/Works/turborepo/cloudcode/packages/database/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
