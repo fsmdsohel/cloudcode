@@ -323,3 +323,11 @@
 2025-02-23T16:40:22.296Z [[32minfo[39m]: Redis Client Connected
 2025-02-23T16:40:22.297Z [[32minfo[39m]: Redis connected successfully
 2025-02-23T16:40:22.298Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-23T16:51:32.513Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-23T16:51:32.516Z [[32minfo[39m]: Redis Client Connected
+2025-02-23T16:51:32.517Z [[32minfo[39m]: Redis connected successfully
+2025-02-23T16:51:32.518Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-23T16:52:52.686Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-23T16:52:52.689Z [[32minfo[39m]: Redis Client Connected
+2025-02-23T16:52:52.690Z [[32minfo[39m]: Redis connected successfully
+2025-02-23T16:52:52.691Z [[32minfo[39m]: 🚀 Server running on port 8000
