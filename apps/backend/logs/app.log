@@ -1,0 +1,408 @@
+2025-02-24T04:12:24.643Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:12:24.649Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:12:24.650Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:12:24.652Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:13:42.523Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:15:48.630Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:16:38.179Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:19:01.766Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:19:01.769Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:19:01.770Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:19:01.771Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:19:05.652Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:19:37.483Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:19:37.486Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:19:37.487Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:19:37.488Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:20:20.335Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:20:20.338Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:20:20.340Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:20:20.341Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:21:03.509Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:21:03.512Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:21:03.514Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:21:03.515Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:21:08.482Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:21:14.904Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:21:20.250Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:32.671Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:33.149Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:33.352Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:33.497Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:33.644Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:33.805Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:33.969Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:34.114Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:34.265Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:34.423Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:34.581Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:34.725Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:34.875Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:35.024Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:35.179Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:35.331Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:35.479Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:35.631Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:35.778Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:35.938Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:36.080Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:36.224Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:36.389Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:36.531Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:36.683Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:36.830Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:36.980Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:37.144Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:37.294Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:37.433Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:37.573Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:37.732Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:37.886Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:38.039Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:38.189Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:38.340Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:38.486Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:38.640Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:38.792Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:38.952Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:39.098Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:39.247Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:22:43.399Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:22:43.401Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:22:43.403Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:22:43.405Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:23:09.768Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:23:09.771Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:23:09.773Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:23:09.774Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:26:51.126Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:51.299Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:51.464Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:51.631Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:51.798Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:51.955Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:52.128Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:52.278Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:52.427Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:52.569Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:52.722Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:52.890Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:53.035Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:53.189Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:53.350Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:53.557Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:53.736Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:53.903Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:54.114Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:54.271Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:54.443Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:54.604Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:54.752Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:54.900Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:55.055Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:55.209Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:55.357Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:55.499Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:55.650Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:55.801Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:55.962Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:56.123Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:56.297Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:56.458Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:56.613Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:56.784Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:56.963Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:57.136Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:57.286Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:57.444Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:57.624Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:57.772Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:57.919Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:58.073Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:58.228Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:58.383Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:58.533Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:58.678Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:58.825Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:26:58.982Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:27:35.116Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:27:35.119Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:27:35.121Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:27:35.122Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:27:36.377Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:28:03.540Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:29:28.545Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:29:28.548Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:29:28.550Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:29:28.551Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:29:30.556Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:29:32.656Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:29:38.151Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:29:45.948Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:29:45.952Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:29:45.953Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:29:45.954Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:29:52.112Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:31:08.684Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:31:08.687Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:31:08.689Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:31:08.690Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:31:12.645Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:32:37.386Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:32:37.389Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:32:37.391Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:32:37.392Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:32:40.936Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:33:37.519Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:34:00.072Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:34:00.075Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:34:00.076Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:34:00.077Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:34:28.989Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:34:28.992Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:34:28.994Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:34:28.995Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:34:35.888Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:34:46.645Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:34:46.648Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:34:46.649Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:34:46.651Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:46:04.485Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:47:02.212Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:47:02.214Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:47:02.216Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:47:02.217Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:47:26.983Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:47:26.986Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:47:26.988Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:47:26.989Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:47:28.289Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:47:29.541Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T04:47:44.606Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:47:44.608Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:47:44.610Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:47:44.611Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:47:47.137Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:47:47.140Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:47:47.141Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:47:47.143Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:47:51.120Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:47:51.123Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:47:51.124Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:47:51.126Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:47:55.965Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:47:55.969Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:47:55.970Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:47:55.971Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:48:09.802Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:48:09.805Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:48:09.807Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:48:09.808Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:48:22.681Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:48:22.685Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:48:22.686Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:48:22.687Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:48:45.441Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:48:45.445Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:48:45.446Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:48:45.447Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:48:57.486Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:48:57.489Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:48:57.491Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:48:57.492Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:49:05.886Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:49:05.890Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:49:05.891Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:49:05.892Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:49:22.125Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:49:22.129Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:49:22.130Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:49:22.131Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:49:28.646Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:49:28.649Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:49:28.651Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:49:28.652Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:50:23.635Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:50:23.638Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:50:23.640Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:50:23.641Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T04:50:29.888Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T04:50:29.891Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T04:50:29.892Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T04:50:29.894Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T05:06:12.625Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T05:13:57.666Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T05:13:57.674Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T05:13:57.680Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T05:13:57.686Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T05:14:04.135Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T05:14:04.145Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T05:14:04.151Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T05:14:04.156Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T05:14:09.391Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T05:14:09.404Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T05:14:09.411Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T05:14:09.417Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T05:14:39.493Z [[32minfo[39m]: Stored refresh token for user 873c378b-f67c-414f-b6fe-2fbfc3863053
+2025-02-24T05:14:44.205Z [[32minfo[39m]: Token blacklisted for user 873c378b-f67c-414f-b6fe-2fbfc3863053
+2025-02-24T05:14:44.205Z [[32minfo[39m]: Token blacklisted for user 873c378b-f67c-414f-b6fe-2fbfc3863053
+2025-02-24T05:14:44.205Z [[32minfo[39m]: User 873c378b-f67c-414f-b6fe-2fbfc3863053 logged out successfully
+2025-02-24T05:14:56.629Z [[32minfo[39m]: Stored refresh token for user 873c378b-f67c-414f-b6fe-2fbfc3863053
+2025-02-24T05:40:25.773Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T05:40:32.293Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T05:40:33.650Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T06:02:21.174Z [[31merror[39m]: Redis Client Error: read ECONNRESET
+2025-02-24T06:02:21.174Z [[32minfo[39m]: Attempting Redis reconnection #0
+2025-02-24T06:02:21.175Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T06:14:39.162Z [[31merror[39m]: Redis Client Error: read ECONNRESET
+2025-02-24T06:14:39.163Z [[32minfo[39m]: Attempting Redis reconnection #0
+2025-02-24T06:14:39.164Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T06:46:28.666Z [[31merror[39m]: Redis Client Error: read ECONNRESET
+2025-02-24T06:46:28.667Z [[32minfo[39m]: Attempting Redis reconnection #0
+2025-02-24T06:46:28.668Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:02:21.715Z [[31merror[39m]: Redis Client Error: read ECONNRESET
+2025-02-24T07:02:21.719Z [[32minfo[39m]: Attempting Redis reconnection #0
+2025-02-24T07:02:21.725Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:28:08.744Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:28:38.024Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:28:38.028Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:28:38.030Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:28:38.031Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:28:38.965Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:28:40.750Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:28:43.787Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:28:44.540Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:28:45.201Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:28:46.809Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:28:47.806Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:28:59.812Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:28:59.816Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:28:59.817Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:28:59.818Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:30:54.858Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:30:54.861Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:30:54.863Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:30:54.864Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:32:23.858Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:32:23.860Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:32:23.862Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:32:23.863Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:32:34.530Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:32:34.533Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:32:34.535Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:32:34.536Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:32:56.916Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:32:56.919Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:32:56.921Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:32:56.922Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:33:27.404Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:33:27.407Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:33:27.409Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:33:27.410Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:33:46.132Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:33:46.147Z [[31merror[39m]: Logout error: Cannot read properties of undefined (reading 'id')
+2025-02-24T07:34:08.456Z [[32minfo[39m]: Stored refresh token for user 873c378b-f67c-414f-b6fe-2fbfc3863053
+2025-02-24T07:34:12.414Z [[31merror[39m]: Logout error: Cannot read properties of undefined (reading 'id')
+2025-02-24T07:35:19.865Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:35:19.868Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:35:19.870Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:35:19.871Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:36:23.722Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:36:23.725Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:36:23.727Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:36:23.728Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:44:06.230Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:44:06.237Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:44:06.238Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:44:06.239Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:44:08.483Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:44:08.486Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:44:08.488Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:44:08.489Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:44:10.654Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:44:10.658Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:44:10.660Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:44:10.661Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:44:16.465Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-02-24T07:44:32.411Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:44:32.425Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-02-24T07:45:47.476Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:45:47.496Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:45:47.510Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T07:45:47.510Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T07:45:47.511Z [[32minfo[39m]: User unknown logged out successfully
+2025-02-24T07:47:54.702Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T07:49:11.669Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:49:11.677Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:49:11.697Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T07:49:11.697Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T07:49:11.698Z [[32minfo[39m]: User unknown logged out successfully
+2025-02-24T07:50:49.754Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T07:51:11.598Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:51:11.626Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T07:51:31.715Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:51:31.731Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T07:52:08.431Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:52:08.434Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:52:08.435Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:52:08.437Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:52:49.337Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:52:49.356Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:52:49.366Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T07:52:49.367Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T07:52:49.367Z [[32minfo[39m]: User unknown logged out successfully
+2025-02-24T07:53:04.118Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:53:04.121Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:53:04.122Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:53:04.123Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:53:13.677Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-02-24T07:53:33.712Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:53:33.731Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-02-24T07:53:59.148Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:53:59.164Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-02-24T07:54:17.303Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:54:17.320Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-02-24T07:54:33.321Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:54:33.324Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:54:33.326Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:54:33.327Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:54:38.036Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:54:38.058Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-02-24T07:54:53.600Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:54:53.616Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-02-24T07:55:08.674Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:55:08.687Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-02-24T07:55:41.604Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:55:41.613Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T07:55:41.649Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T07:55:41.652Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T07:55:41.652Z [[32minfo[39m]: User unknown logged out successfully
+2025-02-24T07:57:14.799Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:57:14.803Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:57:14.804Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:57:14.805Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:57:20.116Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T07:57:36.567Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T07:57:36.587Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T07:58:54.009Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:58:54.012Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:58:54.014Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:58:54.015Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T07:58:59.364Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T07:58:59.366Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T07:58:59.368Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T07:58:59.369Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:00:44.389Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T08:00:44.400Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T08:00:44.407Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T08:00:44.407Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T08:00:44.407Z [[32minfo[39m]: User unknown logged out successfully
+2025-02-24T08:02:22.022Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:05:48.118Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:05:48.121Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:05:48.122Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:05:48.123Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:06:16.172Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T08:06:16.186Z [[31merror[39m]: Token refresh error: Invalid token
+2025-02-24T08:06:16.196Z [[32minfo[39m]: User unknown logged out successfully
+2025-02-24T08:06:18.951Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63

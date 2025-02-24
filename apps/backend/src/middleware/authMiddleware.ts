@@ -9,6 +9,12 @@ export const verifyAccessToken = async (
 ): Promise<void> => {
   try {
     const token = req.cookies.accessToken;
+
+    // Allow logout requests to proceed even without a valid token
+    if (req.path === "/logout" && !token) {
+      return next();
+    }
+
     if (!token) {
       res.status(401).json({
         error: "Authentication required",
@@ -31,6 +37,11 @@ export const verifyAccessToken = async (
 
     next();
   } catch (error: any) {
+    // Allow logout requests to proceed even with invalid token
+    if (req.path === "/logout") {
+      return next();
+    }
+
     if (error.code === "TOKEN_EXPIRED") {
       res.status(401).json({
         error: "Session expired",

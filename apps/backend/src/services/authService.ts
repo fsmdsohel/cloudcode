@@ -176,16 +176,28 @@ export const refreshTokenService = async (refreshToken: string) => {
 
 export const logoutService = async (
   userId: string,
-  accessToken: string,
-  refreshToken: string
+  accessToken?: string,
+  refreshToken?: string
 ) => {
-  await Promise.all([
-    addToBlacklist(accessToken, userId),
-    addToBlacklist(refreshToken, userId),
-    redisClient.del(`refresh_${userId}`),
-  ]);
+  try {
+    const promises: Promise<any>[] = [];
 
-  logger.info(`User ${userId} logged out successfully`);
+    if (accessToken) {
+      promises.push(addToBlacklist(accessToken, userId));
+    }
+    if (refreshToken) {
+      promises.push(addToBlacklist(refreshToken, userId));
+    }
+    if (userId !== "unknown") {
+      promises.push(redisClient.del(`refresh_${userId}`));
+    }
+
+    await Promise.allSettled(promises);
+    logger.info(`User ${userId} logged out successfully`);
+  } catch (error) {
+    logger.error(`Logout service error for user ${userId}:`, error);
+    // Don't throw the error - let the logout complete
+  }
 };
 
 export const findOrCreateGithubUser = async (

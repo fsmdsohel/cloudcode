@@ -1,5 +1,5 @@
 {
-  "name": "prisma-turbo",
+  "name": "cloudcode",
   "private": true,
   "scripts": {
     "build": "turbo run build",

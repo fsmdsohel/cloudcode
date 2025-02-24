@@ -16,13 +16,21 @@ const ACCESS_COOKIE_OPTIONS: CookieOptions = {
   httpOnly: true,
   secure: process.env.NODE_ENV === "production",
   sameSite: process.env.NODE_ENV === "production" ? "strict" : "lax",
-  maxAge: config.jwt.expiresInMilliseconds,
   path: "/",
+  maxAge: config.jwt.expiresInMilliseconds,
 };
 
-const REFRESH_COOKIE_OPTIONS = {
+const REFRESH_COOKIE_OPTIONS: CookieOptions = {
   ...ACCESS_COOKIE_OPTIONS,
   maxAge: config.jwt.refreshExpiresInMilliseconds,
+};
+
+// First, let's create separate options for clearing cookies
+const CLEAR_COOKIE_OPTIONS: CookieOptions = {
+  httpOnly: true,
+  secure: process.env.NODE_ENV === "production",
+  sameSite: process.env.NODE_ENV === "production" ? "strict" : "lax",
+  path: "/",
 };
 
 export const registerUser = async (
@@ -77,16 +85,9 @@ export const loginUser = async (req: Request, res: Response): Promise<void> => {
     const { email, password } = req.body;
     const { tokens, user } = await loginUserService(email, password);
 
-    // Set httpOnly cookies for both tokens
-    res.cookie("accessToken", tokens.accessToken, {
-      ...ACCESS_COOKIE_OPTIONS,
-      maxAge: config.jwt.expiresInMilliseconds,
-    });
-
-    res.cookie("refreshToken", tokens.refreshToken, {
-      ...ACCESS_COOKIE_OPTIONS,
-      maxAge: config.jwt.refreshExpiresInMilliseconds,
-    });
+    // Set httpOnly cookies with correct expiration
+    res.cookie("accessToken", tokens.accessToken, ACCESS_COOKIE_OPTIONS);
+    res.cookie("refreshToken", tokens.refreshToken, REFRESH_COOKIE_OPTIONS);
 
     res.json({
       status: "success",
@@ -125,15 +126,24 @@ export const logout = async (req: Request, res: Response): Promise<void> => {
   try {
     const accessToken = req.cookies.accessToken;
     const refreshToken = req.cookies.refreshToken;
-    console.log("req.user", req.user);
+
+    // Try to invalidate tokens if they exist, but don't fail if they're invalid
     if (accessToken || refreshToken) {
-      // Add tokens to blacklist and update user's lastLogout
-      await logoutService(req.user!.id, accessToken, refreshToken);
+      try {
+        await logoutService(
+          req.user?.id || "unknown",
+          accessToken,
+          refreshToken
+        );
+      } catch (error) {
+        // Log the error but continue with logout
+        logger.warn("Failed to invalidate tokens during logout:", error);
+      }
     }
 
-    // Clear the cookies
-    res.clearCookie("accessToken", ACCESS_COOKIE_OPTIONS);
-    res.clearCookie("refreshToken", REFRESH_COOKIE_OPTIONS);
+    // Clear cookies without maxAge option
+    res.clearCookie("accessToken", CLEAR_COOKIE_OPTIONS);
+    res.clearCookie("refreshToken", CLEAR_COOKIE_OPTIONS);
 
     res.json({
       status: "success",
@@ -141,9 +151,9 @@ export const logout = async (req: Request, res: Response): Promise<void> => {
     });
   } catch (error: any) {
     logger.error("Logout error:", error);
-    // Even if blacklisting fails, clear the cookies
-    res.clearCookie("accessToken", ACCESS_COOKIE_OPTIONS);
-    res.clearCookie("refreshToken", REFRESH_COOKIE_OPTIONS);
+    // Even if there's an error, clear the cookies
+    res.clearCookie("accessToken", CLEAR_COOKIE_OPTIONS);
+    res.clearCookie("refreshToken", CLEAR_COOKIE_OPTIONS);
 
     res.status(500).json({
       status: "error",
@@ -193,14 +203,13 @@ export const refreshAccessToken = async (
         status: "error",
         code: "REFRESH_TOKEN_MISSING",
         message: "No refresh token provided",
-        suggestion: "Please log in again",
       });
       return;
     }
 
     const tokens = await refreshTokenService(refreshToken);
 
-    // Set httpOnly cookies for both tokens
+    // Set new cookies with correct expiration
     res.cookie("accessToken", tokens.accessToken, ACCESS_COOKIE_OPTIONS);
     res.cookie("refreshToken", tokens.refreshToken, REFRESH_COOKIE_OPTIONS);
 

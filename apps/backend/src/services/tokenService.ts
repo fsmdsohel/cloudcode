@@ -33,12 +33,10 @@ export const generateToken = (
 ): string => {
   const secret =
     type === "access" ? config.jwt.secret : config.jwt.refreshSecret;
-  const expiresIn: number =
-    type === "access"
-      ? parseInt(config.jwt.expiresIn)
-      : parseInt(config.jwt.refreshExpiresIn);
-  const options: SignOptions = { expiresIn };
-  return jwt.sign(payload, secret, options);
+  const expiresIn =
+    type === "access" ? config.jwt.expiresIn : config.jwt.refreshExpiresIn;
+
+  return jwt.sign(payload, secret, { expiresIn } as SignOptions);
 };
 
 export const verifyToken = async (
@@ -66,7 +64,7 @@ export const storeRefreshToken = async (
   token: string
 ): Promise<void> => {
   await redisClient.set(`refresh_${userId}`, token, {
-    EX: 30 * 24 * 60 * 60, // 30 days
+    EX: 30 * 24 * 60 * 60, // 30 days in seconds
   });
   logger.info(`Stored refresh token for user ${userId}`);
 };
@@ -85,8 +83,13 @@ export const invalidateTokens = async (userId: string): Promise<void> => {
 };
 
 export const addToBlacklist = async (token: string, userId: string) => {
+  const decodedToken = jwt.decode(token) as any;
+  const expirationTime = decodedToken?.exp
+    ? decodedToken.exp - Math.floor(Date.now() / 1000)
+    : 30 * 24 * 60 * 60;
+
   await redisClient.set(`bl_${token}`, userId, {
-    EX: 30 * 24 * 60 * 60, // 30 days
+    EX: Math.max(expirationTime, 0), // Use remaining time or default to 30 days
   });
   logger.info(`Token blacklisted for user ${userId}`);
 };
