@@ -1,84 +1,97 @@
-# Turborepo starter
+# CloudCode Monorepo
 
-This Turborepo starter is maintained by the Turborepo core team.
+A modern cloud-based development platform built with Turborepo.
 
-## Using this example
+## What's Inside?
 
-Run the following command:
+This Turborepo includes the following apps and packages:
 
-```sh
-npx create-turbo@latest
-```
+### Apps
 
-## What's inside?
+- frontend: Next.js application for the main user interface
+- admin-hub: Next.js application for admin dashboard
+- backend: Express.js API server with authentication and core services
+- workspace-manager: Kubernetes workspace orchestration service
+- container-gateway: Container management and file system service
 
-This Turborepo includes the following packages/apps:
+### Packages
 
-### Apps and Packages
+- @repo/ui: Shared React component library
+- @repo/eslint-config: ESLint configurations
+- @repo/typescript-config: Shared TypeScript configurations
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+## Getting Started
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+### Prerequisites
 
-### Utilities
+- Node.js >= 18
+- Yarn 1.22.x
+- Docker (for local development)
+- Kubernetes cluster (for workspace deployment)
 
-This Turborepo has some additional tools already setup for you:
+### Installation
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+1. Clone the repository:
+   git clone https://github.com/your-org/cloudcode.git
+   cd cloudcode
+
+2. Install dependencies:
+   yarn install
+
+### Development
+
+To develop all apps and packages:
+yarn dev
 
 ### Build
 
-To build all apps and packages, run the following command:
+To build all apps and packages:
+yarn build
 
-```
-cd my-turborepo
-pnpm build
-```
+### Type Checking
 
-### Develop
+Run type checks across the entire monorepo:
+yarn check-types
 
-To develop all apps and packages, run the following command:
+## Architecture
 
-```
-cd my-turborepo
-pnpm dev
-```
+CloudCode is built as a microservices architecture:
 
-### Remote Caching
+- Frontend apps are built with Next.js
+- Backend services use Express.js
+- Workspaces are orchestrated using Kubernetes
+- Real-time collaboration is enabled through WebSocket connections
+- Authentication uses JWT with session management
 
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
+## Documentation
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+- Frontend Documentation (/apps/frontend/README.md)
+- Backend API Documentation (/apps/backend/README.md)
+- Workspace Manager (/apps/workspace-manager/README.md)
+- Admin Hub (/apps/admin-hub/README.md)
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
+## Environment Setup
 
-```
-cd my-turborepo
-npx turbo login
-```
+Each application may require specific environment variables. Check the README in each app directory for detailed setup instructions.
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+## Contributing
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+1. Fork the repository
+2. Create your feature branch (git checkout -b feature/amazing-feature)
+3. Commit your changes (git commit -m 'Add some amazing feature')
+4. Push to the branch (git push origin feature/amazing-feature)
+5. Open a Pull Request
 
-```
-npx turbo link
-```
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Useful Links
 
-Learn more about the power of Turborepo:
+Learn more about the technologies used:
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+- Turborepo: https://turbo.build/repo/docs
+- Next.js: https://nextjs.org/docs
+- Express.js: https://expressjs.com/
+- Kubernetes: https://kubernetes.io/docs/
+- TypeScript: https://www.typescriptlang.org/
