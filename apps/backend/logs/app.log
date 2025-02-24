@@ -406,3 +406,110 @@
 2025-02-24T08:06:16.186Z [[31merror[39m]: Token refresh error: Invalid token
 2025-02-24T08:06:16.196Z [[32minfo[39m]: User unknown logged out successfully
 2025-02-24T08:06:18.951Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:12:30.699Z [[32minfo[39m]: Token blacklisted for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:12:30.700Z [[32minfo[39m]: Token blacklisted for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:12:30.700Z [[32minfo[39m]: User b95e60fa-4d4b-436a-b709-d7011c9ebc63 logged out successfully
+2025-02-24T08:16:27.866Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:16:27.875Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:16:27.880Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:16:27.882Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:16:31.130Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:16:36.492Z [[32minfo[39m]: Token blacklisted for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:16:36.492Z [[32minfo[39m]: Token blacklisted for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:16:36.492Z [[32minfo[39m]: User b95e60fa-4d4b-436a-b709-d7011c9ebc63 logged out successfully
+2025-02-24T08:16:47.002Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:16:47.006Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:16:47.007Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:16:47.008Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:20:04.592Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:20:04.595Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:20:04.596Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:20:04.598Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:20:08.917Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:20:23.120Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T08:20:23.141Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:20:39.288Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:20:54.007Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T08:20:54.025Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:21:09.758Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:21:24.319Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T08:21:24.332Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:21:42.389Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:22:39.733Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:23:05.062Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:23:28.079Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:27:16.370Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:27:54.889Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:28:09.003Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T08:28:09.019Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:28:36.748Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:29:01.884Z [[32minfo[39m]: Token blacklisted for user unknown
+2025-02-24T08:29:01.884Z [[32minfo[39m]: User unknown logged out successfully
+2025-02-24T08:29:16.202Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:29:18.188Z [[32minfo[39m]: Token blacklisted for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:29:18.188Z [[32minfo[39m]: Token blacklisted for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:29:18.188Z [[32minfo[39m]: User b95e60fa-4d4b-436a-b709-d7011c9ebc63 logged out successfully
+2025-02-24T08:29:21.741Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:30:30.929Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:30:47.593Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:31:14.557Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:32:12.103Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:32:12.106Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:32:12.108Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:32:12.109Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:32:22.684Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:32:48.549Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:35:41.357Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:36:22.947Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:36:55.177Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:36:55.180Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:36:55.182Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:36:55.183Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:37:20.856Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:37:36.086Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:38:03.224Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:42:26.127Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:42:26.131Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:42:26.133Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:42:26.134Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:42:30.507Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:42:48.344Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:44:21.710Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:44:41.748Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:45:07.335Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:45:22.201Z [[31merror[39m]: Auth error: Invalid token
+2025-02-24T08:45:22.217Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:45:44.615Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:54:29.342Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:56:37.116Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:56:37.121Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:56:37.123Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:56:37.124Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:56:49.847Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:56:49.850Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:56:49.851Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:56:49.853Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:57:08.684Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:57:08.687Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:57:08.689Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:57:08.690Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:57:19.569Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:57:19.572Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:57:19.574Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:57:19.575Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:57:24.478Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:58:15.557Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:58:19.946Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:58:25.110Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:59:11.772Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T08:59:11.775Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T08:59:11.776Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T08:59:11.777Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T08:59:18.389Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T08:59:40.998Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T09:00:00.862Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T09:00:50.242Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T09:00:50.245Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T09:00:50.247Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T09:00:50.248Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T09:00:57.000Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9

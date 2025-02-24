@@ -19,6 +19,27 @@ const processQueue = (error: any = null) => {
 };
 
 export const setupInterceptors = (store: any) => {
+  // Add a request interceptor to handle token refresh
+  api.interceptors.request.use(
+    async (config) => {
+      // Get the access token expiry from the cookie
+      const accessToken = document.cookie
+        .split("; ")
+        .find((row) => row.startsWith("accessToken="));
+
+      if (accessToken) {
+        // If token exists but is about to expire (within 10 seconds), refresh it
+        try {
+          await api.post("/api/v1/auth/refresh");
+        } catch (error) {
+          // If refresh fails, continue with request (let response interceptor handle it)
+        }
+      }
+      return config;
+    },
+    (error) => Promise.reject(error)
+  );
+
   // Add request interceptor to log headers
   api.interceptors.request.use(
     (config) => {

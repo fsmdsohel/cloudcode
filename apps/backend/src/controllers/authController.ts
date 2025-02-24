@@ -9,7 +9,6 @@ import {
   findOrCreateGoogleUser,
 } from "@/services/authService";
 import logger from "@/utils/logger";
-import { invalidateTokens } from "@/services/tokenService";
 import { config } from "@/config/env";
 
 const ACCESS_COOKIE_OPTIONS: CookieOptions = {
@@ -209,9 +208,16 @@ export const refreshAccessToken = async (
 
     const tokens = await refreshTokenService(refreshToken);
 
-    // Set new cookies with correct expiration
-    res.cookie("accessToken", tokens.accessToken, ACCESS_COOKIE_OPTIONS);
-    res.cookie("refreshToken", tokens.refreshToken, REFRESH_COOKIE_OPTIONS);
+    // Set cookies with explicit expiration times
+    res.cookie("accessToken", tokens.accessToken, {
+      ...ACCESS_COOKIE_OPTIONS,
+      expires: new Date(Date.now() + config.jwt.expiresInMilliseconds),
+    });
+
+    res.cookie("refreshToken", tokens.refreshToken, {
+      ...REFRESH_COOKIE_OPTIONS,
+      expires: new Date(Date.now() + config.jwt.refreshExpiresInMilliseconds),
+    });
 
     res.json({
       status: "success",

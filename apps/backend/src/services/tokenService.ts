@@ -77,11 +77,6 @@ export const validateRefreshToken = async (
   return storedToken === token;
 };
 
-export const invalidateTokens = async (userId: string): Promise<void> => {
-  await redisClient.del(`refresh_${userId}`);
-  logger.info(`Invalidated tokens for user ${userId}`);
-};
-
 export const addToBlacklist = async (token: string, userId: string) => {
   const decodedToken = jwt.decode(token) as any;
   const expirationTime = decodedToken?.exp
