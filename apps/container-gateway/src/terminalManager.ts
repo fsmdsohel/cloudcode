@@ -1,6 +1,6 @@
 import { spawn, IPty } from "node-pty";
 import treeKill from "tree-kill";
-import logger from "./utils/logger";
+import logger from "@/utils/logger";
 
 interface TerminalInstance {
   pty: IPty;

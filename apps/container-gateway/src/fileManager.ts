@@ -1,7 +1,6 @@
 import express, { Request, Response } from "express";
 import fs from "fs";
-import path from "path";
-import logger from "./utils/logger";
+import logger from "@/utils/logger";
 
 const router = express.Router();
 

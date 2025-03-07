@@ -513,3 +513,17 @@
 2025-02-24T09:00:50.247Z [[32minfo[39m]: Redis connected successfully
 2025-02-24T09:00:50.248Z [[32minfo[39m]: 🚀 Server running on port 8000
 2025-02-24T09:00:57.000Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-02-24T13:39:56.881Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T13:39:56.888Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T13:39:56.891Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T13:39:56.900Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-02-24T13:40:06.525Z [[32minfo[39m]: Stored refresh token for user b95e60fa-4d4b-436a-b709-d7011c9ebc63
+2025-02-24T13:41:02.764Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-02-24T13:41:02.767Z [[32minfo[39m]: Redis Client Connected
+2025-02-24T13:41:02.769Z [[32minfo[39m]: Redis connected successfully
+2025-02-24T13:41:02.770Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-03-07T05:34:09.980Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-03-07T05:34:09.992Z [[32minfo[39m]: Redis Client Connected
+2025-03-07T05:34:09.996Z [[32minfo[39m]: Redis connected successfully
+2025-03-07T05:34:09.997Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-03-07T05:45:33.357Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
