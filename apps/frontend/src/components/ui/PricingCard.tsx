@@ -21,7 +21,7 @@ const PricingCard = ({
       {/* Popular Badge - Only show in landing page */}
       {highlight && showPopularBadge && (
         <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-          <div className="bg-primary-blue-400 text-white px-4 py-1 rounded-full text-sm font-medium">
+          <div className="bg-blue-500 dark:bg-primary-blue-400 text-white px-4 py-1 rounded-full text-sm font-medium">
             Most Popular
           </div>
         </div>
@@ -29,10 +29,14 @@ const PricingCard = ({
 
       {/* Card Content */}
       <div className="text-center mb-8">
-        <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
+        <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+          {title}
+        </h3>
         <div className="flex items-baseline justify-center gap-1">
-          <span className="text-4xl font-bold text-white">{price}</span>
-          <span className="text-white/60">/month</span>
+          <span className="text-4xl font-bold text-gray-900 dark:text-white">
+            {price}
+          </span>
+          <span className="text-gray-500 dark:text-white/60">/month</span>
         </div>
       </div>
 
@@ -42,10 +46,12 @@ const PricingCard = ({
           <li key={index} className="flex items-center gap-3">
             <Check
               className={`w-5 h-5 flex-shrink-0 ${
-                highlight ? "text-primary-blue-400" : "text-primary-purple-400"
+                highlight
+                  ? "text-blue-500 dark:text-primary-blue-400"
+                  : "text-purple-600 dark:text-primary-purple-400"
               }`}
             />
-            <span className="text-white/80">{feature}</span>
+            <span className="text-gray-700 dark:text-white/80">{feature}</span>
           </li>
         ))}
       </ul>
@@ -59,10 +65,10 @@ const PricingCard = ({
             transition-all duration-300 hover:scale-105
             ${
               isCurrentPlan
-                ? "bg-surface-hover text-white/60 cursor-not-allowed"
+                ? "bg-gray-100 dark:bg-surface-hover text-gray-500 dark:text-white/60 cursor-not-allowed"
                 : highlight
-                ? "bg-primary-blue-400 hover:bg-primary-blue-500 text-white shadow-glow-blue"
-                : "bg-surface-card hover:bg-surface-hover text-white/80 border border-white/[0.08]"
+                  ? "bg-blue-500 dark:bg-primary-blue-400 hover:bg-blue-600 dark:hover:bg-primary-blue-500 text-white shadow-md dark:shadow-glow-blue"
+                  : "bg-white dark:bg-surface-card hover:bg-gray-50 dark:hover:bg-surface-hover text-gray-800 dark:text-white/80 border border-gray-200 dark:border-white/[0.08]"
             }
           `}
         >

@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import LandingLoading from "./loading";
+import ThemeToggle from "@/components/shared/ThemeToggle";
 
 const LandingPage = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -129,7 +130,7 @@ const LandingPage = () => {
             border-b border-transparent 
             ${
               hasScrolled
-                ? "bg-[#0F1117]/80 backdrop-blur-md border-white/[0.08]"
+                ? "bg-white/80 dark:bg-[#0F1117]/80 backdrop-blur-md border-gray-200 dark:border-white/[0.08]"
                 : "bg-transparent"
             }
             transition-all duration-200
@@ -141,7 +142,7 @@ const LandingPage = () => {
               <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-purple-500/10">
                 <Terminal className="h-5 w-5 text-purple-500" />
               </div>
-              <span className="text-xl font-semibold text-white">
+              <span className="text-xl font-semibold text-gray-900 dark:text-white">
                 CloudCode
               </span>
             </Link>
@@ -150,28 +151,29 @@ const LandingPage = () => {
             <div className="hidden md:flex items-center space-x-6">
               <Link
                 href="/docs"
-                className="text-gray-400 hover:text-gray-200 transition-colors"
+                className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
               >
                 Documentation
               </Link>
               <a
                 href="#features"
-                className="text-gray-400 hover:text-gray-200 transition-colors"
+                className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
               >
                 Features
               </a>
               <a
                 href="#pricing"
-                className="text-gray-400 hover:text-gray-200 transition-colors"
+                className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors"
               >
                 Pricing
               </a>
               <Link
                 href="/auth/login"
-                className="bg-purple-500/10 hover:bg-purple-500/20 text-purple-400 px-6 py-2 rounded-lg transition-all duration-300 hover:scale-105 border border-purple-500/20"
+                className="bg-purple-500/10 hover:bg-purple-500/20 text-purple-600 dark:text-purple-400 px-6 py-2 rounded-lg transition-all duration-300 hover:scale-105 border border-purple-500/20"
               >
                 Login
               </Link>
+              <ThemeToggle />
             </div>
 
             {/* Mobile Menu Button */}
@@ -208,35 +210,35 @@ const LandingPage = () => {
                 : "opacity-0 -translate-y-8 pointer-events-none"
             }`}
           >
-            <div className="relative bg-gray-900/95 backdrop-blur-lg rounded-2xl border border-white/[0.08] shadow-xl">
+            <div className="relative bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg rounded-2xl border border-gray-200 dark:border-white/[0.08] shadow-xl">
               <div className="p-6">
                 <nav className="grid gap-4">
                   <Link
                     href="/docs"
-                    className="flex items-center text-gray-400 hover:text-gray-200 transition-colors px-4 py-2 rounded-lg hover:bg-gray-800/50"
+                    className="flex items-center text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors px-4 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800/50"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Documentation
                   </Link>
                   <a
                     href="#features"
-                    className="flex items-center text-gray-400 hover:text-gray-200 transition-colors px-4 py-2 rounded-lg hover:bg-gray-800/50"
+                    className="flex items-center text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors px-4 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800/50"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Features
                   </a>
                   <a
                     href="#pricing"
-                    className="flex items-center text-gray-400 hover:text-gray-200 transition-colors px-4 py-2 rounded-lg hover:bg-gray-800/50"
+                    className="flex items-center text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors px-4 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800/50"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Pricing
                   </a>
                 </nav>
-                <div className="mt-6 pt-6 border-t border-gray-800 flex flex-col gap-4">
+                <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-800 flex flex-col gap-4">
                   <Link
                     href="/auth/login"
-                    className="flex items-center justify-center text-gray-400 hover:text-gray-200 transition-colors px-4 py-2 rounded-lg bg-purple-500/10 hover:bg-purple-500/20 border border-purple-500/20"
+                    className="flex items-center justify-center text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-200 transition-colors px-4 py-2 rounded-lg bg-purple-500/10 hover:bg-purple-500/20 border border-purple-500/20"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Login
@@ -252,13 +254,13 @@ const LandingPage = () => {
           {/* Hero Section */}
           <main className="pb-12 sm:pb-20 pt-24 sm:pt-32 text-center">
             <div className="max-w-3xl mx-auto animate-fadeIn px-4">
-              <div className="inline-block bg-primary-blue-100 px-4 py-2 rounded-full text-primary-blue-400 mb-6 hover:scale-105 transition-all">
+              <div className="inline-block bg-blue-50 dark:bg-primary-blue-100 px-4 py-2 rounded-full text-blue-600 dark:text-primary-blue-400 mb-6 hover:scale-105 transition-all">
                 Learn. Code. Grow.
               </div>
-              <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary-blue-400 to-primary-purple-400 leading-tight">
+              <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-primary-blue-400 dark:to-primary-purple-400 leading-tight">
                 Code Without Complexity
               </h1>
-              <p className="text-lg sm:text-xl text-gray-400 mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-400 mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed">
                 Eliminate environment setup. Start coding instantly with
                 containerized workspaces and AI-powered learning support.
               </p>
@@ -281,17 +283,17 @@ const LandingPage = () => {
           {/* Product Screenshot Section */}
           <section className="py-12 sm:py-20">
             <div className="text-center mb-10 sm:mb-16 animate-fadeIn">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-600">
                 Your Coding Environment, Simplified
               </h2>
-              <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
+              <p className="text-base sm:text-lg text-gray-700 dark:text-gray-400 max-w-2xl mx-auto">
                 Experience the seamless interface that brings your coding
                 projects to life.
               </p>
             </div>
 
             <div className="relative group animate-fadeIn">
-              <div className="bg-gray-800/50 rounded-xl overflow-hidden shadow-2xl shadow-blue-500/20 border border-gray-700/50 backdrop-blur-sm hover:shadow-blue-500/30 transition-all transform hover:scale-[1.01] duration-300">
+              <div className="bg-white dark:bg-gray-800/50 rounded-xl overflow-hidden shadow-lg dark:shadow-2xl shadow-blue-200/50 dark:shadow-blue-500/20 border border-gray-200 dark:border-gray-700/50 backdrop-blur-sm hover:shadow-blue-300/30 dark:hover:shadow-blue-500/30 transition-all transform hover:scale-[1.01] duration-300">
                 <div className="relative rounded-xl overflow-hidden">
                   <Image
                     src="/static/product.png"
@@ -310,10 +312,10 @@ const LandingPage = () => {
           {/* Workspace Features Section */}
           <section className="py-12 sm:py-20">
             <div className="text-center mb-16 animate-fadeIn">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-600">
                 Powerful Workspace Features
               </h2>
-              <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
+              <p className="text-base sm:text-lg text-gray-700 dark:text-gray-400 max-w-2xl mx-auto">
                 Everything you need for a seamless development experience
               </p>
             </div>
@@ -348,18 +350,18 @@ const LandingPage = () => {
                 ].map((feature, index) => (
                   <div
                     key={index}
-                    className="group h-full p-6 rounded-xl border border-white/[0.08] bg-surface-card hover:bg-surface-hover hover:border-white/[0.15] transition-all duration-300 animate-fadeIn"
+                    className="group h-full p-6 rounded-xl border border-gray-200 dark:border-white/[0.08] bg-white dark:bg-surface-card hover:bg-gray-50 dark:hover:bg-surface-hover hover:border-gray-300 dark:hover:border-white/[0.15] transition-all duration-300 animate-fadeIn"
                     style={{ animationDelay: `${index * 100}ms` }}
                   >
                     <div className="mb-4">
-                      <div className="w-12 h-12 rounded-lg bg-purple-500/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <feature.icon className="w-6 h-6 text-purple-500 group-hover:text-purple-400 transition-colors duration-300" />
+                      <div className="w-12 h-12 rounded-lg bg-purple-100 dark:bg-purple-500/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <feature.icon className="w-6 h-6 text-purple-600 dark:text-purple-500 group-hover:text-purple-700 dark:group-hover:text-purple-400 transition-colors duration-300" />
                       </div>
                     </div>
-                    <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-purple-400 transition-colors duration-300">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-purple-700 dark:group-hover:text-purple-400 transition-colors duration-300">
                       {feature.title}
                     </h3>
-                    <p className="text-sm text-gray-400">
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
                       {feature.description}
                     </p>
                   </div>
@@ -367,17 +369,17 @@ const LandingPage = () => {
               </div>
 
               {/* Right: Interactive Preview */}
-              <div className="relative group animate-fadeIn rounded-xl overflow-hidden border border-gray-800 bg-gray-900/50">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-transparent to-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="relative group animate-fadeIn rounded-xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900/50">
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-100/30 dark:from-purple-500/10 via-transparent to-blue-100/30 dark:to-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                 {/* Terminal-like Header */}
-                <div className="flex items-center gap-2 p-4 border-b border-gray-800">
+                <div className="flex items-center gap-2 p-4 border-b border-gray-200 dark:border-gray-800">
                   <div className="flex gap-1.5">
-                    <div className="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/30" />
-                    <div className="w-3 h-3 rounded-full bg-yellow-500/20 border border-yellow-500/30" />
-                    <div className="w-3 h-3 rounded-full bg-green-500/20 border border-green-500/30" />
+                    <div className="w-3 h-3 rounded-full bg-red-100 dark:bg-red-500/20 border border-red-200 dark:border-red-500/30" />
+                    <div className="w-3 h-3 rounded-full bg-yellow-100 dark:bg-yellow-500/20 border border-yellow-200 dark:border-yellow-500/30" />
+                    <div className="w-3 h-3 rounded-full bg-green-100 dark:bg-green-500/20 border border-green-200 dark:border-green-500/30" />
                   </div>
-                  <div className="text-sm text-gray-400 ml-2">
+                  <div className="text-sm text-gray-600 dark:text-gray-400 ml-2">
                     workspace.cloud-code.dev
                   </div>
                 </div>
@@ -385,26 +387,26 @@ const LandingPage = () => {
                 {/* Preview Content */}
                 <div className="p-6 space-y-4">
                   <div className="flex items-center gap-4 text-sm">
-                    <div className="px-3 py-1.5 rounded-lg bg-purple-500/10 text-purple-400 border border-purple-500/20">
+                    <div className="px-3 py-1.5 rounded-lg bg-purple-100 dark:bg-purple-500/10 text-purple-600 dark:text-purple-400 border border-purple-200 dark:border-purple-500/20">
                       Ready
                     </div>
-                    <div className="text-gray-400">
+                    <div className="text-gray-600 dark:text-gray-400">
                       Node.js • TypeScript • React
                     </div>
                   </div>
 
                   <div className="space-y-2">
-                    <div className="h-2 bg-gray-800 rounded-full w-3/4" />
-                    <div className="h-2 bg-gray-800 rounded-full w-1/2" />
-                    <div className="h-2 bg-gray-800 rounded-full w-5/6" />
+                    <div className="h-2 bg-gray-200 dark:bg-gray-800 rounded-full w-3/4" />
+                    <div className="h-2 bg-gray-200 dark:bg-gray-800 rounded-full w-1/2" />
+                    <div className="h-2 bg-gray-200 dark:bg-gray-800 rounded-full w-5/6" />
                   </div>
 
                   {/* Action Buttons */}
                   <div className="flex gap-3 pt-4">
-                    <button className="px-4 py-2 rounded-lg bg-purple-500/10 text-purple-400 border border-purple-500/20 hover:bg-purple-500/20 transition-colors text-sm">
+                    <button className="px-4 py-2 rounded-lg bg-purple-100 dark:bg-purple-500/10 text-purple-600 dark:text-purple-400 border border-purple-200 dark:border-purple-500/20 hover:bg-purple-200 dark:hover:bg-purple-500/20 transition-colors text-sm">
                       Open Terminal
                     </button>
-                    <button className="px-4 py-2 rounded-lg bg-blue-500/10 text-blue-400 border border-blue-500/20 hover:bg-blue-500/20 transition-colors text-sm">
+                    <button className="px-4 py-2 rounded-lg bg-blue-100 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400 border border-blue-200 dark:border-blue-500/20 hover:bg-blue-200 dark:hover:bg-blue-500/20 transition-colors text-sm">
                       View Logs
                     </button>
                   </div>
@@ -416,10 +418,10 @@ const LandingPage = () => {
           {/* Features Section */}
           <section id="features" className="py-12 sm:py-20 scroll-mt-20">
             <div className="text-center mb-10 sm:mb-16 animate-fadeIn">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-600">
                 Simplify Your Coding Journey
               </h2>
-              <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
+              <p className="text-base sm:text-lg text-gray-700 dark:text-gray-400 max-w-2xl mx-auto">
                 CloudCode leverages Kubernetes to provide scalable, efficient,
                 and intelligent coding environments.
               </p>
@@ -440,10 +442,10 @@ const LandingPage = () => {
           {/* Pricing Section */}
           <section id="pricing" className="py-12 sm:py-20 scroll-mt-20">
             <div className="text-center mb-10 sm:mb-16 animate-fadeIn">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-600">
                 Pricing
               </h2>
-              <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
+              <p className="text-base sm:text-lg text-gray-700 dark:text-gray-400 max-w-2xl mx-auto">
                 Flexible pricing options to fit your needs.
               </p>
             </div>
@@ -455,8 +457,8 @@ const LandingPage = () => {
                     relative p-8 rounded-2xl border transition-all duration-300 hover:scale-105 h-full
                     ${
                       plan.highlight
-                        ? "bg-primary-blue-100 border-primary-blue-300 shadow-glow-blue"
-                        : "bg-surface-card border-white/[0.08] hover:border-white/[0.15]"
+                        ? "bg-blue-50 dark:bg-primary-blue-100 border-blue-200 dark:border-primary-blue-300 shadow-lg shadow-blue-100 dark:shadow-glow-blue"
+                        : "bg-white dark:bg-surface-card border-gray-200 dark:border-white/[0.08] hover:border-gray-300 dark:hover:border-white/[0.15]"
                     }
                   `}
                 >
@@ -473,10 +475,10 @@ const LandingPage = () => {
                 {/* Left Side - Info */}
                 <div>
                   <div className="max-w-lg">
-                    <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+                    <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
                       Let&apos;s Build Together
                     </h2>
-                    <p className="text-white/60 mb-8">
+                    <p className="text-gray-600 dark:text-white/60 mb-8">
                       Have questions about our platform or need help getting
                       started? We&apos;re here to help you build amazing things.
                     </p>
@@ -509,19 +511,19 @@ const LandingPage = () => {
                         <a
                           key={index}
                           href={item.href}
-                          className="group flex items-center p-4 rounded-xl border border-white/[0.08] bg-surface-card hover:bg-surface-hover hover:border-white/[0.15] transition-all duration-300"
+                          className="group flex items-center p-4 rounded-xl border border-gray-200 dark:border-white/[0.08] bg-white dark:bg-surface-card hover:bg-gray-50 dark:hover:bg-surface-hover hover:border-gray-300 dark:hover:border-white/[0.15] transition-all duration-300"
                         >
-                          <div className="w-10 h-10 rounded-lg bg-primary-purple-100 flex items-center justify-center">
-                            <item.icon className="w-5 h-5 text-primary-purple-400" />
+                          <div className="w-10 h-10 rounded-lg bg-purple-100 dark:bg-primary-purple-100 flex items-center justify-center">
+                            <item.icon className="w-5 h-5 text-purple-600 dark:text-primary-purple-400" />
                           </div>
                           <div className="ml-4">
-                            <h3 className="font-medium text-white">
+                            <h3 className="font-medium text-gray-900 dark:text-white">
                               {item.title}
                             </h3>
-                            <p className="text-sm text-white/60">
+                            <p className="text-sm text-gray-600 dark:text-white/60">
                               {item.description}
                             </p>
-                            <span className="text-sm text-primary-purple-400 mt-1 block group-hover:text-primary-purple-300 transition-colors">
+                            <span className="text-sm text-purple-600 dark:text-primary-purple-400 mt-1 block group-hover:text-purple-700 dark:group-hover:text-primary-purple-300 transition-colors">
                               {item.action}
                             </span>
                           </div>
@@ -532,53 +534,53 @@ const LandingPage = () => {
                 </div>
 
                 {/* Right Side - Form */}
-                <div className="bg-surface-card border border-white/[0.08] rounded-2xl p-6 sm:p-8">
+                <div className="bg-white dark:bg-surface-card border border-gray-200 dark:border-white/[0.08] rounded-2xl p-6 sm:p-8">
                   <form className="space-y-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                       <div>
-                        <label className="block text-sm font-medium text-white/80 mb-2">
+                        <label className="block text-sm font-medium text-gray-700 dark:text-white/80 mb-2">
                           First Name
                         </label>
                         <input
                           type="text"
-                          className="w-full px-4 py-3 bg-surface-hover border border-white/[0.08] rounded-lg text-white placeholder:text-white/40 focus:outline-none focus:border-primary-purple-400/50 transition-colors"
+                          className="w-full px-4 py-3 bg-gray-50 dark:bg-surface-hover border border-gray-200 dark:border-white/[0.08] rounded-lg text-gray-900 dark:text-white placeholder:text-gray-500 dark:placeholder:text-white/40 focus:outline-none focus:border-purple-400 dark:focus:border-primary-purple-400/50 transition-colors"
                           placeholder="John"
                         />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-white/80 mb-2">
+                        <label className="block text-sm font-medium text-gray-700 dark:text-white/80 mb-2">
                           Last Name
                         </label>
                         <input
                           type="text"
-                          className="w-full px-4 py-3 bg-surface-hover border border-white/[0.08] rounded-lg text-white placeholder:text-white/40 focus:outline-none focus:border-primary-purple-400/50 transition-colors"
+                          className="w-full px-4 py-3 bg-gray-50 dark:bg-surface-hover border border-gray-200 dark:border-white/[0.08] rounded-lg text-gray-900 dark:text-white placeholder:text-gray-500 dark:placeholder:text-white/40 focus:outline-none focus:border-purple-400 dark:focus:border-primary-purple-400/50 transition-colors"
                           placeholder="Doe"
                         />
                       </div>
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-white/80 mb-2">
+                      <label className="block text-sm font-medium text-gray-700 dark:text-white/80 mb-2">
                         Email
                       </label>
                       <input
                         type="email"
-                        className="w-full px-4 py-3 bg-surface-hover border border-white/[0.08] rounded-lg text-white placeholder:text-white/40 focus:outline-none focus:border-primary-purple-400/50 transition-colors"
+                        className="w-full px-4 py-3 bg-gray-50 dark:bg-surface-hover border border-gray-200 dark:border-white/[0.08] rounded-lg text-gray-900 dark:text-white placeholder:text-gray-500 dark:placeholder:text-white/40 focus:outline-none focus:border-purple-400 dark:focus:border-primary-purple-400/50 transition-colors"
                         placeholder="john@example.com"
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-white/80 mb-2">
+                      <label className="block text-sm font-medium text-gray-700 dark:text-white/80 mb-2">
                         Message
                       </label>
                       <textarea
                         rows={4}
-                        className="w-full px-4 py-3 bg-surface-hover border border-white/[0.08] rounded-lg text-white placeholder:text-white/40 focus:outline-none focus:border-primary-purple-400/50 transition-colors resize-none"
+                        className="w-full px-4 py-3 bg-gray-50 dark:bg-surface-hover border border-gray-200 dark:border-white/[0.08] rounded-lg text-gray-900 dark:text-white placeholder:text-gray-500 dark:placeholder:text-white/40 focus:outline-none focus:border-purple-400 dark:focus:border-primary-purple-400/50 transition-colors resize-none"
                         placeholder="Your message..."
                       />
                     </div>
                     <button
                       type="submit"
-                      className="w-full bg-primary-purple-400 hover:bg-primary-purple-500 text-white px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
+                      className="w-full bg-purple-600 dark:bg-primary-purple-400 hover:bg-purple-700 dark:hover:bg-primary-purple-500 text-white px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
                     >
                       Send Message
                       <Send className="w-4 h-4" />
@@ -590,16 +592,18 @@ const LandingPage = () => {
           </section>
 
           {/* Enhanced Footer */}
-          <footer className="py-16 sm:py-20 border-t border-gray-800">
+          <footer className="py-16 sm:py-20 border-t border-gray-200 dark:border-gray-800">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
               {/* Product */}
               <div>
-                <h3 className="text-white font-semibold mb-3">Product</h3>
+                <h3 className="text-gray-900 dark:text-white font-semibold mb-3">
+                  Product
+                </h3>
                 <ul className="space-y-2">
                   <li>
                     <a
                       href="#features"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Features
                     </a>
@@ -607,7 +611,7 @@ const LandingPage = () => {
                   <li>
                     <a
                       href="#pricing"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Pricing
                     </a>
@@ -615,7 +619,7 @@ const LandingPage = () => {
                   <li>
                     <Link
                       href="/auth/register"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Sign Up
                     </Link>
@@ -623,7 +627,7 @@ const LandingPage = () => {
                   <li>
                     <Link
                       href="/auth/login"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Login
                     </Link>
@@ -633,12 +637,14 @@ const LandingPage = () => {
 
               {/* Resources */}
               <div>
-                <h3 className="text-white font-semibold mb-3">Resources</h3>
+                <h3 className="text-gray-900 dark:text-white font-semibold mb-3">
+                  Resources
+                </h3>
                 <ul className="space-y-2">
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Documentation
                     </a>
@@ -646,7 +652,7 @@ const LandingPage = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       API Reference
                     </a>
@@ -654,7 +660,7 @@ const LandingPage = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Tutorials
                     </a>
@@ -662,7 +668,7 @@ const LandingPage = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Blog
                     </a>
@@ -672,12 +678,14 @@ const LandingPage = () => {
 
               {/* Company */}
               <div>
-                <h3 className="text-white font-semibold mb-3">Company</h3>
+                <h3 className="text-gray-900 dark:text-white font-semibold mb-3">
+                  Company
+                </h3>
                 <ul className="space-y-2">
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       About Us
                     </a>
@@ -685,7 +693,7 @@ const LandingPage = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Careers
                     </a>
@@ -693,7 +701,7 @@ const LandingPage = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Contact
                     </a>
@@ -701,7 +709,7 @@ const LandingPage = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Partners
                     </a>
@@ -711,12 +719,14 @@ const LandingPage = () => {
 
               {/* Legal */}
               <div>
-                <h3 className="text-white font-semibold mb-3">Legal</h3>
+                <h3 className="text-gray-900 dark:text-white font-semibold mb-3">
+                  Legal
+                </h3>
                 <ul className="space-y-2">
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Privacy Policy
                     </a>
@@ -724,7 +734,7 @@ const LandingPage = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Terms of Service
                     </a>
@@ -732,7 +742,7 @@ const LandingPage = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-400 hover:text-gray-300 transition-colors"
+                      className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                     >
                       Cookie Policy
                     </a>
@@ -742,13 +752,13 @@ const LandingPage = () => {
             </div>
 
             {/* Bottom Section */}
-            <div className="pt-8 border-t border-gray-800">
+            <div className="pt-8 border-t border-gray-200 dark:border-gray-800">
               <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                 <div className="flex items-center gap-3">
-                  <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-purple-500/10">
-                    <Terminal className="h-5 w-5 text-purple-500" />
+                  <div className="flex items-center justify-center w-9 h-9 rounded-lg bg-purple-100 dark:bg-purple-500/10">
+                    <Terminal className="h-5 w-5 text-purple-600 dark:text-purple-500" />
                   </div>
-                  <span className="text-xl font-semibold text-white">
+                  <span className="text-xl font-semibold text-gray-900 dark:text-white">
                     CloudCode
                   </span>
                 </div>
@@ -756,7 +766,7 @@ const LandingPage = () => {
                 <div className="flex items-center gap-6">
                   <a
                     href="#"
-                    className="text-gray-400 hover:text-gray-300 transition-colors"
+                    className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                   >
                     <svg
                       className="w-6 h-6"
@@ -773,7 +783,7 @@ const LandingPage = () => {
                   </a>
                   <a
                     href="#"
-                    className="text-gray-400 hover:text-gray-300 transition-colors"
+                    className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 transition-colors"
                   >
                     <svg
                       className="w-6 h-6"
@@ -786,7 +796,7 @@ const LandingPage = () => {
                   </a>
                 </div>
 
-                <p className="text-gray-400">
+                <p className="text-gray-600 dark:text-gray-400">
                   © 2025 CloudCode. All rights reserved.
                 </p>
               </div>

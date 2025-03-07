@@ -527,3 +527,20 @@
 2025-03-07T05:34:09.996Z [[32minfo[39m]: Redis connected successfully
 2025-03-07T05:34:09.997Z [[32minfo[39m]: 🚀 Server running on port 8000
 2025-03-07T05:45:33.357Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-03-07T06:35:14.654Z [[32minfo[39m]: Stored refresh token for user b3bcb46f-c620-4026-ba53-887e956cc9f9
+2025-03-07T06:55:12.337Z [[32minfo[39m]: ✅ PostgreSQL Database connected successfully
+2025-03-07T06:55:12.343Z [[32minfo[39m]: Redis Client Connected
+2025-03-07T06:55:12.347Z [[32minfo[39m]: Redis connected successfully
+2025-03-07T06:55:12.348Z [[32minfo[39m]: 🚀 Server running on port 8000
+2025-03-07T07:27:16.767Z [[31merror[39m]: Redis Client Error: read ECONNRESET
+2025-03-07T07:27:16.771Z [[32minfo[39m]: Attempting Redis reconnection #0
+2025-03-07T07:27:16.778Z [[32minfo[39m]: Redis Client Connected
+2025-03-07T07:42:41.728Z [[31merror[39m]: Redis Client Error: read ECONNRESET
+2025-03-07T07:42:41.728Z [[32minfo[39m]: Attempting Redis reconnection #0
+2025-03-07T07:42:41.735Z [[32minfo[39m]: Redis Client Connected
+2025-03-07T07:58:38.761Z [[31merror[39m]: Redis Client Error: read ECONNRESET
+2025-03-07T07:58:38.762Z [[32minfo[39m]: Attempting Redis reconnection #0
+2025-03-07T07:58:38.772Z [[32minfo[39m]: Redis Client Connected
+2025-03-07T08:11:15.187Z [[31merror[39m]: Redis Client Error: read ECONNRESET
+2025-03-07T08:11:15.189Z [[32minfo[39m]: Attempting Redis reconnection #0
+2025-03-07T08:11:15.199Z [[32minfo[39m]: Redis Client Connected
