@@ -33,13 +33,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gray-50 dark:bg-[#0F1117]`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen `}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {/* Fixed Background Pattern */}
           <div className="fixed inset-0 pointer-events-none">
             {/* Subtle gradient */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/5 via-white dark:via-[#0F1117] to-purple-500/5 dark:from-purple-500/5 dark:to-blue-500/5" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/5 via-white dark:via-[#0F1117] to-purple-500/5 dark:from-purple-500/5 dark:to-blue-500/5 transition-all duration-200" />
 
             {/* Line pattern */}
             <div
