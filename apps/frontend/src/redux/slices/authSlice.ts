@@ -8,7 +8,7 @@ interface User {
   lastName: string | null;
 }
 
-interface AuthState {
+export interface AuthState {
   user: User | null;
   isAuthenticated: boolean;
   loading: boolean;

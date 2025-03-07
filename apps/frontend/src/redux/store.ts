@@ -24,5 +24,6 @@ export const store = configureStore({
 // Setup API interceptors
 setupInterceptors(store);
 
+// Use ReturnType to infer the RootState from the store itself
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;

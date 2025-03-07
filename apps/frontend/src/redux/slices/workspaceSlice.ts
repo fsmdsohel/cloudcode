@@ -11,7 +11,7 @@ interface Workspace {
   updatedAt: string;
 }
 
-interface WorkspaceState {
+export interface WorkspaceState {
   workspaces: Workspace[];
   currentWorkspace: Workspace | null;
   loading: boolean;

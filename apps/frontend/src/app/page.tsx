@@ -272,9 +272,9 @@ const LandingPage = () => {
                   <Rocket className="h-6 w-6 group-hover:rotate-12 transition-transform" />
                   <span className="font-semibold">Get Started</span>
                 </Link>
-                <button className="group border border-gray-700 hover:bg-gray-800 px-6 sm:px-8 py-3 sm:py-4 rounded-xl transition-all hover:border-gray-600 flex items-center justify-center space-x-3">
-                  <Play className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                  <span>Watch Demo</span>
+                <button className="group border border-gray-300 dark:border-gray-700 bg-white dark:bg-transparent hover:bg-gray-50 dark:hover:bg-gray-800/50 px-6 sm:px-8 py-3 sm:py-4 rounded-xl transition-all hover:scale-105 text-gray-700 dark:text-white flex items-center justify-center space-x-3 shadow-md">
+                  <Play className="h-5 w-5 text-blue-600 dark:text-blue-400 group-hover:translate-x-1 transition-transform" />
+                  <span className="font-medium">Watch Demo</span>
                 </button>
               </div>
             </div>
