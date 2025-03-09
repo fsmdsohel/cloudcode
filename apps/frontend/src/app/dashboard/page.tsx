@@ -211,7 +211,7 @@ const DashboardLayout = () => {
   if (!isMounted) return <DashboardLoading />;
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-[#0F1117]">
+    <div className="min-h-screen">
       {/* Content */}
       <div className="relative z-10 flex h-screen">
         {/* Sidebar */}
