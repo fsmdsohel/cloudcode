@@ -39,7 +39,7 @@ export default function RootLayout({
           {/* Fixed Background Pattern */}
           <div className="fixed inset-0 pointer-events-none">
             {/* Subtle gradient */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/5 via-white dark:via-[#0F1117] to-purple-500/5 dark:from-purple-500/5 dark:to-blue-500/5 transition-all duration-200" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-gray-100 via-gray-100 dark:via-[#0F1117] to-gray-100 dark:from-purple-500/5 dark:to-blue-500/5 transition-all duration-200" />
 
             {/* Line pattern */}
             <div
