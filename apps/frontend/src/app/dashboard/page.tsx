@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import {
   Home,
   FileText,
@@ -20,6 +20,7 @@ import {
   User,
   CreditCard,
   LogOut,
+  Search,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -29,6 +30,11 @@ import { logout } from "@/redux/slices/authSlice";
 import { toast } from "sonner";
 import { AppDispatch } from "@/redux/store";
 import ThemeToggle from "@/components/shared/ThemeToggle";
+import { ErrorBoundary } from "react-error-boundary";
+import { useDebounce } from "@/hooks/useDebounce";
+import { LoadingSkeleton } from "@/components/dashboard/LoadingSkeleton";
+import { WorkspaceCard } from "@/components/dashboard/WorkspaceCard";
+import { ErrorFallback } from "@/components/shared/ErrorFallback";
 
 interface UserProfile {
   id: string;
@@ -39,16 +45,22 @@ interface UserProfile {
 
 const DashboardLayout = () => {
   const [isMounted, setIsMounted] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [sortBy, setSortBy] = useState<"recent" | "name" | "members">("recent");
   const router = useRouter();
   const dispatch = useDispatch<AppDispatch>();
   const [showNotifications, setShowNotifications] = useState(false);
   const [showProfileDropdown, setShowProfileDropdown] = useState(false);
   // TODO: Fetch user profile
   const [user] = useState<UserProfile | null>(null);
+  const debouncedSearch = useDebounce(searchQuery);
 
   React.useEffect(() => {
     if (typeof window !== "undefined") {
       setIsMounted(true);
+      const timer = setTimeout(() => setIsLoading(false), 1000);
+      return () => clearTimeout(timer);
     }
   }, []);
 
@@ -207,6 +219,23 @@ const DashboardLayout = () => {
       });
     }
   };
+
+  // Filter and sort workspaces
+  const filteredWorkspaces = useMemo(() => {
+    return workspaceItems.filter((workspace) =>
+      workspace.name.toLowerCase().includes(debouncedSearch.toLowerCase())
+    );
+  }, [debouncedSearch]);
+
+  const sortedWorkspaces = useMemo(() => {
+    return [...filteredWorkspaces].sort((a, b) => {
+      if (sortBy === "name") return a.name.localeCompare(b.name);
+      if (sortBy === "members") return b.members - a.members;
+      return (
+        new Date(b.lastEdited).getTime() - new Date(a.lastEdited).getTime()
+      );
+    });
+  }, [filteredWorkspaces, sortBy]);
 
   if (!isMounted) return <DashboardLoading />;
 
@@ -517,7 +546,7 @@ const DashboardLayout = () => {
 
               {/* Recent Workspaces Section */}
               <div>
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
                   <div>
                     <h3 className="text-lg font-medium text-gray-900 dark:text-white">
                       Recent Workspaces
@@ -526,73 +555,69 @@ const DashboardLayout = () => {
                       Your recently accessed workspaces
                     </p>
                   </div>
-                  <button
-                    onClick={() => router.push("/workspaces")}
-                    className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                  >
-                    See All
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
+                  <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                    <div className="relative flex-1 sm:w-64">
+                      <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+                      <input
+                        type="text"
+                        placeholder="Search workspaces..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-400"
+                      />
+                    </div>
+                    <select
+                      value={sortBy}
+                      onChange={(e) =>
+                        setSortBy(
+                          e.target.value as "recent" | "name" | "members"
+                        )
+                      }
+                      className="px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white"
+                    >
+                      <option value="recent">Most Recent</option>
+                      <option value="name">Name</option>
+                      <option value="members">Members</option>
+                    </select>
+                  </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {workspaceItems.map((item) => (
-                    <div
-                      key={item.name}
-                      className="group relative rounded-xl border border-gray-200 dark:border-white/[0.08] bg-white dark:bg-white/[0.02] p-6 hover:border-gray-300 dark:hover:border-white/[0.15] hover:bg-gray-50 dark:hover:bg-white/[0.04] transition-all duration-300 cursor-pointer"
-                      onClick={() => handleNavigateWorkspace(item.workspaceId)}
-                    >
-                      <div className="flex justify-between items-start">
-                        <div>
-                          <div className="flex items-center gap-2">
-                            <h3 className="text-lg font-medium text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-[#4D7DFF] transition-colors">
-                              {item.name}
-                            </h3>
-                            <span className="px-2 py-0.5 text-xs rounded-full bg-gray-100 dark:bg-white/[0.05] text-gray-600 dark:text-white/60">
-                              Active
-                            </span>
-                          </div>
-                          <p className="text-sm text-gray-500 dark:text-white/40 mt-1">
-                            Last edited {item.lastEdited}
-                          </p>
-                        </div>
-                        <button
-                          className="text-gray-500 dark:text-white/40 hover:text-gray-700 dark:hover:text-white p-1.5 rounded-md hover:bg-gray-100 dark:hover:bg-white/[0.05] transition-colors"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            // Add workspace menu handling here
-                          }}
-                        >
-                          <Ellipsis size={20} />
-                        </button>
-                      </div>
-                      <div className="mt-6 flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-                          <div className="flex -space-x-2">
-                            {[...Array(item.members)].map((_, i) => (
-                              <div
-                                key={i}
-                                className="w-7 h-7 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 border-2 border-white dark:border-gray-950 ring-2 ring-white/80 dark:ring-gray-950"
-                              />
-                            ))}
-                          </div>
-                          <span className="text-sm text-gray-600 dark:text-white/60">
-                            {item.members} members
-                          </span>
-                        </div>
-                        <div className="flex items-center gap-2 text-sm">
-                          <span className="text-gray-600 dark:text-white/60">
-                            View Project
-                          </span>
-                          <ArrowRight
-                            size={16}
-                            className="text-gray-600 dark:text-white/60 group-hover:text-blue-600 dark:group-hover:text-[#4D7DFF] group-hover:translate-x-1 transition-all"
-                          />
-                        </div>
-                      </div>
+                <ErrorBoundary FallbackComponent={ErrorFallback}>
+                  {isLoading ? (
+                    <LoadingSkeleton />
+                  ) : sortedWorkspaces.length > 0 ? (
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                      {sortedWorkspaces.map((item) => (
+                        <WorkspaceCard
+                          key={item.workspaceId}
+                          item={item}
+                          onNavigate={handleNavigateWorkspace}
+                        />
+                      ))}
                     </div>
-                  ))}
-                </div>
+                  ) : (
+                    <div className="flex flex-col items-center justify-center py-12 px-4">
+                      <div className="w-16 h-16 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center mb-4">
+                        <Search className="w-8 h-8 text-gray-400" />
+                      </div>
+                      <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-2">
+                        No workspaces found
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-400 text-center max-w-md">
+                        {searchQuery
+                          ? `No workspaces match "${searchQuery}"`
+                          : "You haven't created any workspaces yet"}
+                      </p>
+                      <button
+                        onClick={() => router.push("/templates")}
+                        className="mt-6 px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors flex items-center gap-2"
+                      >
+                        <Plus className="w-4 h-4" />
+                        Create New Workspace
+                      </button>
+                    </div>
+                  )}
+                </ErrorBoundary>
               </div>
             </div>
 
