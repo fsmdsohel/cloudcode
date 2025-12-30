@@ -1,14 +1,12 @@
 import { useRef } from "react";
 import Editor, { Monaco, OnMount } from "@monaco-editor/react";
-import { editor } from "monaco-editor";
-
 interface MonacoEditorProps {
   value: string;
   language?: string;
   onChange?: (value: string | undefined) => void;
   onMount?: OnMount;
   theme?: string;
-  options?: editor.IStandaloneEditorConstructionOptions;
+  options?: any;
 }
 
 const customTheme = {
@@ -35,7 +33,7 @@ const MonacoEditorWrapper = ({
   theme = "cloudCodeTheme",
   options = {},
 }: MonacoEditorProps) => {
-  const editorRef = useRef<editor.IStandaloneCodeEditor | null>(null);
+  const editorRef = useRef<any | null>(null);
 
   const handleEditorWillMount = (monaco: Monaco) => {
     monaco.editor.defineTheme("cloudCodeTheme", customTheme);
@@ -47,7 +45,7 @@ const MonacoEditorWrapper = ({
     onMount?.(editor, monaco);
   };
 
-  const defaultOptions: editor.IStandaloneEditorConstructionOptions = {
+  const defaultOptions: any = {
     fontSize: 14,
     fontFamily: "JetBrains Mono, monospace",
     minimap: { enabled: false },

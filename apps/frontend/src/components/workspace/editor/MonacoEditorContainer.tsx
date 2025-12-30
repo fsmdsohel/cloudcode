@@ -86,7 +86,7 @@ const MonacoEditorContainer: React.FC<MonacoEditorContainerProps> = ({
     setTabs((prev) => {
       const newTabs = prev.filter((tab) => tab.id !== tabId);
       if (activeTab === tabId && newTabs.length > 0) {
-        setActiveTab(newTabs[newTabs.length - 1].id);
+        setActiveTab(newTabs[newTabs.length - 1]!.id);
       } else if (newTabs.length === 0) {
         setActiveTab(null);
       }

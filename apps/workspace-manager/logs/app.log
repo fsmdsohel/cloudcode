@@ -600,3 +600,1058 @@
 2025-12-30T16:21:11.780Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-d2efe772 failed, reason: 
 2025-12-30T16:21:11.780Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-0e1e5d80 failed, reason: 
 2025-12-30T16:21:11.780Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9952f3fc failed, reason: 
+2025-12-30T16:21:21.780Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:21:21.782Z [[32minfo[39m]: Provisioning warm workspace: warm-c51668c1
+2025-12-30T16:21:21.786Z [[32minfo[39m]: Provisioning warm workspace: warm-1cb7b36d
+2025-12-30T16:21:21.786Z [[32minfo[39m]: Provisioning warm workspace: warm-f28c775a
+2025-12-30T16:21:21.789Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:21.789Z [[31merror[39m]: Failed to provision warm workspace warm-c51668c1: Failed to create namespace for workspace: warm-c51668c1
+2025-12-30T16:21:21.789Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:21.790Z [[31merror[39m]: Failed to provision warm workspace warm-1cb7b36d: Failed to create namespace for workspace: warm-1cb7b36d
+2025-12-30T16:21:21.790Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:21.790Z [[31merror[39m]: Failed to provision warm workspace warm-f28c775a: Failed to create namespace for workspace: warm-f28c775a
+2025-12-30T16:21:21.792Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-c51668c1 failed, reason: 
+2025-12-30T16:21:21.793Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-1cb7b36d failed, reason: 
+2025-12-30T16:21:21.793Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f28c775a failed, reason: 
+2025-12-30T16:21:31.775Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:21:31.775Z [[32minfo[39m]: Provisioning warm workspace: warm-bc9f09c6
+2025-12-30T16:21:31.775Z [[32minfo[39m]: Provisioning warm workspace: warm-166c20ba
+2025-12-30T16:21:31.775Z [[32minfo[39m]: Provisioning warm workspace: warm-8278cc2e
+2025-12-30T16:21:31.779Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:31.779Z [[31merror[39m]: Failed to provision warm workspace warm-bc9f09c6: Failed to create namespace for workspace: warm-bc9f09c6
+2025-12-30T16:21:31.780Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:31.780Z [[31merror[39m]: Failed to provision warm workspace warm-166c20ba: Failed to create namespace for workspace: warm-166c20ba
+2025-12-30T16:21:31.781Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:31.781Z [[31merror[39m]: Failed to provision warm workspace warm-8278cc2e: Failed to create namespace for workspace: warm-8278cc2e
+2025-12-30T16:21:31.782Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-bc9f09c6 failed, reason: 
+2025-12-30T16:21:31.783Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-166c20ba failed, reason: 
+2025-12-30T16:21:31.783Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8278cc2e failed, reason: 
+2025-12-30T16:21:41.778Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:21:41.778Z [[32minfo[39m]: Provisioning warm workspace: warm-9b898302
+2025-12-30T16:21:41.779Z [[32minfo[39m]: Provisioning warm workspace: warm-be2960d4
+2025-12-30T16:21:41.779Z [[32minfo[39m]: Provisioning warm workspace: warm-819901a1
+2025-12-30T16:21:41.781Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:41.781Z [[31merror[39m]: Failed to provision warm workspace warm-9b898302: Failed to create namespace for workspace: warm-9b898302
+2025-12-30T16:21:41.781Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:41.781Z [[31merror[39m]: Failed to provision warm workspace warm-819901a1: Failed to create namespace for workspace: warm-819901a1
+2025-12-30T16:21:41.782Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:41.782Z [[31merror[39m]: Failed to provision warm workspace warm-be2960d4: Failed to create namespace for workspace: warm-be2960d4
+2025-12-30T16:21:41.782Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9b898302 failed, reason: 
+2025-12-30T16:21:41.783Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-819901a1 failed, reason: 
+2025-12-30T16:21:41.783Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-be2960d4 failed, reason: 
+2025-12-30T16:21:51.777Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:21:51.777Z [[32minfo[39m]: Provisioning warm workspace: warm-efc5ed18
+2025-12-30T16:21:51.777Z [[32minfo[39m]: Provisioning warm workspace: warm-8a3ad741
+2025-12-30T16:21:51.777Z [[32minfo[39m]: Provisioning warm workspace: warm-3b81be27
+2025-12-30T16:21:51.781Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:51.781Z [[31merror[39m]: Failed to provision warm workspace warm-efc5ed18: Failed to create namespace for workspace: warm-efc5ed18
+2025-12-30T16:21:51.782Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:51.782Z [[31merror[39m]: Failed to provision warm workspace warm-8a3ad741: Failed to create namespace for workspace: warm-8a3ad741
+2025-12-30T16:21:51.783Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:51.783Z [[31merror[39m]: Failed to provision warm workspace warm-3b81be27: Failed to create namespace for workspace: warm-3b81be27
+2025-12-30T16:21:51.784Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-efc5ed18 failed, reason: 
+2025-12-30T16:21:51.784Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8a3ad741 failed, reason: 
+2025-12-30T16:21:51.784Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3b81be27 failed, reason: 
+2025-12-30T16:22:01.777Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:22:01.778Z [[32minfo[39m]: Provisioning warm workspace: warm-08c65307
+2025-12-30T16:22:01.778Z [[32minfo[39m]: Provisioning warm workspace: warm-cbe8b3fe
+2025-12-30T16:22:01.778Z [[32minfo[39m]: Provisioning warm workspace: warm-3516ffe8
+2025-12-30T16:22:01.783Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:01.783Z [[31merror[39m]: Failed to provision warm workspace warm-08c65307: Failed to create namespace for workspace: warm-08c65307
+2025-12-30T16:22:01.783Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:01.784Z [[31merror[39m]: Failed to provision warm workspace warm-cbe8b3fe: Failed to create namespace for workspace: warm-cbe8b3fe
+2025-12-30T16:22:01.784Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:01.784Z [[31merror[39m]: Failed to provision warm workspace warm-3516ffe8: Failed to create namespace for workspace: warm-3516ffe8
+2025-12-30T16:22:01.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-08c65307 failed, reason: 
+2025-12-30T16:22:01.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-cbe8b3fe failed, reason: 
+2025-12-30T16:22:01.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3516ffe8 failed, reason: 
+2025-12-30T16:22:11.780Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:22:11.780Z [[32minfo[39m]: Provisioning warm workspace: warm-cc560afe
+2025-12-30T16:22:11.781Z [[32minfo[39m]: Provisioning warm workspace: warm-282b7b30
+2025-12-30T16:22:11.781Z [[32minfo[39m]: Provisioning warm workspace: warm-f7d2f514
+2025-12-30T16:22:11.783Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:11.783Z [[31merror[39m]: Failed to provision warm workspace warm-cc560afe: Failed to create namespace for workspace: warm-cc560afe
+2025-12-30T16:22:11.784Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:11.784Z [[31merror[39m]: Failed to provision warm workspace warm-282b7b30: Failed to create namespace for workspace: warm-282b7b30
+2025-12-30T16:22:11.785Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:11.785Z [[31merror[39m]: Failed to provision warm workspace warm-f7d2f514: Failed to create namespace for workspace: warm-f7d2f514
+2025-12-30T16:22:11.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-cc560afe failed, reason: 
+2025-12-30T16:22:11.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-282b7b30 failed, reason: 
+2025-12-30T16:22:11.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f7d2f514 failed, reason: 
+2025-12-30T16:22:21.779Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:22:21.779Z [[32minfo[39m]: Provisioning warm workspace: warm-30783d34
+2025-12-30T16:22:21.780Z [[32minfo[39m]: Provisioning warm workspace: warm-5781ca74
+2025-12-30T16:22:21.780Z [[32minfo[39m]: Provisioning warm workspace: warm-e8c40aa4
+2025-12-30T16:22:21.783Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:21.783Z [[31merror[39m]: Failed to provision warm workspace warm-30783d34: Failed to create namespace for workspace: warm-30783d34
+2025-12-30T16:22:21.783Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:21.783Z [[31merror[39m]: Failed to provision warm workspace warm-5781ca74: Failed to create namespace for workspace: warm-5781ca74
+2025-12-30T16:22:21.784Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:21.784Z [[31merror[39m]: Failed to provision warm workspace warm-e8c40aa4: Failed to create namespace for workspace: warm-e8c40aa4
+2025-12-30T16:22:21.787Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-30783d34 failed, reason: 
+2025-12-30T16:22:21.788Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-5781ca74 failed, reason: 
+2025-12-30T16:22:21.789Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e8c40aa4 failed, reason: 
+2025-12-30T16:22:31.782Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:22:31.782Z [[32minfo[39m]: Provisioning warm workspace: warm-8260f85c
+2025-12-30T16:22:31.783Z [[32minfo[39m]: Provisioning warm workspace: warm-187af15a
+2025-12-30T16:22:31.783Z [[32minfo[39m]: Provisioning warm workspace: warm-8e917a5c
+2025-12-30T16:22:31.785Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:31.785Z [[31merror[39m]: Failed to provision warm workspace warm-8260f85c: Failed to create namespace for workspace: warm-8260f85c
+2025-12-30T16:22:31.785Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:31.785Z [[31merror[39m]: Failed to provision warm workspace warm-187af15a: Failed to create namespace for workspace: warm-187af15a
+2025-12-30T16:22:31.785Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:31.785Z [[31merror[39m]: Failed to provision warm workspace warm-8e917a5c: Failed to create namespace for workspace: warm-8e917a5c
+2025-12-30T16:22:31.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8260f85c failed, reason: 
+2025-12-30T16:22:31.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-187af15a failed, reason: 
+2025-12-30T16:22:31.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8e917a5c failed, reason: 
+2025-12-30T16:22:41.780Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:22:41.780Z [[32minfo[39m]: Provisioning warm workspace: warm-7b27ea3f
+2025-12-30T16:22:41.780Z [[32minfo[39m]: Provisioning warm workspace: warm-4cdec013
+2025-12-30T16:22:41.780Z [[32minfo[39m]: Provisioning warm workspace: warm-9ac5bc4d
+2025-12-30T16:22:41.782Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:41.782Z [[31merror[39m]: Failed to provision warm workspace warm-7b27ea3f: Failed to create namespace for workspace: warm-7b27ea3f
+2025-12-30T16:22:41.782Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:41.782Z [[31merror[39m]: Failed to provision warm workspace warm-4cdec013: Failed to create namespace for workspace: warm-4cdec013
+2025-12-30T16:22:41.782Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:41.782Z [[31merror[39m]: Failed to provision warm workspace warm-9ac5bc4d: Failed to create namespace for workspace: warm-9ac5bc4d
+2025-12-30T16:22:41.782Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7b27ea3f failed, reason: 
+2025-12-30T16:22:41.787Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9ac5bc4d failed, reason: 
+2025-12-30T16:22:41.787Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-4cdec013 failed, reason: 
+2025-12-30T16:22:51.782Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:22:51.782Z [[32minfo[39m]: Provisioning warm workspace: warm-c8006595
+2025-12-30T16:22:51.782Z [[32minfo[39m]: Provisioning warm workspace: warm-9dfad543
+2025-12-30T16:22:51.782Z [[32minfo[39m]: Provisioning warm workspace: warm-c81e0e3a
+2025-12-30T16:22:51.784Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:51.784Z [[31merror[39m]: Failed to provision warm workspace warm-c8006595: Failed to create namespace for workspace: warm-c8006595
+2025-12-30T16:22:51.785Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:51.785Z [[31merror[39m]: Failed to provision warm workspace warm-c81e0e3a: Failed to create namespace for workspace: warm-c81e0e3a
+2025-12-30T16:22:51.786Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:22:51.786Z [[31merror[39m]: Failed to provision warm workspace warm-9dfad543: Failed to create namespace for workspace: warm-9dfad543
+2025-12-30T16:22:51.787Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-c8006595 failed, reason: 
+2025-12-30T16:22:51.788Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-c81e0e3a failed, reason: 
+2025-12-30T16:22:51.788Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9dfad543 failed, reason: 
+2025-12-30T16:23:01.782Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:23:01.782Z [[32minfo[39m]: Provisioning warm workspace: warm-b58107b6
+2025-12-30T16:23:01.783Z [[32minfo[39m]: Provisioning warm workspace: warm-ebbc34f2
+2025-12-30T16:23:01.783Z [[32minfo[39m]: Provisioning warm workspace: warm-73c537ac
+2025-12-30T16:23:01.785Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:01.785Z [[31merror[39m]: Failed to provision warm workspace warm-b58107b6: Failed to create namespace for workspace: warm-b58107b6
+2025-12-30T16:23:01.785Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:01.785Z [[31merror[39m]: Failed to provision warm workspace warm-73c537ac: Failed to create namespace for workspace: warm-73c537ac
+2025-12-30T16:23:01.786Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:01.786Z [[31merror[39m]: Failed to provision warm workspace warm-ebbc34f2: Failed to create namespace for workspace: warm-ebbc34f2
+2025-12-30T16:23:01.788Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b58107b6 failed, reason: 
+2025-12-30T16:23:01.789Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-73c537ac failed, reason: 
+2025-12-30T16:23:01.789Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-ebbc34f2 failed, reason: 
+2025-12-30T16:23:11.782Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:23:11.782Z [[32minfo[39m]: Provisioning warm workspace: warm-5115e190
+2025-12-30T16:23:11.783Z [[32minfo[39m]: Provisioning warm workspace: warm-88dedbc1
+2025-12-30T16:23:11.783Z [[32minfo[39m]: Provisioning warm workspace: warm-9c600d88
+2025-12-30T16:23:11.786Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:11.786Z [[31merror[39m]: Failed to provision warm workspace warm-5115e190: Failed to create namespace for workspace: warm-5115e190
+2025-12-30T16:23:11.787Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:11.787Z [[31merror[39m]: Failed to provision warm workspace warm-9c600d88: Failed to create namespace for workspace: warm-9c600d88
+2025-12-30T16:23:11.788Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:11.788Z [[31merror[39m]: Failed to provision warm workspace warm-88dedbc1: Failed to create namespace for workspace: warm-88dedbc1
+2025-12-30T16:23:11.789Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-5115e190 failed, reason: 
+2025-12-30T16:23:11.790Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9c600d88 failed, reason: 
+2025-12-30T16:23:11.790Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-88dedbc1 failed, reason: 
+2025-12-30T16:23:21.783Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:23:21.784Z [[32minfo[39m]: Provisioning warm workspace: warm-eb73b96e
+2025-12-30T16:23:21.784Z [[32minfo[39m]: Provisioning warm workspace: warm-089f3327
+2025-12-30T16:23:21.784Z [[32minfo[39m]: Provisioning warm workspace: warm-80e8fb32
+2025-12-30T16:23:21.787Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:21.787Z [[31merror[39m]: Failed to provision warm workspace warm-eb73b96e: Failed to create namespace for workspace: warm-eb73b96e
+2025-12-30T16:23:21.788Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:21.788Z [[31merror[39m]: Failed to provision warm workspace warm-089f3327: Failed to create namespace for workspace: warm-089f3327
+2025-12-30T16:23:21.789Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:21.789Z [[31merror[39m]: Failed to provision warm workspace warm-80e8fb32: Failed to create namespace for workspace: warm-80e8fb32
+2025-12-30T16:23:21.791Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-eb73b96e failed, reason: 
+2025-12-30T16:23:21.791Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-089f3327 failed, reason: 
+2025-12-30T16:23:21.791Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-80e8fb32 failed, reason: 
+2025-12-30T16:23:31.785Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:23:31.785Z [[32minfo[39m]: Provisioning warm workspace: warm-109e3c64
+2025-12-30T16:23:31.786Z [[32minfo[39m]: Provisioning warm workspace: warm-62da85b9
+2025-12-30T16:23:31.787Z [[32minfo[39m]: Provisioning warm workspace: warm-9fcde7e4
+2025-12-30T16:23:31.790Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:31.790Z [[31merror[39m]: Failed to provision warm workspace warm-109e3c64: Failed to create namespace for workspace: warm-109e3c64
+2025-12-30T16:23:31.790Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:31.790Z [[31merror[39m]: Failed to provision warm workspace warm-62da85b9: Failed to create namespace for workspace: warm-62da85b9
+2025-12-30T16:23:31.791Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:31.791Z [[31merror[39m]: Failed to provision warm workspace warm-9fcde7e4: Failed to create namespace for workspace: warm-9fcde7e4
+2025-12-30T16:23:31.794Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-109e3c64 failed, reason: 
+2025-12-30T16:23:31.794Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-62da85b9 failed, reason: 
+2025-12-30T16:23:31.794Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9fcde7e4 failed, reason: 
+2025-12-30T16:23:41.788Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:23:41.788Z [[32minfo[39m]: Provisioning warm workspace: warm-51a5125f
+2025-12-30T16:23:41.788Z [[32minfo[39m]: Provisioning warm workspace: warm-d90e9e75
+2025-12-30T16:23:41.788Z [[32minfo[39m]: Provisioning warm workspace: warm-01faac6e
+2025-12-30T16:23:41.791Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:41.791Z [[31merror[39m]: Failed to provision warm workspace warm-51a5125f: Failed to create namespace for workspace: warm-51a5125f
+2025-12-30T16:23:41.791Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:41.791Z [[31merror[39m]: Failed to provision warm workspace warm-d90e9e75: Failed to create namespace for workspace: warm-d90e9e75
+2025-12-30T16:23:41.792Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:41.792Z [[31merror[39m]: Failed to provision warm workspace warm-01faac6e: Failed to create namespace for workspace: warm-01faac6e
+2025-12-30T16:23:41.793Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-51a5125f failed, reason: 
+2025-12-30T16:23:41.793Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-d90e9e75 failed, reason: 
+2025-12-30T16:23:41.794Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-01faac6e failed, reason: 
+2025-12-30T16:23:51.789Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:23:51.790Z [[32minfo[39m]: Provisioning warm workspace: warm-975b2e33
+2025-12-30T16:23:51.790Z [[32minfo[39m]: Provisioning warm workspace: warm-e4789166
+2025-12-30T16:23:51.790Z [[32minfo[39m]: Provisioning warm workspace: warm-90be37fe
+2025-12-30T16:23:51.793Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:51.794Z [[31merror[39m]: Failed to provision warm workspace warm-975b2e33: Failed to create namespace for workspace: warm-975b2e33
+2025-12-30T16:23:51.794Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:51.795Z [[31merror[39m]: Failed to provision warm workspace warm-e4789166: Failed to create namespace for workspace: warm-e4789166
+2025-12-30T16:23:51.797Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:51.797Z [[31merror[39m]: Failed to provision warm workspace warm-90be37fe: Failed to create namespace for workspace: warm-90be37fe
+2025-12-30T16:23:51.798Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-975b2e33 failed, reason: 
+2025-12-30T16:23:51.799Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e4789166 failed, reason: 
+2025-12-30T16:23:51.800Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-90be37fe failed, reason: 
+2025-12-30T16:23:55.242Z [[32minfo[39m]: Connected to Redis in Workspace Manager
+2025-12-30T16:23:55.249Z [[32minfo[39m]: Starting Warm Pool Worker...
+2025-12-30T16:23:55.251Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:23:55.251Z [[32minfo[39m]: Provisioning warm workspace: warm-0a234422
+2025-12-30T16:23:55.253Z [[32minfo[39m]: Provisioning warm workspace: warm-30f4da07
+2025-12-30T16:23:55.253Z [[32minfo[39m]: Provisioning warm workspace: warm-91e70196
+2025-12-30T16:23:55.258Z [[31merror[39m]: Failed to create namespace for workspace: warm-0a234422: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:55.258Z [[31merror[39m]: Failed to provision warm workspace warm-0a234422: Failed to create namespace for workspace: warm-0a234422
+2025-12-30T16:23:55.259Z [[31merror[39m]: Failed to create namespace for workspace: warm-30f4da07: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:55.260Z [[31merror[39m]: Failed to provision warm workspace warm-30f4da07: Failed to create namespace for workspace: warm-30f4da07
+2025-12-30T16:23:55.260Z [[31merror[39m]: Failed to create namespace for workspace: warm-91e70196: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:23:55.260Z [[31merror[39m]: Failed to provision warm workspace warm-91e70196: Failed to create namespace for workspace: warm-91e70196
+2025-12-30T16:23:55.261Z [[31merror[39m]: Failed to delete workspace: warm-0a234422: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-0a234422 failed, reason: 
+2025-12-30T16:23:55.261Z [[31merror[39m]: Failed to delete workspace: warm-30f4da07: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-30f4da07 failed, reason: 
+2025-12-30T16:23:55.262Z [[31merror[39m]: Failed to delete workspace: warm-91e70196: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-91e70196 failed, reason: 
+2025-12-30T16:24:05.254Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:24:05.254Z [[32minfo[39m]: Provisioning warm workspace: warm-268332ef
+2025-12-30T16:24:05.255Z [[32minfo[39m]: Provisioning warm workspace: warm-7008cca6
+2025-12-30T16:24:05.255Z [[32minfo[39m]: Provisioning warm workspace: warm-fafe3e7d
+2025-12-30T16:24:05.257Z [[31merror[39m]: Failed to create namespace for workspace: warm-268332ef: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:05.257Z [[31merror[39m]: Failed to provision warm workspace warm-268332ef: Failed to create namespace for workspace: warm-268332ef
+2025-12-30T16:24:05.258Z [[31merror[39m]: Failed to create namespace for workspace: warm-7008cca6: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:05.258Z [[31merror[39m]: Failed to provision warm workspace warm-7008cca6: Failed to create namespace for workspace: warm-7008cca6
+2025-12-30T16:24:05.259Z [[31merror[39m]: Failed to create namespace for workspace: warm-fafe3e7d: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:05.259Z [[31merror[39m]: Failed to provision warm workspace warm-fafe3e7d: Failed to create namespace for workspace: warm-fafe3e7d
+2025-12-30T16:24:05.260Z [[31merror[39m]: Failed to delete workspace: warm-268332ef: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-268332ef failed, reason: 
+2025-12-30T16:24:05.261Z [[31merror[39m]: Failed to delete workspace: warm-7008cca6: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7008cca6 failed, reason: 
+2025-12-30T16:24:05.261Z [[31merror[39m]: Failed to delete workspace: warm-fafe3e7d: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-fafe3e7d failed, reason: 
+2025-12-30T16:24:15.255Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:24:15.255Z [[32minfo[39m]: Provisioning warm workspace: warm-e8ee54aa
+2025-12-30T16:24:15.256Z [[32minfo[39m]: Provisioning warm workspace: warm-f5fc9066
+2025-12-30T16:24:15.256Z [[32minfo[39m]: Provisioning warm workspace: warm-26dfc000
+2025-12-30T16:24:15.261Z [[31merror[39m]: Failed to create namespace for workspace: warm-e8ee54aa: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:15.262Z [[31merror[39m]: Failed to provision warm workspace warm-e8ee54aa: Failed to create namespace for workspace: warm-e8ee54aa
+2025-12-30T16:24:15.262Z [[31merror[39m]: Failed to create namespace for workspace: warm-f5fc9066: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:15.262Z [[31merror[39m]: Failed to provision warm workspace warm-f5fc9066: Failed to create namespace for workspace: warm-f5fc9066
+2025-12-30T16:24:15.263Z [[31merror[39m]: Failed to create namespace for workspace: warm-26dfc000: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:15.263Z [[31merror[39m]: Failed to provision warm workspace warm-26dfc000: Failed to create namespace for workspace: warm-26dfc000
+2025-12-30T16:24:15.264Z [[31merror[39m]: Failed to delete workspace: warm-e8ee54aa: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e8ee54aa failed, reason: 
+2025-12-30T16:24:15.264Z [[31merror[39m]: Failed to delete workspace: warm-f5fc9066: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f5fc9066 failed, reason: 
+2025-12-30T16:24:15.264Z [[31merror[39m]: Failed to delete workspace: warm-26dfc000: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-26dfc000 failed, reason: 
+2025-12-30T16:24:25.254Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:24:25.254Z [[32minfo[39m]: Provisioning warm workspace: warm-1215637b
+2025-12-30T16:24:25.255Z [[32minfo[39m]: Provisioning warm workspace: warm-e5322282
+2025-12-30T16:24:25.255Z [[32minfo[39m]: Provisioning warm workspace: warm-cd7bed4a
+2025-12-30T16:24:25.258Z [[31merror[39m]: Failed to create namespace for workspace: warm-1215637b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:25.258Z [[31merror[39m]: Failed to provision warm workspace warm-1215637b: Failed to create namespace for workspace: warm-1215637b
+2025-12-30T16:24:25.259Z [[31merror[39m]: Failed to create namespace for workspace: warm-e5322282: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:25.259Z [[31merror[39m]: Failed to provision warm workspace warm-e5322282: Failed to create namespace for workspace: warm-e5322282
+2025-12-30T16:24:25.259Z [[31merror[39m]: Failed to create namespace for workspace: warm-cd7bed4a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:25.259Z [[31merror[39m]: Failed to provision warm workspace warm-cd7bed4a: Failed to create namespace for workspace: warm-cd7bed4a
+2025-12-30T16:24:25.260Z [[31merror[39m]: Failed to delete workspace: warm-1215637b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-1215637b failed, reason: 
+2025-12-30T16:24:25.260Z [[31merror[39m]: Failed to delete workspace: warm-e5322282: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e5322282 failed, reason: 
+2025-12-30T16:24:25.261Z [[31merror[39m]: Failed to delete workspace: warm-cd7bed4a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-cd7bed4a failed, reason: 
+2025-12-30T16:24:35.258Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:24:35.258Z [[32minfo[39m]: Provisioning warm workspace: warm-e7378760
+2025-12-30T16:24:35.259Z [[32minfo[39m]: Provisioning warm workspace: warm-8bdc94e2
+2025-12-30T16:24:35.259Z [[32minfo[39m]: Provisioning warm workspace: warm-54ec64a4
+2025-12-30T16:24:35.261Z [[31merror[39m]: Failed to create namespace for workspace: warm-e7378760: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:35.261Z [[31merror[39m]: Failed to provision warm workspace warm-e7378760: Failed to create namespace for workspace: warm-e7378760
+2025-12-30T16:24:35.262Z [[31merror[39m]: Failed to create namespace for workspace: warm-8bdc94e2: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:35.263Z [[31merror[39m]: Failed to provision warm workspace warm-8bdc94e2: Failed to create namespace for workspace: warm-8bdc94e2
+2025-12-30T16:24:35.263Z [[31merror[39m]: Failed to create namespace for workspace: warm-54ec64a4: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:35.263Z [[31merror[39m]: Failed to provision warm workspace warm-54ec64a4: Failed to create namespace for workspace: warm-54ec64a4
+2025-12-30T16:24:35.265Z [[31merror[39m]: Failed to delete workspace: warm-e7378760: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e7378760 failed, reason: 
+2025-12-30T16:24:35.265Z [[31merror[39m]: Failed to delete workspace: warm-8bdc94e2: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8bdc94e2 failed, reason: 
+2025-12-30T16:24:35.265Z [[31merror[39m]: Failed to delete workspace: warm-54ec64a4: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-54ec64a4 failed, reason: 
+2025-12-30T16:24:45.257Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:24:45.257Z [[32minfo[39m]: Provisioning warm workspace: warm-e3f052ed
+2025-12-30T16:24:45.258Z [[32minfo[39m]: Provisioning warm workspace: warm-a0fdaad7
+2025-12-30T16:24:45.258Z [[32minfo[39m]: Provisioning warm workspace: warm-4c534c20
+2025-12-30T16:24:45.260Z [[31merror[39m]: Failed to create namespace for workspace: warm-e3f052ed: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:45.260Z [[31merror[39m]: Failed to provision warm workspace warm-e3f052ed: Failed to create namespace for workspace: warm-e3f052ed
+2025-12-30T16:24:45.261Z [[31merror[39m]: Failed to create namespace for workspace: warm-a0fdaad7: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:45.261Z [[31merror[39m]: Failed to provision warm workspace warm-a0fdaad7: Failed to create namespace for workspace: warm-a0fdaad7
+2025-12-30T16:24:45.263Z [[31merror[39m]: Failed to create namespace for workspace: warm-4c534c20: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:45.264Z [[31merror[39m]: Failed to provision warm workspace warm-4c534c20: Failed to create namespace for workspace: warm-4c534c20
+2025-12-30T16:24:45.266Z [[31merror[39m]: Failed to delete workspace: warm-e3f052ed: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e3f052ed failed, reason: 
+2025-12-30T16:24:45.266Z [[31merror[39m]: Failed to delete workspace: warm-a0fdaad7: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-a0fdaad7 failed, reason: 
+2025-12-30T16:24:45.267Z [[31merror[39m]: Failed to delete workspace: warm-4c534c20: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-4c534c20 failed, reason: 
+2025-12-30T16:24:55.258Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:24:55.258Z [[32minfo[39m]: Provisioning warm workspace: warm-fed9f47a
+2025-12-30T16:24:55.259Z [[32minfo[39m]: Provisioning warm workspace: warm-7dbb6add
+2025-12-30T16:24:55.259Z [[32minfo[39m]: Provisioning warm workspace: warm-9c28f5d9
+2025-12-30T16:24:55.262Z [[31merror[39m]: Failed to create namespace for workspace: warm-7dbb6add: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:55.262Z [[31merror[39m]: Failed to provision warm workspace warm-7dbb6add: Failed to create namespace for workspace: warm-7dbb6add
+2025-12-30T16:24:55.263Z [[31merror[39m]: Failed to create namespace for workspace: warm-fed9f47a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:55.263Z [[31merror[39m]: Failed to provision warm workspace warm-fed9f47a: Failed to create namespace for workspace: warm-fed9f47a
+2025-12-30T16:24:55.264Z [[31merror[39m]: Failed to create namespace for workspace: warm-9c28f5d9: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:24:55.264Z [[31merror[39m]: Failed to provision warm workspace warm-9c28f5d9: Failed to create namespace for workspace: warm-9c28f5d9
+2025-12-30T16:24:55.265Z [[31merror[39m]: Failed to delete workspace: warm-7dbb6add: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7dbb6add failed, reason: 
+2025-12-30T16:24:55.266Z [[31merror[39m]: Failed to delete workspace: warm-fed9f47a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-fed9f47a failed, reason: 
+2025-12-30T16:24:55.266Z [[31merror[39m]: Failed to delete workspace: warm-9c28f5d9: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9c28f5d9 failed, reason: 
+2025-12-30T16:25:05.259Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:25:05.259Z [[32minfo[39m]: Provisioning warm workspace: warm-fbfd922b
+2025-12-30T16:25:05.260Z [[32minfo[39m]: Provisioning warm workspace: warm-d65a13ed
+2025-12-30T16:25:05.260Z [[32minfo[39m]: Provisioning warm workspace: warm-bf5eec7f
+2025-12-30T16:25:05.263Z [[31merror[39m]: Failed to create namespace for workspace: warm-fbfd922b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:05.264Z [[31merror[39m]: Failed to provision warm workspace warm-fbfd922b: Failed to create namespace for workspace: warm-fbfd922b
+2025-12-30T16:25:05.265Z [[31merror[39m]: Failed to create namespace for workspace: warm-d65a13ed: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:05.265Z [[31merror[39m]: Failed to provision warm workspace warm-d65a13ed: Failed to create namespace for workspace: warm-d65a13ed
+2025-12-30T16:25:05.266Z [[31merror[39m]: Failed to create namespace for workspace: warm-bf5eec7f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:05.266Z [[31merror[39m]: Failed to provision warm workspace warm-bf5eec7f: Failed to create namespace for workspace: warm-bf5eec7f
+2025-12-30T16:25:05.268Z [[31merror[39m]: Failed to delete workspace: warm-fbfd922b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-fbfd922b failed, reason: 
+2025-12-30T16:25:05.268Z [[31merror[39m]: Failed to delete workspace: warm-d65a13ed: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-d65a13ed failed, reason: 
+2025-12-30T16:25:05.269Z [[31merror[39m]: Failed to delete workspace: warm-bf5eec7f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-bf5eec7f failed, reason: 
+2025-12-30T16:25:15.259Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:25:15.259Z [[32minfo[39m]: Provisioning warm workspace: warm-024e81d3
+2025-12-30T16:25:15.259Z [[32minfo[39m]: Provisioning warm workspace: warm-c73236e2
+2025-12-30T16:25:15.260Z [[32minfo[39m]: Provisioning warm workspace: warm-f1ef257f
+2025-12-30T16:25:15.262Z [[31merror[39m]: Failed to create namespace for workspace: warm-024e81d3: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:15.263Z [[31merror[39m]: Failed to provision warm workspace warm-024e81d3: Failed to create namespace for workspace: warm-024e81d3
+2025-12-30T16:25:15.263Z [[31merror[39m]: Failed to create namespace for workspace: warm-c73236e2: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:15.263Z [[31merror[39m]: Failed to provision warm workspace warm-c73236e2: Failed to create namespace for workspace: warm-c73236e2
+2025-12-30T16:25:15.265Z [[31merror[39m]: Failed to create namespace for workspace: warm-f1ef257f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:15.265Z [[31merror[39m]: Failed to provision warm workspace warm-f1ef257f: Failed to create namespace for workspace: warm-f1ef257f
+2025-12-30T16:25:15.266Z [[31merror[39m]: Failed to delete workspace: warm-024e81d3: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-024e81d3 failed, reason: 
+2025-12-30T16:25:15.267Z [[31merror[39m]: Failed to delete workspace: warm-c73236e2: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-c73236e2 failed, reason: 
+2025-12-30T16:25:15.267Z [[31merror[39m]: Failed to delete workspace: warm-f1ef257f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f1ef257f failed, reason: 
+2025-12-30T16:25:25.261Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:25:25.261Z [[32minfo[39m]: Provisioning warm workspace: warm-82064336
+2025-12-30T16:25:25.262Z [[32minfo[39m]: Provisioning warm workspace: warm-7eb23776
+2025-12-30T16:25:25.262Z [[32minfo[39m]: Provisioning warm workspace: warm-a9116e6f
+2025-12-30T16:25:25.264Z [[31merror[39m]: Failed to create namespace for workspace: warm-82064336: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:25.264Z [[31merror[39m]: Failed to provision warm workspace warm-82064336: Failed to create namespace for workspace: warm-82064336
+2025-12-30T16:25:25.265Z [[31merror[39m]: Failed to create namespace for workspace: warm-a9116e6f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:25.265Z [[31merror[39m]: Failed to provision warm workspace warm-a9116e6f: Failed to create namespace for workspace: warm-a9116e6f
+2025-12-30T16:25:25.266Z [[31merror[39m]: Failed to create namespace for workspace: warm-7eb23776: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:25.266Z [[31merror[39m]: Failed to provision warm workspace warm-7eb23776: Failed to create namespace for workspace: warm-7eb23776
+2025-12-30T16:25:25.267Z [[31merror[39m]: Failed to delete workspace: warm-82064336: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-82064336 failed, reason: 
+2025-12-30T16:25:25.267Z [[31merror[39m]: Failed to delete workspace: warm-a9116e6f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-a9116e6f failed, reason: 
+2025-12-30T16:25:25.267Z [[31merror[39m]: Failed to delete workspace: warm-7eb23776: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7eb23776 failed, reason: 
+2025-12-30T16:25:35.259Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:25:35.260Z [[32minfo[39m]: Provisioning warm workspace: warm-6a5cfff9
+2025-12-30T16:25:35.260Z [[32minfo[39m]: Provisioning warm workspace: warm-6b569c07
+2025-12-30T16:25:35.260Z [[32minfo[39m]: Provisioning warm workspace: warm-67bcdcc6
+2025-12-30T16:25:35.263Z [[31merror[39m]: Failed to create namespace for workspace: warm-6a5cfff9: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:35.263Z [[31merror[39m]: Failed to provision warm workspace warm-6a5cfff9: Failed to create namespace for workspace: warm-6a5cfff9
+2025-12-30T16:25:35.263Z [[31merror[39m]: Failed to create namespace for workspace: warm-6b569c07: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:35.263Z [[31merror[39m]: Failed to provision warm workspace warm-6b569c07: Failed to create namespace for workspace: warm-6b569c07
+2025-12-30T16:25:35.264Z [[31merror[39m]: Failed to create namespace for workspace: warm-67bcdcc6: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:35.264Z [[31merror[39m]: Failed to provision warm workspace warm-67bcdcc6: Failed to create namespace for workspace: warm-67bcdcc6
+2025-12-30T16:25:35.265Z [[31merror[39m]: Failed to delete workspace: warm-6a5cfff9: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-6a5cfff9 failed, reason: 
+2025-12-30T16:25:35.266Z [[31merror[39m]: Failed to delete workspace: warm-6b569c07: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-6b569c07 failed, reason: 
+2025-12-30T16:25:35.266Z [[31merror[39m]: Failed to delete workspace: warm-67bcdcc6: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-67bcdcc6 failed, reason: 
+2025-12-30T16:25:45.261Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:25:45.261Z [[32minfo[39m]: Provisioning warm workspace: warm-d90c8cbd
+2025-12-30T16:25:45.261Z [[32minfo[39m]: Provisioning warm workspace: warm-2e062673
+2025-12-30T16:25:45.262Z [[32minfo[39m]: Provisioning warm workspace: warm-96c21b4a
+2025-12-30T16:25:45.264Z [[31merror[39m]: Failed to create namespace for workspace: warm-d90c8cbd: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:45.264Z [[31merror[39m]: Failed to provision warm workspace warm-d90c8cbd: Failed to create namespace for workspace: warm-d90c8cbd
+2025-12-30T16:25:45.265Z [[31merror[39m]: Failed to create namespace for workspace: warm-2e062673: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:45.265Z [[31merror[39m]: Failed to provision warm workspace warm-2e062673: Failed to create namespace for workspace: warm-2e062673
+2025-12-30T16:25:45.266Z [[31merror[39m]: Failed to create namespace for workspace: warm-96c21b4a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:45.266Z [[31merror[39m]: Failed to provision warm workspace warm-96c21b4a: Failed to create namespace for workspace: warm-96c21b4a
+2025-12-30T16:25:45.267Z [[31merror[39m]: Failed to delete workspace: warm-d90c8cbd: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-d90c8cbd failed, reason: 
+2025-12-30T16:25:45.267Z [[31merror[39m]: Failed to delete workspace: warm-2e062673: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-2e062673 failed, reason: 
+2025-12-30T16:25:45.267Z [[31merror[39m]: Failed to delete workspace: warm-96c21b4a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-96c21b4a failed, reason: 
+2025-12-30T16:25:55.264Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:25:55.264Z [[32minfo[39m]: Provisioning warm workspace: warm-0e7ef23e
+2025-12-30T16:25:55.264Z [[32minfo[39m]: Provisioning warm workspace: warm-2946a8e6
+2025-12-30T16:25:55.265Z [[32minfo[39m]: Provisioning warm workspace: warm-3d34709b
+2025-12-30T16:25:55.267Z [[31merror[39m]: Failed to create namespace for workspace: warm-0e7ef23e: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:55.268Z [[31merror[39m]: Failed to provision warm workspace warm-0e7ef23e: Failed to create namespace for workspace: warm-0e7ef23e
+2025-12-30T16:25:55.269Z [[31merror[39m]: Failed to create namespace for workspace: warm-2946a8e6: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:55.270Z [[31merror[39m]: Failed to provision warm workspace warm-2946a8e6: Failed to create namespace for workspace: warm-2946a8e6
+2025-12-30T16:25:55.270Z [[31merror[39m]: Failed to create namespace for workspace: warm-3d34709b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:25:55.271Z [[31merror[39m]: Failed to provision warm workspace warm-3d34709b: Failed to create namespace for workspace: warm-3d34709b
+2025-12-30T16:25:55.273Z [[31merror[39m]: Failed to delete workspace: warm-0e7ef23e: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-0e7ef23e failed, reason: 
+2025-12-30T16:25:55.273Z [[31merror[39m]: Failed to delete workspace: warm-2946a8e6: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-2946a8e6 failed, reason: 
+2025-12-30T16:25:55.273Z [[31merror[39m]: Failed to delete workspace: warm-3d34709b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3d34709b failed, reason: 
+2025-12-30T16:26:05.263Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:26:05.263Z [[32minfo[39m]: Provisioning warm workspace: warm-81966306
+2025-12-30T16:26:05.263Z [[32minfo[39m]: Provisioning warm workspace: warm-f9fb4f19
+2025-12-30T16:26:05.263Z [[32minfo[39m]: Provisioning warm workspace: warm-355010f7
+2025-12-30T16:26:05.266Z [[31merror[39m]: Failed to create namespace for workspace: warm-81966306: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:05.266Z [[31merror[39m]: Failed to provision warm workspace warm-81966306: Failed to create namespace for workspace: warm-81966306
+2025-12-30T16:26:05.266Z [[31merror[39m]: Failed to create namespace for workspace: warm-f9fb4f19: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:05.266Z [[31merror[39m]: Failed to provision warm workspace warm-f9fb4f19: Failed to create namespace for workspace: warm-f9fb4f19
+2025-12-30T16:26:05.267Z [[31merror[39m]: Failed to create namespace for workspace: warm-355010f7: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:05.267Z [[31merror[39m]: Failed to provision warm workspace warm-355010f7: Failed to create namespace for workspace: warm-355010f7
+2025-12-30T16:26:05.268Z [[31merror[39m]: Failed to delete workspace: warm-81966306: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-81966306 failed, reason: 
+2025-12-30T16:26:05.268Z [[31merror[39m]: Failed to delete workspace: warm-f9fb4f19: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f9fb4f19 failed, reason: 
+2025-12-30T16:26:05.269Z [[31merror[39m]: Failed to delete workspace: warm-355010f7: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-355010f7 failed, reason: 
+2025-12-30T16:26:15.264Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:26:15.264Z [[32minfo[39m]: Provisioning warm workspace: warm-314ee408
+2025-12-30T16:26:15.265Z [[32minfo[39m]: Provisioning warm workspace: warm-ca80a7ba
+2025-12-30T16:26:15.265Z [[32minfo[39m]: Provisioning warm workspace: warm-8063fa83
+2025-12-30T16:26:15.269Z [[31merror[39m]: Failed to create namespace for workspace: warm-314ee408: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:15.269Z [[31merror[39m]: Failed to provision warm workspace warm-314ee408: Failed to create namespace for workspace: warm-314ee408
+2025-12-30T16:26:15.270Z [[31merror[39m]: Failed to create namespace for workspace: warm-ca80a7ba: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:15.270Z [[31merror[39m]: Failed to provision warm workspace warm-ca80a7ba: Failed to create namespace for workspace: warm-ca80a7ba
+2025-12-30T16:26:15.271Z [[31merror[39m]: Failed to create namespace for workspace: warm-8063fa83: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:15.271Z [[31merror[39m]: Failed to provision warm workspace warm-8063fa83: Failed to create namespace for workspace: warm-8063fa83
+2025-12-30T16:26:15.273Z [[31merror[39m]: Failed to delete workspace: warm-314ee408: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-314ee408 failed, reason: 
+2025-12-30T16:26:15.273Z [[31merror[39m]: Failed to delete workspace: warm-ca80a7ba: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-ca80a7ba failed, reason: 
+2025-12-30T16:26:15.273Z [[31merror[39m]: Failed to delete workspace: warm-8063fa83: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8063fa83 failed, reason: 
+2025-12-30T16:26:25.265Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:26:25.265Z [[32minfo[39m]: Provisioning warm workspace: warm-005797b4
+2025-12-30T16:26:25.266Z [[32minfo[39m]: Provisioning warm workspace: warm-797d2930
+2025-12-30T16:26:25.266Z [[32minfo[39m]: Provisioning warm workspace: warm-1f5415d2
+2025-12-30T16:26:25.269Z [[31merror[39m]: Failed to create namespace for workspace: warm-005797b4: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:25.269Z [[31merror[39m]: Failed to provision warm workspace warm-005797b4: Failed to create namespace for workspace: warm-005797b4
+2025-12-30T16:26:25.270Z [[31merror[39m]: Failed to create namespace for workspace: warm-797d2930: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:25.270Z [[31merror[39m]: Failed to provision warm workspace warm-797d2930: Failed to create namespace for workspace: warm-797d2930
+2025-12-30T16:26:25.270Z [[31merror[39m]: Failed to create namespace for workspace: warm-1f5415d2: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:25.270Z [[31merror[39m]: Failed to provision warm workspace warm-1f5415d2: Failed to create namespace for workspace: warm-1f5415d2
+2025-12-30T16:26:25.271Z [[31merror[39m]: Failed to delete workspace: warm-005797b4: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-005797b4 failed, reason: 
+2025-12-30T16:26:25.272Z [[31merror[39m]: Failed to delete workspace: warm-797d2930: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-797d2930 failed, reason: 
+2025-12-30T16:26:25.272Z [[31merror[39m]: Failed to delete workspace: warm-1f5415d2: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-1f5415d2 failed, reason: 
+2025-12-30T16:26:35.263Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:26:35.263Z [[32minfo[39m]: Provisioning warm workspace: warm-4e91a9c6
+2025-12-30T16:26:35.264Z [[32minfo[39m]: Provisioning warm workspace: warm-93eaf468
+2025-12-30T16:26:35.264Z [[32minfo[39m]: Provisioning warm workspace: warm-f4e16e5c
+2025-12-30T16:26:35.267Z [[31merror[39m]: Failed to create namespace for workspace: warm-4e91a9c6: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:35.268Z [[31merror[39m]: Failed to provision warm workspace warm-4e91a9c6: Failed to create namespace for workspace: warm-4e91a9c6
+2025-12-30T16:26:35.268Z [[31merror[39m]: Failed to create namespace for workspace: warm-93eaf468: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:35.269Z [[31merror[39m]: Failed to provision warm workspace warm-93eaf468: Failed to create namespace for workspace: warm-93eaf468
+2025-12-30T16:26:35.269Z [[31merror[39m]: Failed to create namespace for workspace: warm-f4e16e5c: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:35.269Z [[31merror[39m]: Failed to provision warm workspace warm-f4e16e5c: Failed to create namespace for workspace: warm-f4e16e5c
+2025-12-30T16:26:35.270Z [[31merror[39m]: Failed to delete workspace: warm-4e91a9c6: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-4e91a9c6 failed, reason: 
+2025-12-30T16:26:35.270Z [[31merror[39m]: Failed to delete workspace: warm-93eaf468: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-93eaf468 failed, reason: 
+2025-12-30T16:26:35.270Z [[31merror[39m]: Failed to delete workspace: warm-f4e16e5c: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f4e16e5c failed, reason: 
+2025-12-30T16:26:45.265Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:26:45.265Z [[32minfo[39m]: Provisioning warm workspace: warm-b7d26c31
+2025-12-30T16:26:45.265Z [[32minfo[39m]: Provisioning warm workspace: warm-4c5cfa14
+2025-12-30T16:26:45.266Z [[32minfo[39m]: Provisioning warm workspace: warm-475584ac
+2025-12-30T16:26:45.267Z [[31merror[39m]: Failed to create namespace for workspace: warm-4c5cfa14: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:45.267Z [[31merror[39m]: Failed to provision warm workspace warm-4c5cfa14: Failed to create namespace for workspace: warm-4c5cfa14
+2025-12-30T16:26:45.268Z [[31merror[39m]: Failed to create namespace for workspace: warm-b7d26c31: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:45.268Z [[31merror[39m]: Failed to provision warm workspace warm-b7d26c31: Failed to create namespace for workspace: warm-b7d26c31
+2025-12-30T16:26:45.269Z [[31merror[39m]: Failed to create namespace for workspace: warm-475584ac: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:45.269Z [[31merror[39m]: Failed to provision warm workspace warm-475584ac: Failed to create namespace for workspace: warm-475584ac
+2025-12-30T16:26:45.271Z [[31merror[39m]: Failed to delete workspace: warm-4c5cfa14: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-4c5cfa14 failed, reason: 
+2025-12-30T16:26:45.271Z [[31merror[39m]: Failed to delete workspace: warm-b7d26c31: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b7d26c31 failed, reason: 
+2025-12-30T16:26:45.272Z [[31merror[39m]: Failed to delete workspace: warm-475584ac: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-475584ac failed, reason: 
+2025-12-30T16:26:55.265Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:26:55.266Z [[32minfo[39m]: Provisioning warm workspace: warm-6f7ae776
+2025-12-30T16:26:55.266Z [[32minfo[39m]: Provisioning warm workspace: warm-bdc86f1d
+2025-12-30T16:26:55.266Z [[32minfo[39m]: Provisioning warm workspace: warm-93dee84b
+2025-12-30T16:26:55.268Z [[31merror[39m]: Failed to create namespace for workspace: warm-6f7ae776: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:55.268Z [[31merror[39m]: Failed to provision warm workspace warm-6f7ae776: Failed to create namespace for workspace: warm-6f7ae776
+2025-12-30T16:26:55.269Z [[31merror[39m]: Failed to create namespace for workspace: warm-bdc86f1d: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:55.269Z [[31merror[39m]: Failed to provision warm workspace warm-bdc86f1d: Failed to create namespace for workspace: warm-bdc86f1d
+2025-12-30T16:26:55.270Z [[31merror[39m]: Failed to create namespace for workspace: warm-93dee84b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:26:55.270Z [[31merror[39m]: Failed to provision warm workspace warm-93dee84b: Failed to create namespace for workspace: warm-93dee84b
+2025-12-30T16:26:55.272Z [[31merror[39m]: Failed to delete workspace: warm-6f7ae776: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-6f7ae776 failed, reason: 
+2025-12-30T16:26:55.272Z [[31merror[39m]: Failed to delete workspace: warm-bdc86f1d: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-bdc86f1d failed, reason: 
+2025-12-30T16:26:55.273Z [[31merror[39m]: Failed to delete workspace: warm-93dee84b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-93dee84b failed, reason: 
+2025-12-30T16:27:05.269Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:27:05.269Z [[32minfo[39m]: Provisioning warm workspace: warm-65b7f246
+2025-12-30T16:27:05.269Z [[32minfo[39m]: Provisioning warm workspace: warm-592f1e89
+2025-12-30T16:27:05.269Z [[32minfo[39m]: Provisioning warm workspace: warm-72be5a46
+2025-12-30T16:27:05.271Z [[31merror[39m]: Failed to create namespace for workspace: warm-65b7f246: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:05.271Z [[31merror[39m]: Failed to provision warm workspace warm-65b7f246: Failed to create namespace for workspace: warm-65b7f246
+2025-12-30T16:27:05.272Z [[31merror[39m]: Failed to create namespace for workspace: warm-72be5a46: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:05.272Z [[31merror[39m]: Failed to provision warm workspace warm-72be5a46: Failed to create namespace for workspace: warm-72be5a46
+2025-12-30T16:27:05.273Z [[31merror[39m]: Failed to create namespace for workspace: warm-592f1e89: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:05.273Z [[31merror[39m]: Failed to provision warm workspace warm-592f1e89: Failed to create namespace for workspace: warm-592f1e89
+2025-12-30T16:27:05.276Z [[31merror[39m]: Failed to delete workspace: warm-65b7f246: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-65b7f246 failed, reason: 
+2025-12-30T16:27:05.276Z [[31merror[39m]: Failed to delete workspace: warm-72be5a46: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-72be5a46 failed, reason: 
+2025-12-30T16:27:05.276Z [[31merror[39m]: Failed to delete workspace: warm-592f1e89: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-592f1e89 failed, reason: 
+2025-12-30T16:27:15.268Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:27:15.268Z [[32minfo[39m]: Provisioning warm workspace: warm-d8d9f64a
+2025-12-30T16:27:15.269Z [[32minfo[39m]: Provisioning warm workspace: warm-6230e91e
+2025-12-30T16:27:15.269Z [[32minfo[39m]: Provisioning warm workspace: warm-7eb899f5
+2025-12-30T16:27:15.271Z [[31merror[39m]: Failed to create namespace for workspace: warm-d8d9f64a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:15.271Z [[31merror[39m]: Failed to provision warm workspace warm-d8d9f64a: Failed to create namespace for workspace: warm-d8d9f64a
+2025-12-30T16:27:15.271Z [[31merror[39m]: Failed to create namespace for workspace: warm-6230e91e: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:15.271Z [[31merror[39m]: Failed to provision warm workspace warm-6230e91e: Failed to create namespace for workspace: warm-6230e91e
+2025-12-30T16:27:15.273Z [[31merror[39m]: Failed to create namespace for workspace: warm-7eb899f5: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:15.273Z [[31merror[39m]: Failed to provision warm workspace warm-7eb899f5: Failed to create namespace for workspace: warm-7eb899f5
+2025-12-30T16:27:15.274Z [[31merror[39m]: Failed to delete workspace: warm-d8d9f64a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-d8d9f64a failed, reason: 
+2025-12-30T16:27:15.275Z [[31merror[39m]: Failed to delete workspace: warm-6230e91e: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-6230e91e failed, reason: 
+2025-12-30T16:27:15.275Z [[31merror[39m]: Failed to delete workspace: warm-7eb899f5: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7eb899f5 failed, reason: 
+2025-12-30T16:27:25.268Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:27:25.269Z [[32minfo[39m]: Provisioning warm workspace: warm-1726016a
+2025-12-30T16:27:25.269Z [[32minfo[39m]: Provisioning warm workspace: warm-003478bc
+2025-12-30T16:27:25.269Z [[32minfo[39m]: Provisioning warm workspace: warm-031cdc69
+2025-12-30T16:27:25.272Z [[31merror[39m]: Failed to create namespace for workspace: warm-1726016a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:25.272Z [[31merror[39m]: Failed to provision warm workspace warm-1726016a: Failed to create namespace for workspace: warm-1726016a
+2025-12-30T16:27:25.273Z [[31merror[39m]: Failed to create namespace for workspace: warm-003478bc: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:25.273Z [[31merror[39m]: Failed to provision warm workspace warm-003478bc: Failed to create namespace for workspace: warm-003478bc
+2025-12-30T16:27:25.274Z [[31merror[39m]: Failed to create namespace for workspace: warm-031cdc69: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:25.274Z [[31merror[39m]: Failed to provision warm workspace warm-031cdc69: Failed to create namespace for workspace: warm-031cdc69
+2025-12-30T16:27:25.276Z [[31merror[39m]: Failed to delete workspace: warm-1726016a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-1726016a failed, reason: 
+2025-12-30T16:27:25.276Z [[31merror[39m]: Failed to delete workspace: warm-003478bc: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-003478bc failed, reason: 
+2025-12-30T16:27:25.276Z [[31merror[39m]: Failed to delete workspace: warm-031cdc69: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-031cdc69 failed, reason: 
+2025-12-30T16:27:35.269Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:27:35.270Z [[32minfo[39m]: Provisioning warm workspace: warm-0947539d
+2025-12-30T16:27:35.270Z [[32minfo[39m]: Provisioning warm workspace: warm-8036e5f4
+2025-12-30T16:27:35.270Z [[32minfo[39m]: Provisioning warm workspace: warm-7315618d
+2025-12-30T16:27:35.273Z [[31merror[39m]: Failed to create namespace for workspace: warm-0947539d: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:35.273Z [[31merror[39m]: Failed to provision warm workspace warm-0947539d: Failed to create namespace for workspace: warm-0947539d
+2025-12-30T16:27:35.275Z [[31merror[39m]: Failed to create namespace for workspace: warm-8036e5f4: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:35.275Z [[31merror[39m]: Failed to provision warm workspace warm-8036e5f4: Failed to create namespace for workspace: warm-8036e5f4
+2025-12-30T16:27:35.275Z [[31merror[39m]: Failed to create namespace for workspace: warm-7315618d: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:35.276Z [[31merror[39m]: Failed to provision warm workspace warm-7315618d: Failed to create namespace for workspace: warm-7315618d
+2025-12-30T16:27:35.277Z [[31merror[39m]: Failed to delete workspace: warm-0947539d: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-0947539d failed, reason: 
+2025-12-30T16:27:35.277Z [[31merror[39m]: Failed to delete workspace: warm-8036e5f4: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8036e5f4 failed, reason: 
+2025-12-30T16:27:35.278Z [[31merror[39m]: Failed to delete workspace: warm-7315618d: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7315618d failed, reason: 
+2025-12-30T16:27:45.273Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:27:45.274Z [[32minfo[39m]: Provisioning warm workspace: warm-e12e2ea5
+2025-12-30T16:27:45.275Z [[32minfo[39m]: Provisioning warm workspace: warm-9f2136b7
+2025-12-30T16:27:45.275Z [[32minfo[39m]: Provisioning warm workspace: warm-16cf440a
+2025-12-30T16:27:45.279Z [[31merror[39m]: Failed to create namespace for workspace: warm-e12e2ea5: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:45.279Z [[31merror[39m]: Failed to provision warm workspace warm-e12e2ea5: Failed to create namespace for workspace: warm-e12e2ea5
+2025-12-30T16:27:45.280Z [[31merror[39m]: Failed to create namespace for workspace: warm-9f2136b7: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:45.280Z [[31merror[39m]: Failed to provision warm workspace warm-9f2136b7: Failed to create namespace for workspace: warm-9f2136b7
+2025-12-30T16:27:45.280Z [[31merror[39m]: Failed to create namespace for workspace: warm-16cf440a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:45.280Z [[31merror[39m]: Failed to provision warm workspace warm-16cf440a: Failed to create namespace for workspace: warm-16cf440a
+2025-12-30T16:27:45.281Z [[31merror[39m]: Failed to delete workspace: warm-e12e2ea5: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e12e2ea5 failed, reason: 
+2025-12-30T16:27:45.282Z [[31merror[39m]: Failed to delete workspace: warm-9f2136b7: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9f2136b7 failed, reason: 
+2025-12-30T16:27:45.282Z [[31merror[39m]: Failed to delete workspace: warm-16cf440a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-16cf440a failed, reason: 
+2025-12-30T16:27:55.271Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:27:55.271Z [[32minfo[39m]: Provisioning warm workspace: warm-425db697
+2025-12-30T16:27:55.272Z [[32minfo[39m]: Provisioning warm workspace: warm-dc97073f
+2025-12-30T16:27:55.272Z [[32minfo[39m]: Provisioning warm workspace: warm-fdfa6e83
+2025-12-30T16:27:55.274Z [[31merror[39m]: Failed to create namespace for workspace: warm-425db697: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:55.274Z [[31merror[39m]: Failed to provision warm workspace warm-425db697: Failed to create namespace for workspace: warm-425db697
+2025-12-30T16:27:55.274Z [[31merror[39m]: Failed to create namespace for workspace: warm-dc97073f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:55.275Z [[31merror[39m]: Failed to provision warm workspace warm-dc97073f: Failed to create namespace for workspace: warm-dc97073f
+2025-12-30T16:27:55.275Z [[31merror[39m]: Failed to create namespace for workspace: warm-fdfa6e83: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:27:55.275Z [[31merror[39m]: Failed to provision warm workspace warm-fdfa6e83: Failed to create namespace for workspace: warm-fdfa6e83
+2025-12-30T16:27:55.276Z [[31merror[39m]: Failed to delete workspace: warm-425db697: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-425db697 failed, reason: 
+2025-12-30T16:27:55.276Z [[31merror[39m]: Failed to delete workspace: warm-dc97073f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-dc97073f failed, reason: 
+2025-12-30T16:27:55.276Z [[31merror[39m]: Failed to delete workspace: warm-fdfa6e83: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-fdfa6e83 failed, reason: 
+2025-12-30T16:28:05.272Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:28:05.272Z [[32minfo[39m]: Provisioning warm workspace: warm-05bf11f0
+2025-12-30T16:28:05.273Z [[32minfo[39m]: Provisioning warm workspace: warm-3201ae00
+2025-12-30T16:28:05.273Z [[32minfo[39m]: Provisioning warm workspace: warm-afede118
+2025-12-30T16:28:05.276Z [[31merror[39m]: Failed to create namespace for workspace: warm-05bf11f0: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:05.276Z [[31merror[39m]: Failed to provision warm workspace warm-05bf11f0: Failed to create namespace for workspace: warm-05bf11f0
+2025-12-30T16:28:05.277Z [[31merror[39m]: Failed to create namespace for workspace: warm-3201ae00: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:05.277Z [[31merror[39m]: Failed to provision warm workspace warm-3201ae00: Failed to create namespace for workspace: warm-3201ae00
+2025-12-30T16:28:05.278Z [[31merror[39m]: Failed to create namespace for workspace: warm-afede118: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:05.278Z [[31merror[39m]: Failed to provision warm workspace warm-afede118: Failed to create namespace for workspace: warm-afede118
+2025-12-30T16:28:05.279Z [[31merror[39m]: Failed to delete workspace: warm-05bf11f0: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-05bf11f0 failed, reason: 
+2025-12-30T16:28:05.280Z [[31merror[39m]: Failed to delete workspace: warm-3201ae00: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3201ae00 failed, reason: 
+2025-12-30T16:28:05.280Z [[31merror[39m]: Failed to delete workspace: warm-afede118: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-afede118 failed, reason: 
+2025-12-30T16:28:15.274Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:28:15.275Z [[32minfo[39m]: Provisioning warm workspace: warm-79ac9446
+2025-12-30T16:28:15.275Z [[32minfo[39m]: Provisioning warm workspace: warm-df039ef5
+2025-12-30T16:28:15.275Z [[32minfo[39m]: Provisioning warm workspace: warm-97fe1b73
+2025-12-30T16:28:15.277Z [[31merror[39m]: Failed to create namespace for workspace: warm-79ac9446: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:15.277Z [[31merror[39m]: Failed to provision warm workspace warm-79ac9446: Failed to create namespace for workspace: warm-79ac9446
+2025-12-30T16:28:15.277Z [[31merror[39m]: Failed to create namespace for workspace: warm-df039ef5: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:15.277Z [[31merror[39m]: Failed to provision warm workspace warm-df039ef5: Failed to create namespace for workspace: warm-df039ef5
+2025-12-30T16:28:15.277Z [[31merror[39m]: Failed to create namespace for workspace: warm-97fe1b73: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:15.277Z [[31merror[39m]: Failed to provision warm workspace warm-97fe1b73: Failed to create namespace for workspace: warm-97fe1b73
+2025-12-30T16:28:15.278Z [[31merror[39m]: Failed to delete workspace: warm-df039ef5: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-df039ef5 failed, reason: 
+2025-12-30T16:28:15.278Z [[31merror[39m]: Failed to delete workspace: warm-79ac9446: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-79ac9446 failed, reason: 
+2025-12-30T16:28:15.278Z [[31merror[39m]: Failed to delete workspace: warm-97fe1b73: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-97fe1b73 failed, reason: 
+2025-12-30T16:28:25.273Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:28:25.273Z [[32minfo[39m]: Provisioning warm workspace: warm-238a831e
+2025-12-30T16:28:25.273Z [[32minfo[39m]: Provisioning warm workspace: warm-35b77dad
+2025-12-30T16:28:25.273Z [[32minfo[39m]: Provisioning warm workspace: warm-1c8f99a9
+2025-12-30T16:28:25.274Z [[31merror[39m]: Failed to create namespace for workspace: warm-238a831e: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:25.274Z [[31merror[39m]: Failed to provision warm workspace warm-238a831e: Failed to create namespace for workspace: warm-238a831e
+2025-12-30T16:28:25.274Z [[31merror[39m]: Failed to create namespace for workspace: warm-35b77dad: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:25.275Z [[31merror[39m]: Failed to provision warm workspace warm-35b77dad: Failed to create namespace for workspace: warm-35b77dad
+2025-12-30T16:28:25.275Z [[31merror[39m]: Failed to create namespace for workspace: warm-1c8f99a9: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:25.275Z [[31merror[39m]: Failed to provision warm workspace warm-1c8f99a9: Failed to create namespace for workspace: warm-1c8f99a9
+2025-12-30T16:28:25.275Z [[31merror[39m]: Failed to delete workspace: warm-238a831e: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-238a831e failed, reason: 
+2025-12-30T16:28:25.275Z [[31merror[39m]: Failed to delete workspace: warm-35b77dad: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-35b77dad failed, reason: 
+2025-12-30T16:28:25.275Z [[31merror[39m]: Failed to delete workspace: warm-1c8f99a9: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-1c8f99a9 failed, reason: 
+2025-12-30T16:28:35.274Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:28:35.274Z [[32minfo[39m]: Provisioning warm workspace: warm-af6dc841
+2025-12-30T16:28:35.275Z [[32minfo[39m]: Provisioning warm workspace: warm-8090b341
+2025-12-30T16:28:35.275Z [[32minfo[39m]: Provisioning warm workspace: warm-3bbbaa09
+2025-12-30T16:28:35.277Z [[31merror[39m]: Failed to create namespace for workspace: warm-af6dc841: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:35.277Z [[31merror[39m]: Failed to provision warm workspace warm-af6dc841: Failed to create namespace for workspace: warm-af6dc841
+2025-12-30T16:28:35.278Z [[31merror[39m]: Failed to create namespace for workspace: warm-8090b341: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:35.279Z [[31merror[39m]: Failed to provision warm workspace warm-8090b341: Failed to create namespace for workspace: warm-8090b341
+2025-12-30T16:28:35.280Z [[31merror[39m]: Failed to create namespace for workspace: warm-3bbbaa09: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:35.280Z [[31merror[39m]: Failed to provision warm workspace warm-3bbbaa09: Failed to create namespace for workspace: warm-3bbbaa09
+2025-12-30T16:28:35.282Z [[31merror[39m]: Failed to delete workspace: warm-af6dc841: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-af6dc841 failed, reason: 
+2025-12-30T16:28:35.282Z [[31merror[39m]: Failed to delete workspace: warm-8090b341: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8090b341 failed, reason: 
+2025-12-30T16:28:35.283Z [[31merror[39m]: Failed to delete workspace: warm-3bbbaa09: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3bbbaa09 failed, reason: 
+2025-12-30T16:28:45.274Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:28:45.275Z [[32minfo[39m]: Provisioning warm workspace: warm-0b8c9431
+2025-12-30T16:28:45.275Z [[32minfo[39m]: Provisioning warm workspace: warm-58b7ca27
+2025-12-30T16:28:45.275Z [[32minfo[39m]: Provisioning warm workspace: warm-5816b738
+2025-12-30T16:28:45.277Z [[31merror[39m]: Failed to create namespace for workspace: warm-0b8c9431: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:45.277Z [[31merror[39m]: Failed to provision warm workspace warm-0b8c9431: Failed to create namespace for workspace: warm-0b8c9431
+2025-12-30T16:28:45.279Z [[31merror[39m]: Failed to create namespace for workspace: warm-5816b738: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:45.279Z [[31merror[39m]: Failed to provision warm workspace warm-5816b738: Failed to create namespace for workspace: warm-5816b738
+2025-12-30T16:28:45.279Z [[31merror[39m]: Failed to create namespace for workspace: warm-58b7ca27: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:45.280Z [[31merror[39m]: Failed to provision warm workspace warm-58b7ca27: Failed to create namespace for workspace: warm-58b7ca27
+2025-12-30T16:28:45.281Z [[31merror[39m]: Failed to delete workspace: warm-0b8c9431: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-0b8c9431 failed, reason: 
+2025-12-30T16:28:45.281Z [[31merror[39m]: Failed to delete workspace: warm-5816b738: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-5816b738 failed, reason: 
+2025-12-30T16:28:45.281Z [[31merror[39m]: Failed to delete workspace: warm-58b7ca27: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-58b7ca27 failed, reason: 
+2025-12-30T16:28:55.277Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:28:55.277Z [[32minfo[39m]: Provisioning warm workspace: warm-67e0191f
+2025-12-30T16:28:55.279Z [[32minfo[39m]: Provisioning warm workspace: warm-1cd4c9df
+2025-12-30T16:28:55.279Z [[32minfo[39m]: Provisioning warm workspace: warm-7086fbb3
+2025-12-30T16:28:55.284Z [[31merror[39m]: Failed to create namespace for workspace: warm-1cd4c9df: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:55.284Z [[31merror[39m]: Failed to provision warm workspace warm-1cd4c9df: Failed to create namespace for workspace: warm-1cd4c9df
+2025-12-30T16:28:55.285Z [[31merror[39m]: Failed to create namespace for workspace: warm-67e0191f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:55.285Z [[31merror[39m]: Failed to provision warm workspace warm-67e0191f: Failed to create namespace for workspace: warm-67e0191f
+2025-12-30T16:28:55.287Z [[31merror[39m]: Failed to create namespace for workspace: warm-7086fbb3: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:28:55.287Z [[31merror[39m]: Failed to provision warm workspace warm-7086fbb3: Failed to create namespace for workspace: warm-7086fbb3
+2025-12-30T16:28:55.288Z [[31merror[39m]: Failed to delete workspace: warm-1cd4c9df: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-1cd4c9df failed, reason: 
+2025-12-30T16:28:55.288Z [[31merror[39m]: Failed to delete workspace: warm-67e0191f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-67e0191f failed, reason: 
+2025-12-30T16:28:55.288Z [[31merror[39m]: Failed to delete workspace: warm-7086fbb3: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7086fbb3 failed, reason: 
+2025-12-30T16:29:05.285Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:29:05.285Z [[32minfo[39m]: Provisioning warm workspace: warm-6f2043d5
+2025-12-30T16:29:05.286Z [[32minfo[39m]: Provisioning warm workspace: warm-b2121be8
+2025-12-30T16:29:05.287Z [[32minfo[39m]: Provisioning warm workspace: warm-29abb94c
+2025-12-30T16:29:05.290Z [[31merror[39m]: Failed to create namespace for workspace: warm-6f2043d5: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:05.290Z [[31merror[39m]: Failed to provision warm workspace warm-6f2043d5: Failed to create namespace for workspace: warm-6f2043d5
+2025-12-30T16:29:05.290Z [[31merror[39m]: Failed to create namespace for workspace: warm-29abb94c: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:05.290Z [[31merror[39m]: Failed to provision warm workspace warm-29abb94c: Failed to create namespace for workspace: warm-29abb94c
+2025-12-30T16:29:05.291Z [[31merror[39m]: Failed to create namespace for workspace: warm-b2121be8: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:05.291Z [[31merror[39m]: Failed to provision warm workspace warm-b2121be8: Failed to create namespace for workspace: warm-b2121be8
+2025-12-30T16:29:05.292Z [[31merror[39m]: Failed to delete workspace: warm-6f2043d5: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-6f2043d5 failed, reason: 
+2025-12-30T16:29:05.292Z [[31merror[39m]: Failed to delete workspace: warm-29abb94c: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-29abb94c failed, reason: 
+2025-12-30T16:29:05.292Z [[31merror[39m]: Failed to delete workspace: warm-b2121be8: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b2121be8 failed, reason: 
+2025-12-30T16:29:15.280Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:29:15.281Z [[32minfo[39m]: Provisioning warm workspace: warm-c76a6e07
+2025-12-30T16:29:15.281Z [[32minfo[39m]: Provisioning warm workspace: warm-fd02be25
+2025-12-30T16:29:15.281Z [[32minfo[39m]: Provisioning warm workspace: warm-924d7e6e
+2025-12-30T16:29:15.283Z [[31merror[39m]: Failed to create namespace for workspace: warm-c76a6e07: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:15.283Z [[31merror[39m]: Failed to provision warm workspace warm-c76a6e07: Failed to create namespace for workspace: warm-c76a6e07
+2025-12-30T16:29:15.284Z [[31merror[39m]: Failed to create namespace for workspace: warm-fd02be25: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:15.285Z [[31merror[39m]: Failed to provision warm workspace warm-fd02be25: Failed to create namespace for workspace: warm-fd02be25
+2025-12-30T16:29:15.287Z [[31merror[39m]: Failed to create namespace for workspace: warm-924d7e6e: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:15.287Z [[31merror[39m]: Failed to provision warm workspace warm-924d7e6e: Failed to create namespace for workspace: warm-924d7e6e
+2025-12-30T16:29:15.288Z [[31merror[39m]: Failed to delete workspace: warm-c76a6e07: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-c76a6e07 failed, reason: 
+2025-12-30T16:29:15.289Z [[31merror[39m]: Failed to delete workspace: warm-fd02be25: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-fd02be25 failed, reason: 
+2025-12-30T16:29:15.289Z [[31merror[39m]: Failed to delete workspace: warm-924d7e6e: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-924d7e6e failed, reason: 
+2025-12-30T16:29:25.282Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:29:25.282Z [[32minfo[39m]: Provisioning warm workspace: warm-512fbe0b
+2025-12-30T16:29:25.283Z [[32minfo[39m]: Provisioning warm workspace: warm-f3c2fe3f
+2025-12-30T16:29:25.283Z [[32minfo[39m]: Provisioning warm workspace: warm-87fb917a
+2025-12-30T16:29:25.285Z [[31merror[39m]: Failed to create namespace for workspace: warm-512fbe0b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:25.285Z [[31merror[39m]: Failed to provision warm workspace warm-512fbe0b: Failed to create namespace for workspace: warm-512fbe0b
+2025-12-30T16:29:25.286Z [[31merror[39m]: Failed to create namespace for workspace: warm-f3c2fe3f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:25.287Z [[31merror[39m]: Failed to provision warm workspace warm-f3c2fe3f: Failed to create namespace for workspace: warm-f3c2fe3f
+2025-12-30T16:29:25.288Z [[31merror[39m]: Failed to create namespace for workspace: warm-87fb917a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:25.288Z [[31merror[39m]: Failed to provision warm workspace warm-87fb917a: Failed to create namespace for workspace: warm-87fb917a
+2025-12-30T16:29:25.289Z [[31merror[39m]: Failed to delete workspace: warm-512fbe0b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-512fbe0b failed, reason: 
+2025-12-30T16:29:25.289Z [[31merror[39m]: Failed to delete workspace: warm-f3c2fe3f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f3c2fe3f failed, reason: 
+2025-12-30T16:29:25.290Z [[31merror[39m]: Failed to delete workspace: warm-87fb917a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-87fb917a failed, reason: 
+2025-12-30T16:29:35.284Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:29:35.285Z [[32minfo[39m]: Provisioning warm workspace: warm-8541c188
+2025-12-30T16:29:35.286Z [[32minfo[39m]: Provisioning warm workspace: warm-adc1d623
+2025-12-30T16:29:35.286Z [[32minfo[39m]: Provisioning warm workspace: warm-d44a4f47
+2025-12-30T16:29:35.290Z [[31merror[39m]: Failed to create namespace for workspace: warm-8541c188: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:35.290Z [[31merror[39m]: Failed to provision warm workspace warm-8541c188: Failed to create namespace for workspace: warm-8541c188
+2025-12-30T16:29:35.290Z [[31merror[39m]: Failed to create namespace for workspace: warm-adc1d623: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:35.290Z [[31merror[39m]: Failed to provision warm workspace warm-adc1d623: Failed to create namespace for workspace: warm-adc1d623
+2025-12-30T16:29:35.290Z [[31merror[39m]: Failed to create namespace for workspace: warm-d44a4f47: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:35.290Z [[31merror[39m]: Failed to provision warm workspace warm-d44a4f47: Failed to create namespace for workspace: warm-d44a4f47
+2025-12-30T16:29:35.291Z [[31merror[39m]: Failed to delete workspace: warm-8541c188: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8541c188 failed, reason: 
+2025-12-30T16:29:35.291Z [[31merror[39m]: Failed to delete workspace: warm-adc1d623: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-adc1d623 failed, reason: 
+2025-12-30T16:29:35.291Z [[31merror[39m]: Failed to delete workspace: warm-d44a4f47: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-d44a4f47 failed, reason: 
+2025-12-30T16:29:45.283Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:29:45.284Z [[32minfo[39m]: Provisioning warm workspace: warm-4f053eeb
+2025-12-30T16:29:45.284Z [[32minfo[39m]: Provisioning warm workspace: warm-a289da63
+2025-12-30T16:29:45.284Z [[32minfo[39m]: Provisioning warm workspace: warm-6d78e1f1
+2025-12-30T16:29:45.286Z [[31merror[39m]: Failed to create namespace for workspace: warm-4f053eeb: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:45.286Z [[31merror[39m]: Failed to provision warm workspace warm-4f053eeb: Failed to create namespace for workspace: warm-4f053eeb
+2025-12-30T16:29:45.287Z [[31merror[39m]: Failed to create namespace for workspace: warm-a289da63: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:45.287Z [[31merror[39m]: Failed to provision warm workspace warm-a289da63: Failed to create namespace for workspace: warm-a289da63
+2025-12-30T16:29:45.287Z [[31merror[39m]: Failed to create namespace for workspace: warm-6d78e1f1: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:45.287Z [[31merror[39m]: Failed to provision warm workspace warm-6d78e1f1: Failed to create namespace for workspace: warm-6d78e1f1
+2025-12-30T16:29:45.288Z [[31merror[39m]: Failed to delete workspace: warm-4f053eeb: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-4f053eeb failed, reason: 
+2025-12-30T16:29:45.288Z [[31merror[39m]: Failed to delete workspace: warm-a289da63: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-a289da63 failed, reason: 
+2025-12-30T16:29:45.289Z [[31merror[39m]: Failed to delete workspace: warm-6d78e1f1: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-6d78e1f1 failed, reason: 
+2025-12-30T16:29:55.285Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:29:55.286Z [[32minfo[39m]: Provisioning warm workspace: warm-e5878518
+2025-12-30T16:29:55.286Z [[32minfo[39m]: Provisioning warm workspace: warm-2eb6be9a
+2025-12-30T16:29:55.286Z [[32minfo[39m]: Provisioning warm workspace: warm-38d68fb3
+2025-12-30T16:29:55.288Z [[31merror[39m]: Failed to create namespace for workspace: warm-2eb6be9a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:55.288Z [[31merror[39m]: Failed to provision warm workspace warm-2eb6be9a: Failed to create namespace for workspace: warm-2eb6be9a
+2025-12-30T16:29:55.288Z [[31merror[39m]: Failed to create namespace for workspace: warm-e5878518: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:55.289Z [[31merror[39m]: Failed to provision warm workspace warm-e5878518: Failed to create namespace for workspace: warm-e5878518
+2025-12-30T16:29:55.289Z [[31merror[39m]: Failed to create namespace for workspace: warm-38d68fb3: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:29:55.289Z [[31merror[39m]: Failed to provision warm workspace warm-38d68fb3: Failed to create namespace for workspace: warm-38d68fb3
+2025-12-30T16:29:55.289Z [[31merror[39m]: Failed to delete workspace: warm-2eb6be9a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-2eb6be9a failed, reason: 
+2025-12-30T16:29:55.289Z [[31merror[39m]: Failed to delete workspace: warm-e5878518: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e5878518 failed, reason: 
+2025-12-30T16:29:55.289Z [[31merror[39m]: Failed to delete workspace: warm-38d68fb3: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-38d68fb3 failed, reason: 
+2025-12-30T16:30:05.285Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:30:05.285Z [[32minfo[39m]: Provisioning warm workspace: warm-3825580d
+2025-12-30T16:30:05.285Z [[32minfo[39m]: Provisioning warm workspace: warm-59afd178
+2025-12-30T16:30:05.285Z [[32minfo[39m]: Provisioning warm workspace: warm-b10ea579
+2025-12-30T16:30:05.287Z [[31merror[39m]: Failed to create namespace for workspace: warm-3825580d: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:05.287Z [[31merror[39m]: Failed to provision warm workspace warm-3825580d: Failed to create namespace for workspace: warm-3825580d
+2025-12-30T16:30:05.287Z [[31merror[39m]: Failed to create namespace for workspace: warm-59afd178: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:05.288Z [[31merror[39m]: Failed to provision warm workspace warm-59afd178: Failed to create namespace for workspace: warm-59afd178
+2025-12-30T16:30:05.288Z [[31merror[39m]: Failed to create namespace for workspace: warm-b10ea579: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:05.288Z [[31merror[39m]: Failed to provision warm workspace warm-b10ea579: Failed to create namespace for workspace: warm-b10ea579
+2025-12-30T16:30:05.289Z [[31merror[39m]: Failed to delete workspace: warm-3825580d: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3825580d failed, reason: 
+2025-12-30T16:30:05.289Z [[31merror[39m]: Failed to delete workspace: warm-59afd178: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-59afd178 failed, reason: 
+2025-12-30T16:30:05.289Z [[31merror[39m]: Failed to delete workspace: warm-b10ea579: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b10ea579 failed, reason: 
+2025-12-30T16:30:15.288Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:30:15.288Z [[32minfo[39m]: Provisioning warm workspace: warm-51a020c7
+2025-12-30T16:30:15.289Z [[32minfo[39m]: Provisioning warm workspace: warm-e91381ac
+2025-12-30T16:30:15.290Z [[32minfo[39m]: Provisioning warm workspace: warm-be878c56
+2025-12-30T16:30:15.293Z [[31merror[39m]: Failed to create namespace for workspace: warm-51a020c7: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:15.293Z [[31merror[39m]: Failed to provision warm workspace warm-51a020c7: Failed to create namespace for workspace: warm-51a020c7
+2025-12-30T16:30:15.294Z [[31merror[39m]: Failed to create namespace for workspace: warm-e91381ac: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:15.294Z [[31merror[39m]: Failed to provision warm workspace warm-e91381ac: Failed to create namespace for workspace: warm-e91381ac
+2025-12-30T16:30:15.294Z [[31merror[39m]: Failed to create namespace for workspace: warm-be878c56: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:15.294Z [[31merror[39m]: Failed to provision warm workspace warm-be878c56: Failed to create namespace for workspace: warm-be878c56
+2025-12-30T16:30:15.296Z [[31merror[39m]: Failed to delete workspace: warm-51a020c7: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-51a020c7 failed, reason: 
+2025-12-30T16:30:15.296Z [[31merror[39m]: Failed to delete workspace: warm-e91381ac: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e91381ac failed, reason: 
+2025-12-30T16:30:15.296Z [[31merror[39m]: Failed to delete workspace: warm-be878c56: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-be878c56 failed, reason: 
+2025-12-30T16:30:25.288Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:30:25.288Z [[32minfo[39m]: Provisioning warm workspace: warm-bd44dc84
+2025-12-30T16:30:25.288Z [[32minfo[39m]: Provisioning warm workspace: warm-629f9998
+2025-12-30T16:30:25.288Z [[32minfo[39m]: Provisioning warm workspace: warm-04c663b1
+2025-12-30T16:30:25.289Z [[31merror[39m]: Failed to create namespace for workspace: warm-bd44dc84: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:25.289Z [[31merror[39m]: Failed to provision warm workspace warm-bd44dc84: Failed to create namespace for workspace: warm-bd44dc84
+2025-12-30T16:30:25.291Z [[31merror[39m]: Failed to create namespace for workspace: warm-629f9998: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:25.291Z [[31merror[39m]: Failed to provision warm workspace warm-629f9998: Failed to create namespace for workspace: warm-629f9998
+2025-12-30T16:30:25.291Z [[31merror[39m]: Failed to create namespace for workspace: warm-04c663b1: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:25.291Z [[31merror[39m]: Failed to provision warm workspace warm-04c663b1: Failed to create namespace for workspace: warm-04c663b1
+2025-12-30T16:30:25.291Z [[31merror[39m]: Failed to delete workspace: warm-bd44dc84: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-bd44dc84 failed, reason: 
+2025-12-30T16:30:25.292Z [[31merror[39m]: Failed to delete workspace: warm-629f9998: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-629f9998 failed, reason: 
+2025-12-30T16:30:25.292Z [[31merror[39m]: Failed to delete workspace: warm-04c663b1: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-04c663b1 failed, reason: 
+2025-12-30T16:30:35.289Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:30:35.290Z [[32minfo[39m]: Provisioning warm workspace: warm-cdb2a21a
+2025-12-30T16:30:35.291Z [[32minfo[39m]: Provisioning warm workspace: warm-14413baa
+2025-12-30T16:30:35.292Z [[32minfo[39m]: Provisioning warm workspace: warm-16a47402
+2025-12-30T16:30:35.294Z [[31merror[39m]: Failed to create namespace for workspace: warm-cdb2a21a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:35.294Z [[31merror[39m]: Failed to provision warm workspace warm-cdb2a21a: Failed to create namespace for workspace: warm-cdb2a21a
+2025-12-30T16:30:35.294Z [[31merror[39m]: Failed to create namespace for workspace: warm-14413baa: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:35.294Z [[31merror[39m]: Failed to provision warm workspace warm-14413baa: Failed to create namespace for workspace: warm-14413baa
+2025-12-30T16:30:35.295Z [[31merror[39m]: Failed to create namespace for workspace: warm-16a47402: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:35.295Z [[31merror[39m]: Failed to provision warm workspace warm-16a47402: Failed to create namespace for workspace: warm-16a47402
+2025-12-30T16:30:35.296Z [[31merror[39m]: Failed to delete workspace: warm-cdb2a21a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-cdb2a21a failed, reason: 
+2025-12-30T16:30:35.296Z [[31merror[39m]: Failed to delete workspace: warm-14413baa: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-14413baa failed, reason: 
+2025-12-30T16:30:35.297Z [[31merror[39m]: Failed to delete workspace: warm-16a47402: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-16a47402 failed, reason: 
+2025-12-30T16:30:45.289Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:30:45.289Z [[32minfo[39m]: Provisioning warm workspace: warm-8d6287b6
+2025-12-30T16:30:45.290Z [[32minfo[39m]: Provisioning warm workspace: warm-b3220e5d
+2025-12-30T16:30:45.290Z [[32minfo[39m]: Provisioning warm workspace: warm-8aa5b03c
+2025-12-30T16:30:45.291Z [[31merror[39m]: Failed to create namespace for workspace: warm-8d6287b6: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:45.292Z [[31merror[39m]: Failed to provision warm workspace warm-8d6287b6: Failed to create namespace for workspace: warm-8d6287b6
+2025-12-30T16:30:45.292Z [[31merror[39m]: Failed to create namespace for workspace: warm-b3220e5d: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:45.292Z [[31merror[39m]: Failed to provision warm workspace warm-b3220e5d: Failed to create namespace for workspace: warm-b3220e5d
+2025-12-30T16:30:45.293Z [[31merror[39m]: Failed to create namespace for workspace: warm-8aa5b03c: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:45.293Z [[31merror[39m]: Failed to provision warm workspace warm-8aa5b03c: Failed to create namespace for workspace: warm-8aa5b03c
+2025-12-30T16:30:45.307Z [[31merror[39m]: Failed to delete workspace: warm-8d6287b6: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8d6287b6 failed, reason: 
+2025-12-30T16:30:45.308Z [[31merror[39m]: Failed to delete workspace: warm-b3220e5d: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b3220e5d failed, reason: 
+2025-12-30T16:30:45.308Z [[31merror[39m]: Failed to delete workspace: warm-8aa5b03c: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8aa5b03c failed, reason: 
+2025-12-30T16:30:55.291Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:30:55.291Z [[32minfo[39m]: Provisioning warm workspace: warm-41e8687c
+2025-12-30T16:30:55.292Z [[32minfo[39m]: Provisioning warm workspace: warm-cda9e9b8
+2025-12-30T16:30:55.292Z [[32minfo[39m]: Provisioning warm workspace: warm-3e21c698
+2025-12-30T16:30:55.294Z [[31merror[39m]: Failed to create namespace for workspace: warm-41e8687c: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:55.294Z [[31merror[39m]: Failed to provision warm workspace warm-41e8687c: Failed to create namespace for workspace: warm-41e8687c
+2025-12-30T16:30:55.295Z [[31merror[39m]: Failed to create namespace for workspace: warm-cda9e9b8: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:55.295Z [[31merror[39m]: Failed to provision warm workspace warm-cda9e9b8: Failed to create namespace for workspace: warm-cda9e9b8
+2025-12-30T16:30:55.296Z [[31merror[39m]: Failed to create namespace for workspace: warm-3e21c698: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:30:55.296Z [[31merror[39m]: Failed to provision warm workspace warm-3e21c698: Failed to create namespace for workspace: warm-3e21c698
+2025-12-30T16:30:55.297Z [[31merror[39m]: Failed to delete workspace: warm-41e8687c: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-41e8687c failed, reason: 
+2025-12-30T16:30:55.297Z [[31merror[39m]: Failed to delete workspace: warm-cda9e9b8: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-cda9e9b8 failed, reason: 
+2025-12-30T16:30:55.298Z [[31merror[39m]: Failed to delete workspace: warm-3e21c698: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3e21c698 failed, reason: 
+2025-12-30T16:31:05.291Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:31:05.292Z [[32minfo[39m]: Provisioning warm workspace: warm-becbaa29
+2025-12-30T16:31:05.292Z [[32minfo[39m]: Provisioning warm workspace: warm-a0d00b29
+2025-12-30T16:31:05.292Z [[32minfo[39m]: Provisioning warm workspace: warm-b4e79da9
+2025-12-30T16:31:05.295Z [[31merror[39m]: Failed to create namespace for workspace: warm-becbaa29: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:05.295Z [[31merror[39m]: Failed to provision warm workspace warm-becbaa29: Failed to create namespace for workspace: warm-becbaa29
+2025-12-30T16:31:05.295Z [[31merror[39m]: Failed to create namespace for workspace: warm-a0d00b29: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:05.295Z [[31merror[39m]: Failed to provision warm workspace warm-a0d00b29: Failed to create namespace for workspace: warm-a0d00b29
+2025-12-30T16:31:05.296Z [[31merror[39m]: Failed to create namespace for workspace: warm-b4e79da9: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:05.296Z [[31merror[39m]: Failed to provision warm workspace warm-b4e79da9: Failed to create namespace for workspace: warm-b4e79da9
+2025-12-30T16:31:05.298Z [[31merror[39m]: Failed to delete workspace: warm-becbaa29: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-becbaa29 failed, reason: 
+2025-12-30T16:31:05.298Z [[31merror[39m]: Failed to delete workspace: warm-a0d00b29: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-a0d00b29 failed, reason: 
+2025-12-30T16:31:05.298Z [[31merror[39m]: Failed to delete workspace: warm-b4e79da9: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b4e79da9 failed, reason: 
+2025-12-30T16:31:15.293Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:31:15.293Z [[32minfo[39m]: Provisioning warm workspace: warm-431acc3b
+2025-12-30T16:31:15.294Z [[32minfo[39m]: Provisioning warm workspace: warm-26cfc106
+2025-12-30T16:31:15.294Z [[32minfo[39m]: Provisioning warm workspace: warm-e03f9a16
+2025-12-30T16:31:15.297Z [[31merror[39m]: Failed to create namespace for workspace: warm-431acc3b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:15.297Z [[31merror[39m]: Failed to provision warm workspace warm-431acc3b: Failed to create namespace for workspace: warm-431acc3b
+2025-12-30T16:31:15.298Z [[31merror[39m]: Failed to create namespace for workspace: warm-26cfc106: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:15.298Z [[31merror[39m]: Failed to provision warm workspace warm-26cfc106: Failed to create namespace for workspace: warm-26cfc106
+2025-12-30T16:31:15.299Z [[31merror[39m]: Failed to create namespace for workspace: warm-e03f9a16: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:15.299Z [[31merror[39m]: Failed to provision warm workspace warm-e03f9a16: Failed to create namespace for workspace: warm-e03f9a16
+2025-12-30T16:31:15.300Z [[31merror[39m]: Failed to delete workspace: warm-431acc3b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-431acc3b failed, reason: 
+2025-12-30T16:31:15.301Z [[31merror[39m]: Failed to delete workspace: warm-26cfc106: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-26cfc106 failed, reason: 
+2025-12-30T16:31:15.301Z [[31merror[39m]: Failed to delete workspace: warm-e03f9a16: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e03f9a16 failed, reason: 
+2025-12-30T16:31:25.293Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:31:25.293Z [[32minfo[39m]: Provisioning warm workspace: warm-eb859f4d
+2025-12-30T16:31:25.293Z [[32minfo[39m]: Provisioning warm workspace: warm-b05ebfe0
+2025-12-30T16:31:25.293Z [[32minfo[39m]: Provisioning warm workspace: warm-a7bd98da
+2025-12-30T16:31:25.296Z [[31merror[39m]: Failed to create namespace for workspace: warm-eb859f4d: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:25.296Z [[31merror[39m]: Failed to provision warm workspace warm-eb859f4d: Failed to create namespace for workspace: warm-eb859f4d
+2025-12-30T16:31:25.297Z [[31merror[39m]: Failed to create namespace for workspace: warm-b05ebfe0: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:25.297Z [[31merror[39m]: Failed to provision warm workspace warm-b05ebfe0: Failed to create namespace for workspace: warm-b05ebfe0
+2025-12-30T16:31:25.299Z [[31merror[39m]: Failed to create namespace for workspace: warm-a7bd98da: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:25.299Z [[31merror[39m]: Failed to provision warm workspace warm-a7bd98da: Failed to create namespace for workspace: warm-a7bd98da
+2025-12-30T16:31:25.300Z [[31merror[39m]: Failed to delete workspace: warm-eb859f4d: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-eb859f4d failed, reason: 
+2025-12-30T16:31:25.300Z [[31merror[39m]: Failed to delete workspace: warm-b05ebfe0: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b05ebfe0 failed, reason: 
+2025-12-30T16:31:25.301Z [[31merror[39m]: Failed to delete workspace: warm-a7bd98da: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-a7bd98da failed, reason: 
+2025-12-30T16:31:35.294Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:31:35.294Z [[32minfo[39m]: Provisioning warm workspace: warm-01767a5e
+2025-12-30T16:31:35.294Z [[32minfo[39m]: Provisioning warm workspace: warm-d82bc426
+2025-12-30T16:31:35.294Z [[32minfo[39m]: Provisioning warm workspace: warm-ed57301d
+2025-12-30T16:31:35.295Z [[31merror[39m]: Failed to create namespace for workspace: warm-01767a5e: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:35.295Z [[31merror[39m]: Failed to provision warm workspace warm-01767a5e: Failed to create namespace for workspace: warm-01767a5e
+2025-12-30T16:31:35.296Z [[31merror[39m]: Failed to create namespace for workspace: warm-d82bc426: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:35.296Z [[31merror[39m]: Failed to provision warm workspace warm-d82bc426: Failed to create namespace for workspace: warm-d82bc426
+2025-12-30T16:31:35.296Z [[31merror[39m]: Failed to create namespace for workspace: warm-ed57301d: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:35.296Z [[31merror[39m]: Failed to provision warm workspace warm-ed57301d: Failed to create namespace for workspace: warm-ed57301d
+2025-12-30T16:31:35.297Z [[31merror[39m]: Failed to delete workspace: warm-01767a5e: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-01767a5e failed, reason: 
+2025-12-30T16:31:35.297Z [[31merror[39m]: Failed to delete workspace: warm-d82bc426: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-d82bc426 failed, reason: 
+2025-12-30T16:31:35.297Z [[31merror[39m]: Failed to delete workspace: warm-ed57301d: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-ed57301d failed, reason: 
+2025-12-30T16:31:45.294Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:31:45.295Z [[32minfo[39m]: Provisioning warm workspace: warm-9effca1a
+2025-12-30T16:31:45.295Z [[32minfo[39m]: Provisioning warm workspace: warm-f2b8e5cf
+2025-12-30T16:31:45.295Z [[32minfo[39m]: Provisioning warm workspace: warm-389a50c8
+2025-12-30T16:31:45.297Z [[31merror[39m]: Failed to create namespace for workspace: warm-9effca1a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:45.297Z [[31merror[39m]: Failed to provision warm workspace warm-9effca1a: Failed to create namespace for workspace: warm-9effca1a
+2025-12-30T16:31:45.298Z [[31merror[39m]: Failed to create namespace for workspace: warm-389a50c8: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:45.298Z [[31merror[39m]: Failed to provision warm workspace warm-389a50c8: Failed to create namespace for workspace: warm-389a50c8
+2025-12-30T16:31:45.299Z [[31merror[39m]: Failed to create namespace for workspace: warm-f2b8e5cf: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:45.299Z [[31merror[39m]: Failed to provision warm workspace warm-f2b8e5cf: Failed to create namespace for workspace: warm-f2b8e5cf
+2025-12-30T16:31:45.300Z [[31merror[39m]: Failed to delete workspace: warm-9effca1a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9effca1a failed, reason: 
+2025-12-30T16:31:45.300Z [[31merror[39m]: Failed to delete workspace: warm-389a50c8: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-389a50c8 failed, reason: 
+2025-12-30T16:31:45.300Z [[31merror[39m]: Failed to delete workspace: warm-f2b8e5cf: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f2b8e5cf failed, reason: 
+2025-12-30T16:31:55.297Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:31:55.297Z [[32minfo[39m]: Provisioning warm workspace: warm-f0e7c1f3
+2025-12-30T16:31:55.298Z [[32minfo[39m]: Provisioning warm workspace: warm-53107f6e
+2025-12-30T16:31:55.298Z [[32minfo[39m]: Provisioning warm workspace: warm-69a8694f
+2025-12-30T16:31:55.301Z [[31merror[39m]: Failed to create namespace for workspace: warm-f0e7c1f3: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:55.301Z [[31merror[39m]: Failed to provision warm workspace warm-f0e7c1f3: Failed to create namespace for workspace: warm-f0e7c1f3
+2025-12-30T16:31:55.301Z [[31merror[39m]: Failed to create namespace for workspace: warm-53107f6e: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:55.302Z [[31merror[39m]: Failed to provision warm workspace warm-53107f6e: Failed to create namespace for workspace: warm-53107f6e
+2025-12-30T16:31:55.303Z [[31merror[39m]: Failed to create namespace for workspace: warm-69a8694f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:31:55.303Z [[31merror[39m]: Failed to provision warm workspace warm-69a8694f: Failed to create namespace for workspace: warm-69a8694f
+2025-12-30T16:31:55.304Z [[31merror[39m]: Failed to delete workspace: warm-f0e7c1f3: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f0e7c1f3 failed, reason: 
+2025-12-30T16:31:55.305Z [[31merror[39m]: Failed to delete workspace: warm-53107f6e: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-53107f6e failed, reason: 
+2025-12-30T16:31:55.305Z [[31merror[39m]: Failed to delete workspace: warm-69a8694f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-69a8694f failed, reason: 
+2025-12-30T16:32:05.296Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:32:05.296Z [[32minfo[39m]: Provisioning warm workspace: warm-9c383d2f
+2025-12-30T16:32:05.297Z [[32minfo[39m]: Provisioning warm workspace: warm-3d854891
+2025-12-30T16:32:05.297Z [[32minfo[39m]: Provisioning warm workspace: warm-35798386
+2025-12-30T16:32:05.300Z [[31merror[39m]: Failed to create namespace for workspace: warm-9c383d2f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:05.300Z [[31merror[39m]: Failed to provision warm workspace warm-9c383d2f: Failed to create namespace for workspace: warm-9c383d2f
+2025-12-30T16:32:05.300Z [[31merror[39m]: Failed to create namespace for workspace: warm-3d854891: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:05.300Z [[31merror[39m]: Failed to provision warm workspace warm-3d854891: Failed to create namespace for workspace: warm-3d854891
+2025-12-30T16:32:05.301Z [[31merror[39m]: Failed to create namespace for workspace: warm-35798386: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:05.301Z [[31merror[39m]: Failed to provision warm workspace warm-35798386: Failed to create namespace for workspace: warm-35798386
+2025-12-30T16:32:05.302Z [[31merror[39m]: Failed to delete workspace: warm-9c383d2f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9c383d2f failed, reason: 
+2025-12-30T16:32:05.302Z [[31merror[39m]: Failed to delete workspace: warm-3d854891: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3d854891 failed, reason: 
+2025-12-30T16:32:05.302Z [[31merror[39m]: Failed to delete workspace: warm-35798386: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-35798386 failed, reason: 
+2025-12-30T16:32:15.298Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:32:15.298Z [[32minfo[39m]: Provisioning warm workspace: warm-6e4a074a
+2025-12-30T16:32:15.298Z [[32minfo[39m]: Provisioning warm workspace: warm-3b6bbb21
+2025-12-30T16:32:15.299Z [[32minfo[39m]: Provisioning warm workspace: warm-b874432b
+2025-12-30T16:32:15.300Z [[31merror[39m]: Failed to create namespace for workspace: warm-6e4a074a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:15.300Z [[31merror[39m]: Failed to provision warm workspace warm-6e4a074a: Failed to create namespace for workspace: warm-6e4a074a
+2025-12-30T16:32:15.300Z [[31merror[39m]: Failed to create namespace for workspace: warm-3b6bbb21: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:15.300Z [[31merror[39m]: Failed to provision warm workspace warm-3b6bbb21: Failed to create namespace for workspace: warm-3b6bbb21
+2025-12-30T16:32:15.300Z [[31merror[39m]: Failed to create namespace for workspace: warm-b874432b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:15.300Z [[31merror[39m]: Failed to provision warm workspace warm-b874432b: Failed to create namespace for workspace: warm-b874432b
+2025-12-30T16:32:15.301Z [[31merror[39m]: Failed to delete workspace: warm-6e4a074a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-6e4a074a failed, reason: 
+2025-12-30T16:32:15.301Z [[31merror[39m]: Failed to delete workspace: warm-b874432b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b874432b failed, reason: 
+2025-12-30T16:32:15.301Z [[31merror[39m]: Failed to delete workspace: warm-3b6bbb21: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3b6bbb21 failed, reason: 
+2025-12-30T16:32:25.301Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:32:25.302Z [[32minfo[39m]: Provisioning warm workspace: warm-a60a4c15
+2025-12-30T16:32:25.304Z [[32minfo[39m]: Provisioning warm workspace: warm-b852a51b
+2025-12-30T16:32:25.304Z [[32minfo[39m]: Provisioning warm workspace: warm-3e8d33e6
+2025-12-30T16:32:25.307Z [[31merror[39m]: Failed to create namespace for workspace: warm-a60a4c15: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:25.307Z [[31merror[39m]: Failed to provision warm workspace warm-a60a4c15: Failed to create namespace for workspace: warm-a60a4c15
+2025-12-30T16:32:25.308Z [[31merror[39m]: Failed to create namespace for workspace: warm-b852a51b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:25.308Z [[31merror[39m]: Failed to provision warm workspace warm-b852a51b: Failed to create namespace for workspace: warm-b852a51b
+2025-12-30T16:32:25.308Z [[31merror[39m]: Failed to create namespace for workspace: warm-3e8d33e6: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:25.308Z [[31merror[39m]: Failed to provision warm workspace warm-3e8d33e6: Failed to create namespace for workspace: warm-3e8d33e6
+2025-12-30T16:32:25.309Z [[31merror[39m]: Failed to delete workspace: warm-a60a4c15: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-a60a4c15 failed, reason: 
+2025-12-30T16:32:25.310Z [[31merror[39m]: Failed to delete workspace: warm-b852a51b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b852a51b failed, reason: 
+2025-12-30T16:32:25.310Z [[31merror[39m]: Failed to delete workspace: warm-3e8d33e6: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3e8d33e6 failed, reason: 
+2025-12-30T16:32:35.300Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:32:35.300Z [[32minfo[39m]: Provisioning warm workspace: warm-11e94cfe
+2025-12-30T16:32:35.300Z [[32minfo[39m]: Provisioning warm workspace: warm-3c9b971f
+2025-12-30T16:32:35.300Z [[32minfo[39m]: Provisioning warm workspace: warm-c6e6b28d
+2025-12-30T16:32:35.302Z [[31merror[39m]: Failed to create namespace for workspace: warm-11e94cfe: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:35.303Z [[31merror[39m]: Failed to provision warm workspace warm-11e94cfe: Failed to create namespace for workspace: warm-11e94cfe
+2025-12-30T16:32:35.304Z [[31merror[39m]: Failed to create namespace for workspace: warm-3c9b971f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:35.304Z [[31merror[39m]: Failed to provision warm workspace warm-3c9b971f: Failed to create namespace for workspace: warm-3c9b971f
+2025-12-30T16:32:35.305Z [[31merror[39m]: Failed to create namespace for workspace: warm-c6e6b28d: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:35.305Z [[31merror[39m]: Failed to provision warm workspace warm-c6e6b28d: Failed to create namespace for workspace: warm-c6e6b28d
+2025-12-30T16:32:35.306Z [[31merror[39m]: Failed to delete workspace: warm-11e94cfe: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-11e94cfe failed, reason: 
+2025-12-30T16:32:35.307Z [[31merror[39m]: Failed to delete workspace: warm-3c9b971f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3c9b971f failed, reason: 
+2025-12-30T16:32:35.307Z [[31merror[39m]: Failed to delete workspace: warm-c6e6b28d: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-c6e6b28d failed, reason: 
+2025-12-30T16:32:45.303Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:32:45.304Z [[32minfo[39m]: Provisioning warm workspace: warm-9f1ad04b
+2025-12-30T16:32:45.304Z [[32minfo[39m]: Provisioning warm workspace: warm-a225368a
+2025-12-30T16:32:45.305Z [[32minfo[39m]: Provisioning warm workspace: warm-b3faf5a0
+2025-12-30T16:32:45.307Z [[31merror[39m]: Failed to create namespace for workspace: warm-a225368a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:45.307Z [[31merror[39m]: Failed to provision warm workspace warm-a225368a: Failed to create namespace for workspace: warm-a225368a
+2025-12-30T16:32:45.307Z [[31merror[39m]: Failed to create namespace for workspace: warm-9f1ad04b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:45.307Z [[31merror[39m]: Failed to provision warm workspace warm-9f1ad04b: Failed to create namespace for workspace: warm-9f1ad04b
+2025-12-30T16:32:45.307Z [[31merror[39m]: Failed to create namespace for workspace: warm-b3faf5a0: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:45.307Z [[31merror[39m]: Failed to provision warm workspace warm-b3faf5a0: Failed to create namespace for workspace: warm-b3faf5a0
+2025-12-30T16:32:45.307Z [[31merror[39m]: Failed to delete workspace: warm-a225368a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-a225368a failed, reason: 
+2025-12-30T16:32:45.308Z [[31merror[39m]: Failed to delete workspace: warm-9f1ad04b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9f1ad04b failed, reason: 
+2025-12-30T16:32:45.308Z [[31merror[39m]: Failed to delete workspace: warm-b3faf5a0: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b3faf5a0 failed, reason: 
+2025-12-30T16:32:55.303Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:32:55.303Z [[32minfo[39m]: Provisioning warm workspace: warm-e38a47a4
+2025-12-30T16:32:55.304Z [[32minfo[39m]: Provisioning warm workspace: warm-84c7ac24
+2025-12-30T16:32:55.304Z [[32minfo[39m]: Provisioning warm workspace: warm-a4931116
+2025-12-30T16:32:55.306Z [[31merror[39m]: Failed to create namespace for workspace: warm-e38a47a4: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:55.306Z [[31merror[39m]: Failed to provision warm workspace warm-e38a47a4: Failed to create namespace for workspace: warm-e38a47a4
+2025-12-30T16:32:55.306Z [[31merror[39m]: Failed to create namespace for workspace: warm-84c7ac24: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:55.306Z [[31merror[39m]: Failed to provision warm workspace warm-84c7ac24: Failed to create namespace for workspace: warm-84c7ac24
+2025-12-30T16:32:55.306Z [[31merror[39m]: Failed to create namespace for workspace: warm-a4931116: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:32:55.306Z [[31merror[39m]: Failed to provision warm workspace warm-a4931116: Failed to create namespace for workspace: warm-a4931116
+2025-12-30T16:32:55.307Z [[31merror[39m]: Failed to delete workspace: warm-e38a47a4: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e38a47a4 failed, reason: 
+2025-12-30T16:32:55.307Z [[31merror[39m]: Failed to delete workspace: warm-84c7ac24: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-84c7ac24 failed, reason: 
+2025-12-30T16:32:55.307Z [[31merror[39m]: Failed to delete workspace: warm-a4931116: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-a4931116 failed, reason: 
+2025-12-30T16:33:05.305Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:33:05.305Z [[32minfo[39m]: Provisioning warm workspace: warm-f4afefc8
+2025-12-30T16:33:05.306Z [[32minfo[39m]: Provisioning warm workspace: warm-797374fb
+2025-12-30T16:33:05.306Z [[32minfo[39m]: Provisioning warm workspace: warm-a98d692f
+2025-12-30T16:33:05.308Z [[31merror[39m]: Failed to create namespace for workspace: warm-797374fb: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:05.309Z [[31merror[39m]: Failed to provision warm workspace warm-797374fb: Failed to create namespace for workspace: warm-797374fb
+2025-12-30T16:33:05.309Z [[31merror[39m]: Failed to create namespace for workspace: warm-f4afefc8: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:05.309Z [[31merror[39m]: Failed to provision warm workspace warm-f4afefc8: Failed to create namespace for workspace: warm-f4afefc8
+2025-12-30T16:33:05.309Z [[31merror[39m]: Failed to create namespace for workspace: warm-a98d692f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:05.309Z [[31merror[39m]: Failed to provision warm workspace warm-a98d692f: Failed to create namespace for workspace: warm-a98d692f
+2025-12-30T16:33:05.310Z [[31merror[39m]: Failed to delete workspace: warm-797374fb: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-797374fb failed, reason: 
+2025-12-30T16:33:05.310Z [[31merror[39m]: Failed to delete workspace: warm-f4afefc8: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f4afefc8 failed, reason: 
+2025-12-30T16:33:05.310Z [[31merror[39m]: Failed to delete workspace: warm-a98d692f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-a98d692f failed, reason: 
+2025-12-30T16:33:15.304Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:33:15.304Z [[32minfo[39m]: Provisioning warm workspace: warm-05c52685
+2025-12-30T16:33:15.304Z [[32minfo[39m]: Provisioning warm workspace: warm-92e22407
+2025-12-30T16:33:15.304Z [[32minfo[39m]: Provisioning warm workspace: warm-c924b3b0
+2025-12-30T16:33:15.305Z [[31merror[39m]: Failed to create namespace for workspace: warm-05c52685: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:15.306Z [[31merror[39m]: Failed to provision warm workspace warm-05c52685: Failed to create namespace for workspace: warm-05c52685
+2025-12-30T16:33:15.306Z [[31merror[39m]: Failed to create namespace for workspace: warm-92e22407: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:15.306Z [[31merror[39m]: Failed to provision warm workspace warm-92e22407: Failed to create namespace for workspace: warm-92e22407
+2025-12-30T16:33:15.306Z [[31merror[39m]: Failed to create namespace for workspace: warm-c924b3b0: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:15.306Z [[31merror[39m]: Failed to provision warm workspace warm-c924b3b0: Failed to create namespace for workspace: warm-c924b3b0
+2025-12-30T16:33:15.306Z [[31merror[39m]: Failed to delete workspace: warm-05c52685: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-05c52685 failed, reason: 
+2025-12-30T16:33:15.307Z [[31merror[39m]: Failed to delete workspace: warm-92e22407: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-92e22407 failed, reason: 
+2025-12-30T16:33:15.307Z [[31merror[39m]: Failed to delete workspace: warm-c924b3b0: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-c924b3b0 failed, reason: 
+2025-12-30T16:33:25.307Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:33:25.307Z [[32minfo[39m]: Provisioning warm workspace: warm-9dcf1ab3
+2025-12-30T16:33:25.308Z [[32minfo[39m]: Provisioning warm workspace: warm-1755b081
+2025-12-30T16:33:25.308Z [[32minfo[39m]: Provisioning warm workspace: warm-b3d40547
+2025-12-30T16:33:25.310Z [[31merror[39m]: Failed to create namespace for workspace: warm-9dcf1ab3: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:25.310Z [[31merror[39m]: Failed to provision warm workspace warm-9dcf1ab3: Failed to create namespace for workspace: warm-9dcf1ab3
+2025-12-30T16:33:25.310Z [[31merror[39m]: Failed to create namespace for workspace: warm-1755b081: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:25.310Z [[31merror[39m]: Failed to provision warm workspace warm-1755b081: Failed to create namespace for workspace: warm-1755b081
+2025-12-30T16:33:25.310Z [[31merror[39m]: Failed to create namespace for workspace: warm-b3d40547: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:25.310Z [[31merror[39m]: Failed to provision warm workspace warm-b3d40547: Failed to create namespace for workspace: warm-b3d40547
+2025-12-30T16:33:25.311Z [[31merror[39m]: Failed to delete workspace: warm-9dcf1ab3: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9dcf1ab3 failed, reason: 
+2025-12-30T16:33:25.311Z [[31merror[39m]: Failed to delete workspace: warm-1755b081: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-1755b081 failed, reason: 
+2025-12-30T16:33:25.311Z [[31merror[39m]: Failed to delete workspace: warm-b3d40547: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b3d40547 failed, reason: 
+2025-12-30T16:33:35.308Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:33:35.309Z [[32minfo[39m]: Provisioning warm workspace: warm-90ba4e3c
+2025-12-30T16:33:35.309Z [[32minfo[39m]: Provisioning warm workspace: warm-9839e248
+2025-12-30T16:33:35.309Z [[32minfo[39m]: Provisioning warm workspace: warm-b2bd099c
+2025-12-30T16:33:35.311Z [[31merror[39m]: Failed to create namespace for workspace: warm-90ba4e3c: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:35.311Z [[31merror[39m]: Failed to provision warm workspace warm-90ba4e3c: Failed to create namespace for workspace: warm-90ba4e3c
+2025-12-30T16:33:35.311Z [[31merror[39m]: Failed to create namespace for workspace: warm-9839e248: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:35.311Z [[31merror[39m]: Failed to provision warm workspace warm-9839e248: Failed to create namespace for workspace: warm-9839e248
+2025-12-30T16:33:35.311Z [[31merror[39m]: Failed to create namespace for workspace: warm-b2bd099c: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:35.311Z [[31merror[39m]: Failed to provision warm workspace warm-b2bd099c: Failed to create namespace for workspace: warm-b2bd099c
+2025-12-30T16:33:35.312Z [[31merror[39m]: Failed to delete workspace: warm-90ba4e3c: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-90ba4e3c failed, reason: 
+2025-12-30T16:33:35.312Z [[31merror[39m]: Failed to delete workspace: warm-9839e248: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9839e248 failed, reason: 
+2025-12-30T16:33:35.312Z [[31merror[39m]: Failed to delete workspace: warm-b2bd099c: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b2bd099c failed, reason: 
+2025-12-30T16:33:45.309Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:33:45.310Z [[32minfo[39m]: Provisioning warm workspace: warm-be64a01f
+2025-12-30T16:33:45.311Z [[32minfo[39m]: Provisioning warm workspace: warm-148cc41a
+2025-12-30T16:33:45.311Z [[32minfo[39m]: Provisioning warm workspace: warm-d5b37561
+2025-12-30T16:33:45.314Z [[31merror[39m]: Failed to create namespace for workspace: warm-be64a01f: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:45.315Z [[31merror[39m]: Failed to provision warm workspace warm-be64a01f: Failed to create namespace for workspace: warm-be64a01f
+2025-12-30T16:33:45.316Z [[31merror[39m]: Failed to create namespace for workspace: warm-148cc41a: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:45.316Z [[31merror[39m]: Failed to provision warm workspace warm-148cc41a: Failed to create namespace for workspace: warm-148cc41a
+2025-12-30T16:33:45.317Z [[31merror[39m]: Failed to create namespace for workspace: warm-d5b37561: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:45.317Z [[31merror[39m]: Failed to provision warm workspace warm-d5b37561: Failed to create namespace for workspace: warm-d5b37561
+2025-12-30T16:33:45.318Z [[31merror[39m]: Failed to delete workspace: warm-be64a01f: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-be64a01f failed, reason: 
+2025-12-30T16:33:45.318Z [[31merror[39m]: Failed to delete workspace: warm-148cc41a: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-148cc41a failed, reason: 
+2025-12-30T16:33:45.318Z [[31merror[39m]: Failed to delete workspace: warm-d5b37561: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-d5b37561 failed, reason: 
+2025-12-30T16:33:55.310Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:33:55.310Z [[32minfo[39m]: Provisioning warm workspace: warm-6430de76
+2025-12-30T16:33:55.311Z [[32minfo[39m]: Provisioning warm workspace: warm-76f28009
+2025-12-30T16:33:55.311Z [[32minfo[39m]: Provisioning warm workspace: warm-46ada4ff
+2025-12-30T16:33:55.314Z [[31merror[39m]: Failed to create namespace for workspace: warm-6430de76: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:55.315Z [[31merror[39m]: Failed to provision warm workspace warm-6430de76: Failed to create namespace for workspace: warm-6430de76
+2025-12-30T16:33:55.317Z [[31merror[39m]: Failed to create namespace for workspace: warm-76f28009: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:55.318Z [[31merror[39m]: Failed to provision warm workspace warm-76f28009: Failed to create namespace for workspace: warm-76f28009
+2025-12-30T16:33:55.319Z [[31merror[39m]: Failed to create namespace for workspace: warm-46ada4ff: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:33:55.319Z [[31merror[39m]: Failed to provision warm workspace warm-46ada4ff: Failed to create namespace for workspace: warm-46ada4ff
+2025-12-30T16:33:55.320Z [[31merror[39m]: Failed to delete workspace: warm-6430de76: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-6430de76 failed, reason: 
+2025-12-30T16:33:55.321Z [[31merror[39m]: Failed to delete workspace: warm-76f28009: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-76f28009 failed, reason: 
+2025-12-30T16:33:55.321Z [[31merror[39m]: Failed to delete workspace: warm-46ada4ff: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-46ada4ff failed, reason: 
+2025-12-30T16:34:05.309Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:34:05.309Z [[32minfo[39m]: Provisioning warm workspace: warm-4208e86b
+2025-12-30T16:34:05.310Z [[32minfo[39m]: Provisioning warm workspace: warm-7c516f0c
+2025-12-30T16:34:05.310Z [[32minfo[39m]: Provisioning warm workspace: warm-c6c3ed3b
+2025-12-30T16:34:05.314Z [[31merror[39m]: Failed to create namespace for workspace: warm-4208e86b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:05.314Z [[31merror[39m]: Failed to provision warm workspace warm-4208e86b: Failed to create namespace for workspace: warm-4208e86b
+2025-12-30T16:34:05.315Z [[31merror[39m]: Failed to create namespace for workspace: warm-7c516f0c: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:05.315Z [[31merror[39m]: Failed to provision warm workspace warm-7c516f0c: Failed to create namespace for workspace: warm-7c516f0c
+2025-12-30T16:34:05.316Z [[31merror[39m]: Failed to create namespace for workspace: warm-c6c3ed3b: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:05.316Z [[31merror[39m]: Failed to provision warm workspace warm-c6c3ed3b: Failed to create namespace for workspace: warm-c6c3ed3b
+2025-12-30T16:34:05.317Z [[31merror[39m]: Failed to delete workspace: warm-4208e86b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-4208e86b failed, reason: 
+2025-12-30T16:34:05.317Z [[31merror[39m]: Failed to delete workspace: warm-7c516f0c: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7c516f0c failed, reason: 
+2025-12-30T16:34:05.317Z [[31merror[39m]: Failed to delete workspace: warm-c6c3ed3b: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-c6c3ed3b failed, reason: 
+2025-12-30T16:34:15.310Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:34:15.310Z [[32minfo[39m]: Provisioning warm workspace: warm-559252d0
+2025-12-30T16:34:15.310Z [[32minfo[39m]: Provisioning warm workspace: warm-26f8bda2
+2025-12-30T16:34:15.310Z [[32minfo[39m]: Provisioning warm workspace: warm-55b40290
+2025-12-30T16:34:15.311Z [[31merror[39m]: Failed to create namespace for workspace: warm-559252d0: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:15.311Z [[31merror[39m]: Failed to provision warm workspace warm-559252d0: Failed to create namespace for workspace: warm-559252d0
+2025-12-30T16:34:15.311Z [[31merror[39m]: Failed to create namespace for workspace: warm-26f8bda2: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:15.312Z [[31merror[39m]: Failed to provision warm workspace warm-26f8bda2: Failed to create namespace for workspace: warm-26f8bda2
+2025-12-30T16:34:15.312Z [[31merror[39m]: Failed to create namespace for workspace: warm-55b40290: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:15.312Z [[31merror[39m]: Failed to provision warm workspace warm-55b40290: Failed to create namespace for workspace: warm-55b40290
+2025-12-30T16:34:15.312Z [[31merror[39m]: Failed to delete workspace: warm-559252d0: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-559252d0 failed, reason: 
+2025-12-30T16:34:15.312Z [[31merror[39m]: Failed to delete workspace: warm-26f8bda2: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-26f8bda2 failed, reason: 
+2025-12-30T16:34:15.312Z [[31merror[39m]: Failed to delete workspace: warm-55b40290: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-55b40290 failed, reason: 
+2025-12-30T16:34:25.314Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:34:25.314Z [[32minfo[39m]: Provisioning warm workspace: warm-2e51afc2
+2025-12-30T16:34:25.315Z [[32minfo[39m]: Provisioning warm workspace: warm-b9214df2
+2025-12-30T16:34:25.315Z [[32minfo[39m]: Provisioning warm workspace: warm-1dcce900
+2025-12-30T16:34:25.317Z [[31merror[39m]: Failed to create namespace for workspace: warm-2e51afc2: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:25.317Z [[31merror[39m]: Failed to provision warm workspace warm-2e51afc2: Failed to create namespace for workspace: warm-2e51afc2
+2025-12-30T16:34:25.317Z [[31merror[39m]: Failed to create namespace for workspace: warm-b9214df2: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:25.317Z [[31merror[39m]: Failed to provision warm workspace warm-b9214df2: Failed to create namespace for workspace: warm-b9214df2
+2025-12-30T16:34:25.318Z [[31merror[39m]: Failed to create namespace for workspace: warm-1dcce900: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:25.318Z [[31merror[39m]: Failed to provision warm workspace warm-1dcce900: Failed to create namespace for workspace: warm-1dcce900
+2025-12-30T16:34:25.318Z [[31merror[39m]: Failed to delete workspace: warm-2e51afc2: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-2e51afc2 failed, reason: 
+2025-12-30T16:34:25.318Z [[31merror[39m]: Failed to delete workspace: warm-b9214df2: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b9214df2 failed, reason: 
+2025-12-30T16:34:25.319Z [[31merror[39m]: Failed to delete workspace: warm-1dcce900: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-1dcce900 failed, reason: 
+2025-12-30T16:34:35.312Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:34:35.312Z [[32minfo[39m]: Provisioning warm workspace: warm-a22b9ae3
+2025-12-30T16:34:35.312Z [[32minfo[39m]: Provisioning warm workspace: warm-e1ee5da1
+2025-12-30T16:34:35.312Z [[32minfo[39m]: Provisioning warm workspace: warm-dfe91482
+2025-12-30T16:34:35.315Z [[31merror[39m]: Failed to create namespace for workspace: warm-a22b9ae3: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:35.315Z [[31merror[39m]: Failed to provision warm workspace warm-a22b9ae3: Failed to create namespace for workspace: warm-a22b9ae3
+2025-12-30T16:34:35.316Z [[31merror[39m]: Failed to create namespace for workspace: warm-e1ee5da1: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:35.316Z [[31merror[39m]: Failed to provision warm workspace warm-e1ee5da1: Failed to create namespace for workspace: warm-e1ee5da1
+2025-12-30T16:34:35.317Z [[31merror[39m]: Failed to create namespace for workspace: warm-dfe91482: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:34:35.317Z [[31merror[39m]: Failed to provision warm workspace warm-dfe91482: Failed to create namespace for workspace: warm-dfe91482
+2025-12-30T16:34:35.319Z [[31merror[39m]: Failed to delete workspace: warm-a22b9ae3: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-a22b9ae3 failed, reason: 
+2025-12-30T16:34:35.319Z [[31merror[39m]: Failed to delete workspace: warm-e1ee5da1: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-e1ee5da1 failed, reason: 
+2025-12-30T16:34:35.319Z [[31merror[39m]: Failed to delete workspace: warm-dfe91482: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-dfe91482 failed, reason: 

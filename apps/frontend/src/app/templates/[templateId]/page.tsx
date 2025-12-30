@@ -113,11 +113,10 @@ const TemplatePage = () => {
                     <React.Fragment key={step.number}>
                       <div className="flex items-center gap-2">
                         <div
-                          className={`flex items-center justify-center w-7 h-7 rounded-lg ${
-                            currentStep >= step.number
+                          className={`flex items-center justify-center w-7 h-7 rounded-lg ${currentStep >= step.number
                               ? "bg-primary-purple-400 text-white"
                               : "bg-surface-hover text-gray-400"
-                          } text-sm transition-colors duration-300`}
+                            } text-sm transition-colors duration-300`}
                         >
                           {currentStep > step.number ? (
                             <CheckCircle2 className="w-3.5 h-3.5" />
@@ -142,14 +141,14 @@ const TemplatePage = () => {
               <div className="bg-surface-card border border-white/[0.08] rounded-xl divide-y divide-white/[0.08]">
                 <div className="p-6">
                   <h3 className="text-lg font-semibold text-white">
-                    {STEPS[currentStep - 1].title}
+                    {STEPS[currentStep - 1]?.title}
                   </h3>
                   <p className="text-sm text-gray-400">
                     {currentStep === 1
                       ? "Configure your project settings"
                       : currentStep === 2
-                      ? "Choose your primary programming language"
-                      : "Select additional libraries and tools"}
+                        ? "Choose your primary programming language"
+                        : "Select additional libraries and tools"}
                   </p>
                 </div>
 
@@ -241,24 +240,22 @@ const TemplatePage = () => {
                                 key={lang}
                                 onClick={() => setSelectedLanguage(lang)}
                                 className={`group p-6 rounded-xl border transition-all duration-300 
-                                  ${
-                                    selectedLanguage === lang
-                                      ? "border-purple-500/50 bg-purple-500/5 hover:bg-purple-500/10"
-                                      : "border-gray-800 hover:border-gray-700 hover:bg-gray-800/50"
+                                  ${selectedLanguage === lang
+                                    ? "border-purple-500/50 bg-purple-500/5 hover:bg-purple-500/10"
+                                    : "border-gray-800 hover:border-gray-700 hover:bg-gray-800/50"
                                   }  hover:scale-[1.02] relative overflow-hidden`}
                               >
                                 <div className="flex items-center gap-4">
                                   <Code2
-                                    className={`w-6 h-6 ${
-                                      languageConfigs[lang]?.color ||
+                                    className={`w-6 h-6 ${languageConfigs[lang]?.color ||
                                       "text-gray-400"
-                                    }`}
+                                      }`}
                                   />
                                   <div className="text-left">
                                     <h3 className="text-lg font-semibold text-white">
                                       {languageConfigs[lang]?.name ||
                                         lang.charAt(0).toUpperCase() +
-                                          lang.slice(1)}
+                                        lang.slice(1)}
                                     </h3>
                                     <p className="text-gray-400 text-sm">
                                       {languageConfigs[lang]?.description ||
@@ -302,40 +299,36 @@ const TemplatePage = () => {
                                 key={library.id}
                                 onClick={() => handleLibraryToggle(library.id)}
                                 className={`group p-6 rounded-xl border transition-all duration-300 
-                                ${
-                                  selectedLibraries.includes(library.id)
+                                ${selectedLibraries.includes(library.id)
                                     ? "border-purple-500/50 bg-purple-500/5 hover:bg-purple-500/10"
                                     : "border-gray-800 hover:border-gray-700 hover:bg-gray-800/50"
-                                }
+                                  }
                                 hover:scale-[1.02] relative overflow-hidden`}
                               >
                                 <div
                                   className={`absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent 
                                   transition-opacity duration-300
-                                  ${
-                                    selectedLibraries.includes(library.id)
+                                  ${selectedLibraries.includes(library.id)
                                       ? "opacity-100"
                                       : "opacity-0"
-                                  }`}
+                                    }`}
                                 />
 
                                 <div className="relative flex items-start gap-4">
                                   <div
                                     className={`w-5 h-5 rounded-md border-2 transition-all duration-300 
                                     flex items-center justify-center flex-shrink-0 mt-1
-                                    ${
-                                      selectedLibraries.includes(library.id)
+                                    ${selectedLibraries.includes(library.id)
                                         ? "border-purple-500 bg-purple-500"
                                         : "border-gray-600 group-hover:border-gray-500"
-                                    }`}
+                                      }`}
                                   >
                                     <CheckCircle2
                                       className={`w-4 h-4 transition-all duration-300
-                                      ${
-                                        selectedLibraries.includes(library.id)
+                                      ${selectedLibraries.includes(library.id)
                                           ? "text-white scale-100"
                                           : "scale-0"
-                                      }`}
+                                        }`}
                                     />
                                   </div>
 
