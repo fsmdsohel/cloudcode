@@ -1,3 +1,15 @@
 packages:
   - apps/*
   - packages/*
+
+onlyBuiltDependencies:
+  - '@heroui/shared-utils'
+  - '@prisma/client'
+  - '@prisma/engines'
+  - '@scarf/scarf'
+  - bcrypt
+  - core-js-pure
+  - node-pty
+  - prisma
+  - sharp
+  - unrs-resolver
