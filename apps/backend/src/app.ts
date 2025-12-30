@@ -6,6 +6,7 @@ import "./config/passport";
 import userRoutes from "@/routes/userRoutes";
 import authRoutes from "@/routes/authRoutes";
 import workspaceRoutes from "@/routes/workspaceRoutes";
+import agentRoutes from "@/routes/agentRoutes";
 import swaggerUi from "swagger-ui-express";
 import swaggerDocs from "@/config/swaggerOptions.js";
 import logger from "@/utils/logger";
@@ -63,6 +64,7 @@ app.use(docsPath, swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 app.use(`${basePath}/auth`, authRoutes);
 app.use(`${basePath}/users`, userRoutes);
 app.use(`${basePath}/workspace`, workspaceRoutes);
+app.use(`${basePath}/agent`, agentRoutes);
 
 // Health check endpoint
 app.get("/health", (req: Request, res: Response) => {

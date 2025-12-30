@@ -2,29 +2,51 @@ import { Request, Response } from "express";
 import { WorkspaceConfig } from "../types/workspace";
 import templateService from "../services/templateService";
 import kubernetesService from "../services/kubernetesService";
+import warmPoolService from "../services/warmPoolService";
 import logger from "@/utils/logger";
 
 // Create a new workspace
 export const createWorkspace = async (req: Request, res: Response) => {
   try {
     const workspaceConfig: WorkspaceConfig = req.body;
-    const workspaceId = workspaceConfig.name
-      .toLowerCase()
-      .replace(/[^a-z0-9-]/g, "-");
+    let workspaceId: string;
+    let isWarm = false;
+
+    // Try to claim a warm workspace if generic request
+    if (workspaceConfig.template === 'node' && (!workspaceConfig.language || workspaceConfig.language === 'javascript')) {
+      const warmId = await warmPoolService.claimWorkspace();
+      if (warmId) {
+        isWarm = true;
+        workspaceId = warmId;
+        logger.info(`Using warm workspace ${workspaceId} for request ${workspaceConfig.name}`);
+      } else {
+        workspaceId = workspaceConfig.name
+          .toLowerCase()
+          .replace(/[^a-z0-9-]/g, "-");
+      }
+    } else {
+      workspaceId = workspaceConfig.name
+        .toLowerCase()
+        .replace(/[^a-z0-9-]/g, "-");
+    }
+
     const namespace = `workspace-${workspaceId}`;
 
-    logger.info(`Creating workspace: ${workspaceId}`);
+    logger.info(`Creating workspace: ${workspaceId} (Warm: ${isWarm})`);
 
     const workspacePath =
       await templateService.initializeTemplate(workspaceConfig);
-    await kubernetesService.createNamespace(workspaceId);
-    await kubernetesService.createPersistentVolumeClaim(namespace, workspaceId);
-    await kubernetesService.createDeployment(
-      namespace,
-      workspaceId,
-      workspaceConfig
-    );
-    await kubernetesService.createService(namespace, workspaceId);
+
+    if (!isWarm) {
+      await kubernetesService.createNamespace(workspaceId);
+      await kubernetesService.createPersistentVolumeClaim(namespace, workspaceId);
+      await kubernetesService.createDeployment(
+        namespace,
+        workspaceId,
+        workspaceConfig
+      );
+      await kubernetesService.createService(namespace, workspaceId);
+    }
 
     const status = await kubernetesService.getWorkspaceStatus(workspaceId);
 
@@ -144,6 +166,40 @@ export const deleteWorkspace = async (req: Request, res: Response) => {
     res.status(500).json({
       status: "error",
       message: "Failed to delete workspace",
+      error: error instanceof Error ? error.message : "Unknown error",
+      requestId: req.id,
+    });
+  }
+};
+
+// Execute command in workspace
+export const executeCommand = async (req: Request, res: Response) => {
+  try {
+    const { workspaceId } = req.params;
+    const { command } = req.body;
+
+    if (!command) {
+      res.status(400).json({
+        status: "error",
+        message: "Command is required",
+        requestId: req.id,
+      });
+      return;
+    }
+
+    const cmdArray = Array.isArray(command) ? command : command.split(" ");
+    const result = await kubernetesService.execCommand(workspaceId, cmdArray);
+
+    res.status(200).json({
+      status: "success",
+      data: result,
+      requestId: req.id,
+    });
+  } catch (error) {
+    logger.error(`Error executing command: ${error}`);
+    res.status(500).json({
+      status: "error",
+      message: "Failed to execute command",
       error: error instanceof Error ? error.message : "Unknown error",
       requestId: req.id,
     });

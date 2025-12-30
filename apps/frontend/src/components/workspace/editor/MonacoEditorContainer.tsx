@@ -1,6 +1,8 @@
-import React, { useState, useCallback, useEffect } from "react";
+import React, { useState, useCallback, useEffect, useRef } from "react";
 import { FileCode, X } from "lucide-react";
 import EditorPanel from "./EditorPanel";
+import { io, Socket } from "socket.io-client";
+import { useParams } from "next/navigation";
 
 interface EditorTab {
   id: string;
@@ -18,8 +20,45 @@ interface MonacoEditorContainerProps {
 const MonacoEditorContainer: React.FC<MonacoEditorContainerProps> = ({
   onInit,
 }) => {
+  const params = useParams() as { workspaceId: string };
+  const workspaceId = params?.workspaceId;
   const [tabs, setTabs] = useState<EditorTab[]>([]);
   const [activeTab, setActiveTab] = useState<string | null>(null);
+  const socketRef = useRef<Socket | null>(null);
+
+  useEffect(() => {
+    if (!workspaceId) return;
+
+    const socket = io("http://localhost:8002", {
+      transports: ["websocket"],
+    });
+    socketRef.current = socket;
+
+    socket.on("connect", () => {
+      socket.emit("workspace:join", { workspaceId });
+    });
+
+    socket.on("agent:file:update", (data: { path: string, content: string, action: string }) => {
+      setTabs(prev => prev.map(tab => {
+        // Check if tab path matches updated file (ignoring potential leading slash differences or using normalization)
+        // Ideally we match exact path. The Agent sends relative path.
+        // Start simple: match if tab.path ends with data.path or vice versa?
+        // The logic in openFile isn't normalizing much.
+        // Let's assume paths are consistent for now.
+        if (tab.path === data.path || tab.path.endsWith(data.path)) {
+          return { ...tab, content: data.content };
+        }
+        return tab;
+      }));
+    });
+
+    return () => {
+      socket.disconnect();
+    };
+  }, [workspaceId]);
+
+  // ... rest of component ...
+
 
   const openFile = useCallback(
     (path: string, content: string, language: string) => {
@@ -75,10 +114,9 @@ const MonacoEditorContainer: React.FC<MonacoEditorContainerProps> = ({
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
                 className={`group flex items-center h-9 px-3 border-r border-gray-800 min-w-[150px] max-w-[200px]
-                  ${
-                    activeTab === tab.id
-                      ? "bg-[#0F1117] text-white"
-                      : "text-gray-400 hover:bg-[#2D2D2D]"
+                  ${activeTab === tab.id
+                    ? "bg-[#0F1117] text-white"
+                    : "text-gray-400 hover:bg-[#2D2D2D]"
                   }`}
               >
                 <FileCode className="w-4 h-4 text-gray-500 mr-2 shrink-0" />

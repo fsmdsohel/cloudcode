@@ -1,0 +1,602 @@
+2025-12-30T16:13:36.511Z [[32minfo[39m]: Connected to Redis in Workspace Manager
+2025-12-30T16:13:36.516Z [[32minfo[39m]: Starting Warm Pool Worker...
+2025-12-30T16:13:36.520Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:13:36.520Z [[32minfo[39m]: Provisioning warm workspace: warm-26cf10ce
+2025-12-30T16:13:36.521Z [[32minfo[39m]: Provisioning warm workspace: warm-caab07c0
+2025-12-30T16:13:36.521Z [[32minfo[39m]: Provisioning warm workspace: warm-1da07df0
+2025-12-30T16:13:36.521Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:36.521Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:36.521Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:36.522Z [[31merror[39m]: Failed to provision warm workspace warm-26cf10ce: Failed to create namespace for workspace: warm-26cf10ce
+2025-12-30T16:13:36.522Z [[31merror[39m]: Failed to provision warm workspace warm-caab07c0: Failed to create namespace for workspace: warm-caab07c0
+2025-12-30T16:13:36.522Z [[31merror[39m]: Failed to provision warm workspace warm-1da07df0: Failed to create namespace for workspace: warm-1da07df0
+2025-12-30T16:13:36.522Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:36.522Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:36.522Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:46.520Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:13:46.520Z [[32minfo[39m]: Provisioning warm workspace: warm-c3867443
+2025-12-30T16:13:46.520Z [[32minfo[39m]: Provisioning warm workspace: warm-4ce1270f
+2025-12-30T16:13:46.520Z [[32minfo[39m]: Provisioning warm workspace: warm-235c069e
+2025-12-30T16:13:46.520Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:46.521Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:46.521Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:46.521Z [[31merror[39m]: Failed to provision warm workspace warm-c3867443: Failed to create namespace for workspace: warm-c3867443
+2025-12-30T16:13:46.521Z [[31merror[39m]: Failed to provision warm workspace warm-4ce1270f: Failed to create namespace for workspace: warm-4ce1270f
+2025-12-30T16:13:46.521Z [[31merror[39m]: Failed to provision warm workspace warm-235c069e: Failed to create namespace for workspace: warm-235c069e
+2025-12-30T16:13:46.521Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:46.521Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:46.521Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:56.521Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:13:56.522Z [[32minfo[39m]: Provisioning warm workspace: warm-8c9ff060
+2025-12-30T16:13:56.522Z [[32minfo[39m]: Provisioning warm workspace: warm-933d76dd
+2025-12-30T16:13:56.522Z [[32minfo[39m]: Provisioning warm workspace: warm-44706eba
+2025-12-30T16:13:56.523Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:56.523Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:56.524Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:56.524Z [[31merror[39m]: Failed to provision warm workspace warm-8c9ff060: Failed to create namespace for workspace: warm-8c9ff060
+2025-12-30T16:13:56.524Z [[31merror[39m]: Failed to provision warm workspace warm-933d76dd: Failed to create namespace for workspace: warm-933d76dd
+2025-12-30T16:13:56.524Z [[31merror[39m]: Failed to provision warm workspace warm-44706eba: Failed to create namespace for workspace: warm-44706eba
+2025-12-30T16:13:56.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:56.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:13:56.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:06.522Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:14:06.522Z [[32minfo[39m]: Provisioning warm workspace: warm-2785e9a0
+2025-12-30T16:14:06.523Z [[32minfo[39m]: Provisioning warm workspace: warm-0ad37cc1
+2025-12-30T16:14:06.523Z [[32minfo[39m]: Provisioning warm workspace: warm-9d748192
+2025-12-30T16:14:06.523Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:06.523Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:06.523Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:06.523Z [[31merror[39m]: Failed to provision warm workspace warm-2785e9a0: Failed to create namespace for workspace: warm-2785e9a0
+2025-12-30T16:14:06.524Z [[31merror[39m]: Failed to provision warm workspace warm-0ad37cc1: Failed to create namespace for workspace: warm-0ad37cc1
+2025-12-30T16:14:06.524Z [[31merror[39m]: Failed to provision warm workspace warm-9d748192: Failed to create namespace for workspace: warm-9d748192
+2025-12-30T16:14:06.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:06.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:06.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:16.523Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:14:16.523Z [[32minfo[39m]: Provisioning warm workspace: warm-91d34f2a
+2025-12-30T16:14:16.523Z [[32minfo[39m]: Provisioning warm workspace: warm-e31b5b9c
+2025-12-30T16:14:16.523Z [[32minfo[39m]: Provisioning warm workspace: warm-e58d2df4
+2025-12-30T16:14:16.523Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:16.523Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:16.523Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:16.524Z [[31merror[39m]: Failed to provision warm workspace warm-91d34f2a: Failed to create namespace for workspace: warm-91d34f2a
+2025-12-30T16:14:16.524Z [[31merror[39m]: Failed to provision warm workspace warm-e31b5b9c: Failed to create namespace for workspace: warm-e31b5b9c
+2025-12-30T16:14:16.524Z [[31merror[39m]: Failed to provision warm workspace warm-e58d2df4: Failed to create namespace for workspace: warm-e58d2df4
+2025-12-30T16:14:16.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:16.525Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:16.525Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:26.523Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:14:26.524Z [[32minfo[39m]: Provisioning warm workspace: warm-1013bf1e
+2025-12-30T16:14:26.524Z [[32minfo[39m]: Provisioning warm workspace: warm-b21fa195
+2025-12-30T16:14:26.524Z [[32minfo[39m]: Provisioning warm workspace: warm-80e1d52f
+2025-12-30T16:14:26.524Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:26.524Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:26.524Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:26.524Z [[31merror[39m]: Failed to provision warm workspace warm-1013bf1e: Failed to create namespace for workspace: warm-1013bf1e
+2025-12-30T16:14:26.524Z [[31merror[39m]: Failed to provision warm workspace warm-b21fa195: Failed to create namespace for workspace: warm-b21fa195
+2025-12-30T16:14:26.524Z [[31merror[39m]: Failed to provision warm workspace warm-80e1d52f: Failed to create namespace for workspace: warm-80e1d52f
+2025-12-30T16:14:26.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:26.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:26.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:36.524Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:14:36.524Z [[32minfo[39m]: Provisioning warm workspace: warm-4042cb49
+2025-12-30T16:14:36.525Z [[32minfo[39m]: Provisioning warm workspace: warm-1c204d31
+2025-12-30T16:14:36.525Z [[32minfo[39m]: Provisioning warm workspace: warm-531621c6
+2025-12-30T16:14:36.525Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:36.525Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:36.525Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:36.525Z [[31merror[39m]: Failed to provision warm workspace warm-4042cb49: Failed to create namespace for workspace: warm-4042cb49
+2025-12-30T16:14:36.525Z [[31merror[39m]: Failed to provision warm workspace warm-1c204d31: Failed to create namespace for workspace: warm-1c204d31
+2025-12-30T16:14:36.525Z [[31merror[39m]: Failed to provision warm workspace warm-531621c6: Failed to create namespace for workspace: warm-531621c6
+2025-12-30T16:14:36.525Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:36.525Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:36.525Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:46.523Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:14:46.523Z [[32minfo[39m]: Provisioning warm workspace: warm-3f25d75f
+2025-12-30T16:14:46.524Z [[32minfo[39m]: Provisioning warm workspace: warm-8aaefe6b
+2025-12-30T16:14:46.524Z [[32minfo[39m]: Provisioning warm workspace: warm-712040e4
+2025-12-30T16:14:46.524Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:46.524Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:46.524Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:46.524Z [[31merror[39m]: Failed to provision warm workspace warm-3f25d75f: Failed to create namespace for workspace: warm-3f25d75f
+2025-12-30T16:14:46.524Z [[31merror[39m]: Failed to provision warm workspace warm-8aaefe6b: Failed to create namespace for workspace: warm-8aaefe6b
+2025-12-30T16:14:46.524Z [[31merror[39m]: Failed to provision warm workspace warm-712040e4: Failed to create namespace for workspace: warm-712040e4
+2025-12-30T16:14:46.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:46.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:46.524Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:56.524Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:14:56.524Z [[32minfo[39m]: Provisioning warm workspace: warm-3902f96e
+2025-12-30T16:14:56.524Z [[32minfo[39m]: Provisioning warm workspace: warm-9d1f82a7
+2025-12-30T16:14:56.525Z [[32minfo[39m]: Provisioning warm workspace: warm-6737b786
+2025-12-30T16:14:56.525Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:56.525Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:56.525Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:56.525Z [[31merror[39m]: Failed to provision warm workspace warm-3902f96e: Failed to create namespace for workspace: warm-3902f96e
+2025-12-30T16:14:56.525Z [[31merror[39m]: Failed to provision warm workspace warm-9d1f82a7: Failed to create namespace for workspace: warm-9d1f82a7
+2025-12-30T16:14:56.525Z [[31merror[39m]: Failed to provision warm workspace warm-6737b786: Failed to create namespace for workspace: warm-6737b786
+2025-12-30T16:14:56.525Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:56.525Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:14:56.526Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:06.526Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:15:06.527Z [[32minfo[39m]: Provisioning warm workspace: warm-1d6165a8
+2025-12-30T16:15:06.527Z [[32minfo[39m]: Provisioning warm workspace: warm-dc6bcb1b
+2025-12-30T16:15:06.527Z [[32minfo[39m]: Provisioning warm workspace: warm-5bf10d09
+2025-12-30T16:15:06.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:06.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:06.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:06.528Z [[31merror[39m]: Failed to provision warm workspace warm-1d6165a8: Failed to create namespace for workspace: warm-1d6165a8
+2025-12-30T16:15:06.528Z [[31merror[39m]: Failed to provision warm workspace warm-dc6bcb1b: Failed to create namespace for workspace: warm-dc6bcb1b
+2025-12-30T16:15:06.528Z [[31merror[39m]: Failed to provision warm workspace warm-5bf10d09: Failed to create namespace for workspace: warm-5bf10d09
+2025-12-30T16:15:06.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:06.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:06.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:16.526Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:15:16.526Z [[32minfo[39m]: Provisioning warm workspace: warm-5e071fdd
+2025-12-30T16:15:16.527Z [[32minfo[39m]: Provisioning warm workspace: warm-f0fcf7f3
+2025-12-30T16:15:16.527Z [[32minfo[39m]: Provisioning warm workspace: warm-bc8fefaf
+2025-12-30T16:15:16.527Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:16.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:16.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:16.528Z [[31merror[39m]: Failed to provision warm workspace warm-5e071fdd: Failed to create namespace for workspace: warm-5e071fdd
+2025-12-30T16:15:16.528Z [[31merror[39m]: Failed to provision warm workspace warm-f0fcf7f3: Failed to create namespace for workspace: warm-f0fcf7f3
+2025-12-30T16:15:16.528Z [[31merror[39m]: Failed to provision warm workspace warm-bc8fefaf: Failed to create namespace for workspace: warm-bc8fefaf
+2025-12-30T16:15:16.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:16.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:16.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:26.527Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:15:26.527Z [[32minfo[39m]: Provisioning warm workspace: warm-7ea15f48
+2025-12-30T16:15:26.527Z [[32minfo[39m]: Provisioning warm workspace: warm-95f2d9ff
+2025-12-30T16:15:26.527Z [[32minfo[39m]: Provisioning warm workspace: warm-a7888d66
+2025-12-30T16:15:26.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:26.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:26.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:26.528Z [[31merror[39m]: Failed to provision warm workspace warm-7ea15f48: Failed to create namespace for workspace: warm-7ea15f48
+2025-12-30T16:15:26.528Z [[31merror[39m]: Failed to provision warm workspace warm-95f2d9ff: Failed to create namespace for workspace: warm-95f2d9ff
+2025-12-30T16:15:26.528Z [[31merror[39m]: Failed to provision warm workspace warm-a7888d66: Failed to create namespace for workspace: warm-a7888d66
+2025-12-30T16:15:26.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:26.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:26.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:36.526Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:15:36.526Z [[32minfo[39m]: Provisioning warm workspace: warm-f7fa7a80
+2025-12-30T16:15:36.526Z [[32minfo[39m]: Provisioning warm workspace: warm-6e90bd5b
+2025-12-30T16:15:36.527Z [[32minfo[39m]: Provisioning warm workspace: warm-a7c57212
+2025-12-30T16:15:36.527Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:36.527Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:36.527Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:36.527Z [[31merror[39m]: Failed to provision warm workspace warm-f7fa7a80: Failed to create namespace for workspace: warm-f7fa7a80
+2025-12-30T16:15:36.527Z [[31merror[39m]: Failed to provision warm workspace warm-6e90bd5b: Failed to create namespace for workspace: warm-6e90bd5b
+2025-12-30T16:15:36.527Z [[31merror[39m]: Failed to provision warm workspace warm-a7c57212: Failed to create namespace for workspace: warm-a7c57212
+2025-12-30T16:15:36.527Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:36.527Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:36.527Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:46.527Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:15:46.527Z [[32minfo[39m]: Provisioning warm workspace: warm-19284c91
+2025-12-30T16:15:46.528Z [[32minfo[39m]: Provisioning warm workspace: warm-184169b4
+2025-12-30T16:15:46.528Z [[32minfo[39m]: Provisioning warm workspace: warm-26e3021b
+2025-12-30T16:15:46.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:46.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:46.528Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:46.528Z [[31merror[39m]: Failed to provision warm workspace warm-19284c91: Failed to create namespace for workspace: warm-19284c91
+2025-12-30T16:15:46.528Z [[31merror[39m]: Failed to provision warm workspace warm-184169b4: Failed to create namespace for workspace: warm-184169b4
+2025-12-30T16:15:46.528Z [[31merror[39m]: Failed to provision warm workspace warm-26e3021b: Failed to create namespace for workspace: warm-26e3021b
+2025-12-30T16:15:46.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:46.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:46.528Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:56.529Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:15:56.529Z [[32minfo[39m]: Provisioning warm workspace: warm-df71a80f
+2025-12-30T16:15:56.529Z [[32minfo[39m]: Provisioning warm workspace: warm-c57a020e
+2025-12-30T16:15:56.529Z [[32minfo[39m]: Provisioning warm workspace: warm-2918e338
+2025-12-30T16:15:56.529Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:56.529Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:56.529Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:56.529Z [[31merror[39m]: Failed to provision warm workspace warm-df71a80f: Failed to create namespace for workspace: warm-df71a80f
+2025-12-30T16:15:56.529Z [[31merror[39m]: Failed to provision warm workspace warm-c57a020e: Failed to create namespace for workspace: warm-c57a020e
+2025-12-30T16:15:56.530Z [[31merror[39m]: Failed to provision warm workspace warm-2918e338: Failed to create namespace for workspace: warm-2918e338
+2025-12-30T16:15:56.530Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:56.530Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:15:56.530Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:06.529Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:16:06.529Z [[32minfo[39m]: Provisioning warm workspace: warm-20d16ce6
+2025-12-30T16:16:06.529Z [[32minfo[39m]: Provisioning warm workspace: warm-dc9d2325
+2025-12-30T16:16:06.529Z [[32minfo[39m]: Provisioning warm workspace: warm-fcb06cf7
+2025-12-30T16:16:06.529Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:06.529Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:06.530Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:06.530Z [[31merror[39m]: Failed to provision warm workspace warm-20d16ce6: Failed to create namespace for workspace: warm-20d16ce6
+2025-12-30T16:16:06.530Z [[31merror[39m]: Failed to provision warm workspace warm-dc9d2325: Failed to create namespace for workspace: warm-dc9d2325
+2025-12-30T16:16:06.530Z [[31merror[39m]: Failed to provision warm workspace warm-fcb06cf7: Failed to create namespace for workspace: warm-fcb06cf7
+2025-12-30T16:16:06.530Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:06.530Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:06.530Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:16.530Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:16:16.530Z [[32minfo[39m]: Provisioning warm workspace: warm-4a9e3042
+2025-12-30T16:16:16.530Z [[32minfo[39m]: Provisioning warm workspace: warm-9d44969c
+2025-12-30T16:16:16.530Z [[32minfo[39m]: Provisioning warm workspace: warm-eb3e2f87
+2025-12-30T16:16:16.530Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:16.531Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:16.531Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:16.531Z [[31merror[39m]: Failed to provision warm workspace warm-4a9e3042: Failed to create namespace for workspace: warm-4a9e3042
+2025-12-30T16:16:16.531Z [[31merror[39m]: Failed to provision warm workspace warm-9d44969c: Failed to create namespace for workspace: warm-9d44969c
+2025-12-30T16:16:16.531Z [[31merror[39m]: Failed to provision warm workspace warm-eb3e2f87: Failed to create namespace for workspace: warm-eb3e2f87
+2025-12-30T16:16:16.531Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:16.531Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:16.531Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:26.532Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:16:26.532Z [[32minfo[39m]: Provisioning warm workspace: warm-9ebef115
+2025-12-30T16:16:26.532Z [[32minfo[39m]: Provisioning warm workspace: warm-67fb8319
+2025-12-30T16:16:26.533Z [[32minfo[39m]: Provisioning warm workspace: warm-2cfcf790
+2025-12-30T16:16:26.533Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:26.533Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:26.533Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:26.533Z [[31merror[39m]: Failed to provision warm workspace warm-9ebef115: Failed to create namespace for workspace: warm-9ebef115
+2025-12-30T16:16:26.533Z [[31merror[39m]: Failed to provision warm workspace warm-67fb8319: Failed to create namespace for workspace: warm-67fb8319
+2025-12-30T16:16:26.533Z [[31merror[39m]: Failed to provision warm workspace warm-2cfcf790: Failed to create namespace for workspace: warm-2cfcf790
+2025-12-30T16:16:26.533Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:26.533Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:26.533Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:36.533Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:16:36.533Z [[32minfo[39m]: Provisioning warm workspace: warm-bab68b04
+2025-12-30T16:16:36.533Z [[32minfo[39m]: Provisioning warm workspace: warm-c0baf1b1
+2025-12-30T16:16:36.533Z [[32minfo[39m]: Provisioning warm workspace: warm-ab6d770a
+2025-12-30T16:16:36.533Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:36.533Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:36.533Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:36.533Z [[31merror[39m]: Failed to provision warm workspace warm-bab68b04: Failed to create namespace for workspace: warm-bab68b04
+2025-12-30T16:16:36.533Z [[31merror[39m]: Failed to provision warm workspace warm-c0baf1b1: Failed to create namespace for workspace: warm-c0baf1b1
+2025-12-30T16:16:36.533Z [[31merror[39m]: Failed to provision warm workspace warm-ab6d770a: Failed to create namespace for workspace: warm-ab6d770a
+2025-12-30T16:16:36.533Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:36.533Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:36.533Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:46.532Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:16:46.532Z [[32minfo[39m]: Provisioning warm workspace: warm-11d22230
+2025-12-30T16:16:46.532Z [[32minfo[39m]: Provisioning warm workspace: warm-87d717f8
+2025-12-30T16:16:46.532Z [[32minfo[39m]: Provisioning warm workspace: warm-85132b08
+2025-12-30T16:16:46.532Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:46.532Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:46.532Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:46.532Z [[31merror[39m]: Failed to provision warm workspace warm-11d22230: Failed to create namespace for workspace: warm-11d22230
+2025-12-30T16:16:46.532Z [[31merror[39m]: Failed to provision warm workspace warm-87d717f8: Failed to create namespace for workspace: warm-87d717f8
+2025-12-30T16:16:46.532Z [[31merror[39m]: Failed to provision warm workspace warm-85132b08: Failed to create namespace for workspace: warm-85132b08
+2025-12-30T16:16:46.532Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:46.533Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:46.533Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:56.536Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:16:56.536Z [[32minfo[39m]: Provisioning warm workspace: warm-592abe6b
+2025-12-30T16:16:56.537Z [[32minfo[39m]: Provisioning warm workspace: warm-659739ed
+2025-12-30T16:16:56.537Z [[32minfo[39m]: Provisioning warm workspace: warm-f80adb26
+2025-12-30T16:16:56.538Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:56.538Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:56.538Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:56.538Z [[31merror[39m]: Failed to provision warm workspace warm-592abe6b: Failed to create namespace for workspace: warm-592abe6b
+2025-12-30T16:16:56.539Z [[31merror[39m]: Failed to provision warm workspace warm-659739ed: Failed to create namespace for workspace: warm-659739ed
+2025-12-30T16:16:56.539Z [[31merror[39m]: Failed to provision warm workspace warm-f80adb26: Failed to create namespace for workspace: warm-f80adb26
+2025-12-30T16:16:56.539Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:56.539Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:16:56.539Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:06.535Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:17:06.535Z [[32minfo[39m]: Provisioning warm workspace: warm-3a01ce1b
+2025-12-30T16:17:06.535Z [[32minfo[39m]: Provisioning warm workspace: warm-57fd0c03
+2025-12-30T16:17:06.535Z [[32minfo[39m]: Provisioning warm workspace: warm-0db97d2b
+2025-12-30T16:17:06.536Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:06.536Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:06.536Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:06.536Z [[31merror[39m]: Failed to provision warm workspace warm-3a01ce1b: Failed to create namespace for workspace: warm-3a01ce1b
+2025-12-30T16:17:06.536Z [[31merror[39m]: Failed to provision warm workspace warm-57fd0c03: Failed to create namespace for workspace: warm-57fd0c03
+2025-12-30T16:17:06.536Z [[31merror[39m]: Failed to provision warm workspace warm-0db97d2b: Failed to create namespace for workspace: warm-0db97d2b
+2025-12-30T16:17:06.536Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:06.536Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:06.536Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:16.535Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:17:16.536Z [[32minfo[39m]: Provisioning warm workspace: warm-3104f581
+2025-12-30T16:17:16.536Z [[32minfo[39m]: Provisioning warm workspace: warm-295468bc
+2025-12-30T16:17:16.536Z [[32minfo[39m]: Provisioning warm workspace: warm-016c69aa
+2025-12-30T16:17:16.536Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:16.536Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:16.536Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:16.536Z [[31merror[39m]: Failed to provision warm workspace warm-3104f581: Failed to create namespace for workspace: warm-3104f581
+2025-12-30T16:17:16.536Z [[31merror[39m]: Failed to provision warm workspace warm-295468bc: Failed to create namespace for workspace: warm-295468bc
+2025-12-30T16:17:16.536Z [[31merror[39m]: Failed to provision warm workspace warm-016c69aa: Failed to create namespace for workspace: warm-016c69aa
+2025-12-30T16:17:16.536Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:16.537Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:16.537Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:26.537Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:17:26.537Z [[32minfo[39m]: Provisioning warm workspace: warm-a23ebcc6
+2025-12-30T16:17:26.537Z [[32minfo[39m]: Provisioning warm workspace: warm-57be2525
+2025-12-30T16:17:26.537Z [[32minfo[39m]: Provisioning warm workspace: warm-e1d033bf
+2025-12-30T16:17:26.537Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:26.537Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:26.537Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:26.537Z [[31merror[39m]: Failed to provision warm workspace warm-a23ebcc6: Failed to create namespace for workspace: warm-a23ebcc6
+2025-12-30T16:17:26.537Z [[31merror[39m]: Failed to provision warm workspace warm-57be2525: Failed to create namespace for workspace: warm-57be2525
+2025-12-30T16:17:26.537Z [[31merror[39m]: Failed to provision warm workspace warm-e1d033bf: Failed to create namespace for workspace: warm-e1d033bf
+2025-12-30T16:17:26.537Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:26.537Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:26.537Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:36.538Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:17:36.538Z [[32minfo[39m]: Provisioning warm workspace: warm-2b3b6809
+2025-12-30T16:17:36.539Z [[32minfo[39m]: Provisioning warm workspace: warm-4258b225
+2025-12-30T16:17:36.539Z [[32minfo[39m]: Provisioning warm workspace: warm-cc970fbd
+2025-12-30T16:17:36.539Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:36.539Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:36.539Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:36.539Z [[31merror[39m]: Failed to provision warm workspace warm-2b3b6809: Failed to create namespace for workspace: warm-2b3b6809
+2025-12-30T16:17:36.539Z [[31merror[39m]: Failed to provision warm workspace warm-4258b225: Failed to create namespace for workspace: warm-4258b225
+2025-12-30T16:17:36.539Z [[31merror[39m]: Failed to provision warm workspace warm-cc970fbd: Failed to create namespace for workspace: warm-cc970fbd
+2025-12-30T16:17:36.540Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:36.540Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:36.540Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:46.538Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:17:46.538Z [[32minfo[39m]: Provisioning warm workspace: warm-36fe0a30
+2025-12-30T16:17:46.538Z [[32minfo[39m]: Provisioning warm workspace: warm-d376ca01
+2025-12-30T16:17:46.539Z [[32minfo[39m]: Provisioning warm workspace: warm-a108492c
+2025-12-30T16:17:46.539Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:46.539Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:46.539Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:46.539Z [[31merror[39m]: Failed to provision warm workspace warm-36fe0a30: Failed to create namespace for workspace: warm-36fe0a30
+2025-12-30T16:17:46.539Z [[31merror[39m]: Failed to provision warm workspace warm-d376ca01: Failed to create namespace for workspace: warm-d376ca01
+2025-12-30T16:17:46.539Z [[31merror[39m]: Failed to provision warm workspace warm-a108492c: Failed to create namespace for workspace: warm-a108492c
+2025-12-30T16:17:46.539Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:46.539Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:46.539Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:56.540Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:17:56.540Z [[32minfo[39m]: Provisioning warm workspace: warm-f5f44832
+2025-12-30T16:17:56.540Z [[32minfo[39m]: Provisioning warm workspace: warm-cdac9e4e
+2025-12-30T16:17:56.541Z [[32minfo[39m]: Provisioning warm workspace: warm-0d3676be
+2025-12-30T16:17:56.541Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:56.541Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:56.541Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:56.541Z [[31merror[39m]: Failed to provision warm workspace warm-f5f44832: Failed to create namespace for workspace: warm-f5f44832
+2025-12-30T16:17:56.542Z [[31merror[39m]: Failed to provision warm workspace warm-cdac9e4e: Failed to create namespace for workspace: warm-cdac9e4e
+2025-12-30T16:17:56.542Z [[31merror[39m]: Failed to provision warm workspace warm-0d3676be: Failed to create namespace for workspace: warm-0d3676be
+2025-12-30T16:17:56.542Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:56.543Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:17:56.543Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:06.541Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:18:06.541Z [[32minfo[39m]: Provisioning warm workspace: warm-2b5bfd5d
+2025-12-30T16:18:06.542Z [[32minfo[39m]: Provisioning warm workspace: warm-6f767b2d
+2025-12-30T16:18:06.542Z [[32minfo[39m]: Provisioning warm workspace: warm-ae77a005
+2025-12-30T16:18:06.542Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:06.542Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:06.542Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:06.542Z [[31merror[39m]: Failed to provision warm workspace warm-2b5bfd5d: Failed to create namespace for workspace: warm-2b5bfd5d
+2025-12-30T16:18:06.542Z [[31merror[39m]: Failed to provision warm workspace warm-6f767b2d: Failed to create namespace for workspace: warm-6f767b2d
+2025-12-30T16:18:06.542Z [[31merror[39m]: Failed to provision warm workspace warm-ae77a005: Failed to create namespace for workspace: warm-ae77a005
+2025-12-30T16:18:06.543Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:06.543Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:06.543Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:16.541Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:18:16.541Z [[32minfo[39m]: Provisioning warm workspace: warm-0dec5af4
+2025-12-30T16:18:16.541Z [[32minfo[39m]: Provisioning warm workspace: warm-31f59c9f
+2025-12-30T16:18:16.541Z [[32minfo[39m]: Provisioning warm workspace: warm-e81cfeea
+2025-12-30T16:18:16.541Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:16.541Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:16.541Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:16.541Z [[31merror[39m]: Failed to provision warm workspace warm-0dec5af4: Failed to create namespace for workspace: warm-0dec5af4
+2025-12-30T16:18:16.542Z [[31merror[39m]: Failed to provision warm workspace warm-31f59c9f: Failed to create namespace for workspace: warm-31f59c9f
+2025-12-30T16:18:16.542Z [[31merror[39m]: Failed to provision warm workspace warm-e81cfeea: Failed to create namespace for workspace: warm-e81cfeea
+2025-12-30T16:18:16.542Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:16.542Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:16.542Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:26.543Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:18:26.543Z [[32minfo[39m]: Provisioning warm workspace: warm-78a3ea49
+2025-12-30T16:18:26.543Z [[32minfo[39m]: Provisioning warm workspace: warm-404b01f8
+2025-12-30T16:18:26.543Z [[32minfo[39m]: Provisioning warm workspace: warm-b8df8e1c
+2025-12-30T16:18:26.543Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:26.543Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:26.543Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:26.543Z [[31merror[39m]: Failed to provision warm workspace warm-78a3ea49: Failed to create namespace for workspace: warm-78a3ea49
+2025-12-30T16:18:26.543Z [[31merror[39m]: Failed to provision warm workspace warm-404b01f8: Failed to create namespace for workspace: warm-404b01f8
+2025-12-30T16:18:26.543Z [[31merror[39m]: Failed to provision warm workspace warm-b8df8e1c: Failed to create namespace for workspace: warm-b8df8e1c
+2025-12-30T16:18:26.544Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:26.544Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:26.544Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:36.544Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:18:36.544Z [[32minfo[39m]: Provisioning warm workspace: warm-50c48880
+2025-12-30T16:18:36.544Z [[32minfo[39m]: Provisioning warm workspace: warm-0adcc602
+2025-12-30T16:18:36.544Z [[32minfo[39m]: Provisioning warm workspace: warm-5ff1ad06
+2025-12-30T16:18:36.544Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:36.545Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:36.545Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:36.545Z [[31merror[39m]: Failed to provision warm workspace warm-50c48880: Failed to create namespace for workspace: warm-50c48880
+2025-12-30T16:18:36.545Z [[31merror[39m]: Failed to provision warm workspace warm-0adcc602: Failed to create namespace for workspace: warm-0adcc602
+2025-12-30T16:18:36.545Z [[31merror[39m]: Failed to provision warm workspace warm-5ff1ad06: Failed to create namespace for workspace: warm-5ff1ad06
+2025-12-30T16:18:36.545Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:36.545Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:36.545Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:46.547Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:18:46.547Z [[32minfo[39m]: Provisioning warm workspace: warm-b2aedbec
+2025-12-30T16:18:46.548Z [[32minfo[39m]: Provisioning warm workspace: warm-cdf9fd5a
+2025-12-30T16:18:46.548Z [[32minfo[39m]: Provisioning warm workspace: warm-2a64987f
+2025-12-30T16:18:46.548Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:46.548Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:46.549Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:46.549Z [[31merror[39m]: Failed to provision warm workspace warm-b2aedbec: Failed to create namespace for workspace: warm-b2aedbec
+2025-12-30T16:18:46.549Z [[31merror[39m]: Failed to provision warm workspace warm-cdf9fd5a: Failed to create namespace for workspace: warm-cdf9fd5a
+2025-12-30T16:18:46.549Z [[31merror[39m]: Failed to provision warm workspace warm-2a64987f: Failed to create namespace for workspace: warm-2a64987f
+2025-12-30T16:18:46.549Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:46.549Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:46.549Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:56.548Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:18:56.549Z [[32minfo[39m]: Provisioning warm workspace: warm-a6b22d7b
+2025-12-30T16:18:56.551Z [[32minfo[39m]: Provisioning warm workspace: warm-7754ff96
+2025-12-30T16:18:56.551Z [[32minfo[39m]: Provisioning warm workspace: warm-be156221
+2025-12-30T16:18:56.551Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:56.552Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:56.552Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:56.552Z [[31merror[39m]: Failed to provision warm workspace warm-a6b22d7b: Failed to create namespace for workspace: warm-a6b22d7b
+2025-12-30T16:18:56.552Z [[31merror[39m]: Failed to provision warm workspace warm-7754ff96: Failed to create namespace for workspace: warm-7754ff96
+2025-12-30T16:18:56.552Z [[31merror[39m]: Failed to provision warm workspace warm-be156221: Failed to create namespace for workspace: warm-be156221
+2025-12-30T16:18:56.552Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:56.552Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:18:56.552Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:06.549Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:19:06.549Z [[32minfo[39m]: Provisioning warm workspace: warm-f715f4c6
+2025-12-30T16:19:06.550Z [[32minfo[39m]: Provisioning warm workspace: warm-a9cbd947
+2025-12-30T16:19:06.550Z [[32minfo[39m]: Provisioning warm workspace: warm-c8c861c7
+2025-12-30T16:19:06.551Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:06.551Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:06.551Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:06.551Z [[31merror[39m]: Failed to provision warm workspace warm-f715f4c6: Failed to create namespace for workspace: warm-f715f4c6
+2025-12-30T16:19:06.552Z [[31merror[39m]: Failed to provision warm workspace warm-a9cbd947: Failed to create namespace for workspace: warm-a9cbd947
+2025-12-30T16:19:06.552Z [[31merror[39m]: Failed to provision warm workspace warm-c8c861c7: Failed to create namespace for workspace: warm-c8c861c7
+2025-12-30T16:19:06.552Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:06.552Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:06.552Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:16.553Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:19:16.554Z [[32minfo[39m]: Provisioning warm workspace: warm-fb8d5fb2
+2025-12-30T16:19:16.555Z [[32minfo[39m]: Provisioning warm workspace: warm-bebdba92
+2025-12-30T16:19:16.556Z [[32minfo[39m]: Provisioning warm workspace: warm-0d057289
+2025-12-30T16:19:16.556Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:16.556Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:16.556Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:16.556Z [[31merror[39m]: Failed to provision warm workspace warm-fb8d5fb2: Failed to create namespace for workspace: warm-fb8d5fb2
+2025-12-30T16:19:16.557Z [[31merror[39m]: Failed to provision warm workspace warm-bebdba92: Failed to create namespace for workspace: warm-bebdba92
+2025-12-30T16:19:16.557Z [[31merror[39m]: Failed to provision warm workspace warm-0d057289: Failed to create namespace for workspace: warm-0d057289
+2025-12-30T16:19:16.557Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:16.557Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:16.557Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:26.552Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:19:26.552Z [[32minfo[39m]: Provisioning warm workspace: warm-72b586db
+2025-12-30T16:19:26.553Z [[32minfo[39m]: Provisioning warm workspace: warm-ece7c1ad
+2025-12-30T16:19:26.553Z [[32minfo[39m]: Provisioning warm workspace: warm-41242ed3
+2025-12-30T16:19:26.553Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:26.553Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:26.553Z [[31merror[39m]: Failed to create namespace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:26.554Z [[31merror[39m]: Failed to provision warm workspace warm-72b586db: Failed to create namespace for workspace: warm-72b586db
+2025-12-30T16:19:26.554Z [[31merror[39m]: Failed to provision warm workspace warm-ece7c1ad: Failed to create namespace for workspace: warm-ece7c1ad
+2025-12-30T16:19:26.554Z [[31merror[39m]: Failed to provision warm workspace warm-41242ed3: Failed to create namespace for workspace: warm-41242ed3
+2025-12-30T16:19:26.554Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:26.554Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:26.554Z [[31merror[39m]: Failed to delete workspace: Error: HTTP protocol is not allowed when skipTLSVerify is not set or false
+2025-12-30T16:19:41.694Z [[32minfo[39m]: Connected to Redis in Workspace Manager
+2025-12-30T16:19:41.699Z [[32minfo[39m]: Starting Warm Pool Worker...
+2025-12-30T16:19:41.700Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:19:41.701Z [[32minfo[39m]: Provisioning warm workspace: warm-0389828e
+2025-12-30T16:19:41.701Z [[32minfo[39m]: Provisioning warm workspace: warm-6d6c2ebd
+2025-12-30T16:19:41.701Z [[32minfo[39m]: Provisioning warm workspace: warm-3557a6ff
+2025-12-30T16:19:41.705Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:19:41.705Z [[31merror[39m]: Failed to provision warm workspace warm-0389828e: Failed to create namespace for workspace: warm-0389828e
+2025-12-30T16:19:41.706Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:19:41.706Z [[31merror[39m]: Failed to provision warm workspace warm-6d6c2ebd: Failed to create namespace for workspace: warm-6d6c2ebd
+2025-12-30T16:19:41.707Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:19:41.707Z [[31merror[39m]: Failed to provision warm workspace warm-3557a6ff: Failed to create namespace for workspace: warm-3557a6ff
+2025-12-30T16:19:41.707Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-0389828e failed, reason: 
+2025-12-30T16:19:41.707Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-6d6c2ebd failed, reason: 
+2025-12-30T16:19:41.707Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3557a6ff failed, reason: 
+2025-12-30T16:19:51.702Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:19:51.702Z [[32minfo[39m]: Provisioning warm workspace: warm-c000307a
+2025-12-30T16:19:51.703Z [[32minfo[39m]: Provisioning warm workspace: warm-dfc13717
+2025-12-30T16:19:51.703Z [[32minfo[39m]: Provisioning warm workspace: warm-ed1578aa
+2025-12-30T16:19:51.706Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:19:51.706Z [[31merror[39m]: Failed to provision warm workspace warm-c000307a: Failed to create namespace for workspace: warm-c000307a
+2025-12-30T16:19:51.706Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:19:51.706Z [[31merror[39m]: Failed to provision warm workspace warm-dfc13717: Failed to create namespace for workspace: warm-dfc13717
+2025-12-30T16:19:51.707Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:19:51.707Z [[31merror[39m]: Failed to provision warm workspace warm-ed1578aa: Failed to create namespace for workspace: warm-ed1578aa
+2025-12-30T16:19:51.707Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-c000307a failed, reason: 
+2025-12-30T16:19:51.707Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-dfc13717 failed, reason: 
+2025-12-30T16:19:51.707Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-ed1578aa failed, reason: 
+2025-12-30T16:20:01.720Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:20:01.720Z [[32minfo[39m]: Provisioning warm workspace: warm-5f24f62e
+2025-12-30T16:20:01.722Z [[32minfo[39m]: Provisioning warm workspace: warm-9e014843
+2025-12-30T16:20:01.722Z [[32minfo[39m]: Provisioning warm workspace: warm-3a12e1ed
+2025-12-30T16:20:01.726Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:01.727Z [[31merror[39m]: Failed to provision warm workspace warm-5f24f62e: Failed to create namespace for workspace: warm-5f24f62e
+2025-12-30T16:20:01.728Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:01.728Z [[31merror[39m]: Failed to provision warm workspace warm-9e014843: Failed to create namespace for workspace: warm-9e014843
+2025-12-30T16:20:01.729Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:01.729Z [[31merror[39m]: Failed to provision warm workspace warm-3a12e1ed: Failed to create namespace for workspace: warm-3a12e1ed
+2025-12-30T16:20:01.732Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-5f24f62e failed, reason: 
+2025-12-30T16:20:01.732Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9e014843 failed, reason: 
+2025-12-30T16:20:01.733Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-3a12e1ed failed, reason: 
+2025-12-30T16:20:11.704Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:20:11.704Z [[32minfo[39m]: Provisioning warm workspace: warm-7159bc92
+2025-12-30T16:20:11.705Z [[32minfo[39m]: Provisioning warm workspace: warm-b78bd825
+2025-12-30T16:20:11.705Z [[32minfo[39m]: Provisioning warm workspace: warm-04e5b8a8
+2025-12-30T16:20:11.707Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:11.707Z [[31merror[39m]: Failed to provision warm workspace warm-7159bc92: Failed to create namespace for workspace: warm-7159bc92
+2025-12-30T16:20:11.708Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:11.708Z [[31merror[39m]: Failed to provision warm workspace warm-b78bd825: Failed to create namespace for workspace: warm-b78bd825
+2025-12-30T16:20:11.708Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:11.708Z [[31merror[39m]: Failed to provision warm workspace warm-04e5b8a8: Failed to create namespace for workspace: warm-04e5b8a8
+2025-12-30T16:20:11.709Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7159bc92 failed, reason: 
+2025-12-30T16:20:11.709Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b78bd825 failed, reason: 
+2025-12-30T16:20:11.709Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-04e5b8a8 failed, reason: 
+2025-12-30T16:20:21.920Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:20:21.926Z [[32minfo[39m]: Provisioning warm workspace: warm-47353482
+2025-12-30T16:20:21.966Z [[32minfo[39m]: Provisioning warm workspace: warm-6c811065
+2025-12-30T16:20:21.967Z [[32minfo[39m]: Provisioning warm workspace: warm-81f8293f
+2025-12-30T16:20:22.139Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:22.139Z [[31merror[39m]: Failed to provision warm workspace warm-47353482: Failed to create namespace for workspace: warm-47353482
+2025-12-30T16:20:22.142Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:22.142Z [[31merror[39m]: Failed to provision warm workspace warm-81f8293f: Failed to create namespace for workspace: warm-81f8293f
+2025-12-30T16:20:22.154Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:22.154Z [[31merror[39m]: Failed to provision warm workspace warm-6c811065: Failed to create namespace for workspace: warm-6c811065
+2025-12-30T16:20:22.159Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-47353482 failed, reason: 
+2025-12-30T16:20:22.160Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-81f8293f failed, reason: 
+2025-12-30T16:20:22.160Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-6c811065 failed, reason: 
+2025-12-30T16:20:31.775Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:20:31.775Z [[32minfo[39m]: Provisioning warm workspace: warm-7150f9cb
+2025-12-30T16:20:31.776Z [[32minfo[39m]: Provisioning warm workspace: warm-f88a73c0
+2025-12-30T16:20:31.776Z [[32minfo[39m]: Provisioning warm workspace: warm-97c8bbee
+2025-12-30T16:20:31.781Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:31.781Z [[31merror[39m]: Failed to provision warm workspace warm-f88a73c0: Failed to create namespace for workspace: warm-f88a73c0
+2025-12-30T16:20:31.782Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:31.782Z [[31merror[39m]: Failed to provision warm workspace warm-7150f9cb: Failed to create namespace for workspace: warm-7150f9cb
+2025-12-30T16:20:31.782Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:31.783Z [[31merror[39m]: Failed to provision warm workspace warm-97c8bbee: Failed to create namespace for workspace: warm-97c8bbee
+2025-12-30T16:20:31.783Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f88a73c0 failed, reason: 
+2025-12-30T16:20:31.784Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7150f9cb failed, reason: 
+2025-12-30T16:20:31.784Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-97c8bbee failed, reason: 
+2025-12-30T16:20:41.774Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:20:41.775Z [[32minfo[39m]: Provisioning warm workspace: warm-42743d09
+2025-12-30T16:20:41.777Z [[32minfo[39m]: Provisioning warm workspace: warm-33a79dfc
+2025-12-30T16:20:41.777Z [[32minfo[39m]: Provisioning warm workspace: warm-53413027
+2025-12-30T16:20:41.781Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:41.782Z [[31merror[39m]: Failed to provision warm workspace warm-42743d09: Failed to create namespace for workspace: warm-42743d09
+2025-12-30T16:20:41.783Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:41.783Z [[31merror[39m]: Failed to provision warm workspace warm-53413027: Failed to create namespace for workspace: warm-53413027
+2025-12-30T16:20:41.784Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:41.784Z [[31merror[39m]: Failed to provision warm workspace warm-33a79dfc: Failed to create namespace for workspace: warm-33a79dfc
+2025-12-30T16:20:41.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-42743d09 failed, reason: 
+2025-12-30T16:20:41.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-53413027 failed, reason: 
+2025-12-30T16:20:41.786Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-33a79dfc failed, reason: 
+2025-12-30T16:20:51.774Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:20:51.775Z [[32minfo[39m]: Provisioning warm workspace: warm-846a872e
+2025-12-30T16:20:51.776Z [[32minfo[39m]: Provisioning warm workspace: warm-f52c929a
+2025-12-30T16:20:51.776Z [[32minfo[39m]: Provisioning warm workspace: warm-8635bc2a
+2025-12-30T16:20:51.780Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:51.780Z [[31merror[39m]: Failed to provision warm workspace warm-846a872e: Failed to create namespace for workspace: warm-846a872e
+2025-12-30T16:20:51.782Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:51.782Z [[31merror[39m]: Failed to provision warm workspace warm-f52c929a: Failed to create namespace for workspace: warm-f52c929a
+2025-12-30T16:20:51.783Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:20:51.783Z [[31merror[39m]: Failed to provision warm workspace warm-8635bc2a: Failed to create namespace for workspace: warm-8635bc2a
+2025-12-30T16:20:51.784Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-846a872e failed, reason: 
+2025-12-30T16:20:51.785Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-f52c929a failed, reason: 
+2025-12-30T16:20:51.785Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-8635bc2a failed, reason: 
+2025-12-30T16:21:01.772Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:21:01.772Z [[32minfo[39m]: Provisioning warm workspace: warm-b652f0aa
+2025-12-30T16:21:01.773Z [[32minfo[39m]: Provisioning warm workspace: warm-7899d2be
+2025-12-30T16:21:01.773Z [[32minfo[39m]: Provisioning warm workspace: warm-7734c775
+2025-12-30T16:21:01.776Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:01.776Z [[31merror[39m]: Failed to provision warm workspace warm-b652f0aa: Failed to create namespace for workspace: warm-b652f0aa
+2025-12-30T16:21:01.777Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:01.777Z [[31merror[39m]: Failed to provision warm workspace warm-7899d2be: Failed to create namespace for workspace: warm-7899d2be
+2025-12-30T16:21:01.778Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:01.778Z [[31merror[39m]: Failed to provision warm workspace warm-7734c775: Failed to create namespace for workspace: warm-7734c775
+2025-12-30T16:21:01.780Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-b652f0aa failed, reason: 
+2025-12-30T16:21:01.780Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7899d2be failed, reason: 
+2025-12-30T16:21:01.781Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-7734c775 failed, reason: 
+2025-12-30T16:21:11.776Z [[32minfo[39m]: Warm Pool low. Creating 3 new workspaces...
+2025-12-30T16:21:11.776Z [[32minfo[39m]: Provisioning warm workspace: warm-d2efe772
+2025-12-30T16:21:11.777Z [[32minfo[39m]: Provisioning warm workspace: warm-0e1e5d80
+2025-12-30T16:21:11.777Z [[32minfo[39m]: Provisioning warm workspace: warm-9952f3fc
+2025-12-30T16:21:11.779Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:11.779Z [[31merror[39m]: Failed to provision warm workspace warm-d2efe772: Failed to create namespace for workspace: warm-d2efe772
+2025-12-30T16:21:11.779Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:11.780Z [[31merror[39m]: Failed to provision warm workspace warm-0e1e5d80: Failed to create namespace for workspace: warm-0e1e5d80
+2025-12-30T16:21:11.780Z [[31merror[39m]: Failed to create namespace: FetchError: request to http://localhost:8080/api/v1/namespaces failed, reason: 
+2025-12-30T16:21:11.780Z [[31merror[39m]: Failed to provision warm workspace warm-9952f3fc: Failed to create namespace for workspace: warm-9952f3fc
+2025-12-30T16:21:11.780Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-d2efe772 failed, reason: 
+2025-12-30T16:21:11.780Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-0e1e5d80 failed, reason: 
+2025-12-30T16:21:11.780Z [[31merror[39m]: Failed to delete workspace: FetchError: request to http://localhost:8080/api/v1/namespaces/workspace-warm-9952f3fc failed, reason: 

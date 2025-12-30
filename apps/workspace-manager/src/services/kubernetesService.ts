@@ -16,13 +16,21 @@ class KubernetesError extends Error {
 export class KubernetesService {
   private k8sApi: k8s.CoreV1Api;
   private k8sAppsApi: k8s.AppsV1Api;
+  private k8sExec: k8s.Exec;
 
   constructor() {
     try {
       const kc = new k8s.KubeConfig();
       kc.loadFromDefault();
+
+      const cluster = kc.getCurrentCluster();
+      if (cluster && cluster.server && cluster.server.startsWith("http:")) {
+        (cluster as any).skipTLSVerify = true;
+      }
+
       this.k8sApi = kc.makeApiClient(k8s.CoreV1Api);
       this.k8sAppsApi = kc.makeApiClient(k8s.AppsV1Api);
+      this.k8sExec = new k8s.Exec(kc);
     } catch (error) {
       throw new KubernetesError(
         "Failed to initialize Kubernetes client",
@@ -84,10 +92,10 @@ export class KubernetesService {
       };
 
       const request: k8s.CoreV1ApiCreateNamespacedPersistentVolumeClaimRequest =
-        {
-          namespace,
-          body: pvc,
-        };
+      {
+        namespace,
+        body: pvc,
+      };
 
       await this.k8sApi.createNamespacedPersistentVolumeClaim(request);
       logger.info(`Created PVC for workspace: ${workspaceId}`);
@@ -352,11 +360,11 @@ export class KubernetesService {
       if (deployment?.spec) {
         deployment.spec.replicas = 1;
         const replaceRequest: k8s.AppsV1ApiReplaceNamespacedDeploymentRequest =
-          {
-            name: request.name,
-            namespace: request.namespace,
-            body: deployment,
-          };
+        {
+          name: request.name,
+          namespace: request.namespace,
+          body: deployment,
+        };
         await this.k8sAppsApi.replaceNamespacedDeployment(replaceRequest);
       }
 
@@ -383,11 +391,11 @@ export class KubernetesService {
       if (deployment?.spec) {
         deployment.spec.replicas = 0;
         const replaceRequest: k8s.AppsV1ApiReplaceNamespacedDeploymentRequest =
-          {
-            name: request.name,
-            namespace: request.namespace,
-            body: deployment,
-          };
+        {
+          name: request.name,
+          namespace: request.namespace,
+          body: deployment,
+        };
         await this.k8sAppsApi.replaceNamespacedDeployment(replaceRequest);
       }
 
@@ -451,6 +459,70 @@ export class KubernetesService {
       logger.error(`Failed to list workspaces: ${error}`);
       throw new KubernetesError("Failed to list workspaces", error);
     }
+  }
+
+  async getPodName(workspaceId: string): Promise<string> {
+    try {
+      const namespace = `workspace-${workspaceId}`;
+      const pods = await this.k8sApi.listNamespacedPod({
+        namespace,
+        labelSelector: `app=${workspaceId}`,
+      });
+
+      if (pods.items.length === 0) {
+        throw new Error("No pod found for workspace");
+      }
+
+      return pods.items[0].metadata!.name!;
+    } catch (error) {
+      logger.error(`Failed to get pod name: ${error}`);
+      throw new KubernetesError(`Failed to get pod name for workspace: ${workspaceId}`, error);
+    }
+  }
+
+  async execCommand(workspaceId: string, command: string[]): Promise<{ stdout: string; stderr: string }> {
+    const namespace = `workspace-${workspaceId}`;
+    const podName = await this.getPodName(workspaceId);
+    const containerName = workspaceId;
+
+    return new Promise(async (resolve, reject) => {
+      let stdout = "";
+      let stderr = "";
+
+      const { Writable } = await import("stream");
+
+      const stdoutStream = new Writable({
+        write(chunk, encoding, callback) {
+          stdout += chunk.toString();
+          callback();
+        }
+      });
+
+      const stderrStream = new Writable({
+        write(chunk, encoding, callback) {
+          stderr += chunk.toString();
+          callback();
+        }
+      });
+
+      try {
+        await this.k8sExec.exec(
+          namespace,
+          podName,
+          containerName,
+          command,
+          stdoutStream,
+          stderrStream,
+          null,
+          false,
+          async (status: any) => {
+            resolve({ stdout, stderr });
+          }
+        );
+      } catch (e) {
+        reject(e);
+      }
+    });
   }
 }
 

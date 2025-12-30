@@ -4,6 +4,7 @@ import {
   getWorkspace,
   updateWorkspace,
   deleteWorkspace,
+  executeCommand,
 } from "@/controllers/workspaceController";
 import { validate } from "@/middleware/validateRequest";
 import { authMiddleware } from "@/middleware/authMiddleware";
@@ -33,5 +34,6 @@ router.get("/:workspaceId/status", getWorkspace);
 router.post("/:workspaceId/start", updateWorkspace);
 router.post("/:workspaceId/stop", updateWorkspace);
 router.post("/:workspaceId/restart", updateWorkspace);
+router.post("/:workspaceId/exec", executeCommand);
 
 export default router;

@@ -1,13 +1,15 @@
 "use client";
 
 import React, { useState, useRef, useCallback, useEffect } from "react";
-import { Terminal as TerminalIcon, X, Plus, Split } from "lucide-react";
+import { Terminal as TerminalIcon, X, Plus, Split, Sparkles } from "lucide-react";
 import Terminal from "./Terminal";
+import { AgentActivity } from "./AgentActivity";
 import SplitPane, { Pane, SashContent } from "split-pane-react";
 import { toast } from "sonner";
 interface TerminalTab {
   id: string;
   title: string;
+  type: "terminal" | "agent";
   instances: TerminalInstance[];
 }
 
@@ -26,12 +28,19 @@ const MAX_ROOT_TERMINALS = 4; // Maximum number of terminal instances at root le
 const TerminalContainer = ({ refHandleResize }: TerminalContainerProps) => {
   const [terminals, setTerminals] = useState<TerminalTab[]>([
     {
+      id: "agent",
+      title: "Agent",
+      type: "agent",
+      instances: []
+    },
+    {
       id: "1",
       title: "Terminal",
+      type: "terminal",
       instances: [{ id: "1-1", title: "1" }],
     },
   ]);
-  const [activeTerminal, setActiveTerminal] = useState("1");
+  const [activeTerminal, setActiveTerminal] = useState("agent");
   const [splitSizes, setSplitSizes] = useState<number[]>([]);
   const splitSizesRef = useRef<{ [key: string]: number[] }>({});
 
@@ -70,6 +79,7 @@ const TerminalContainer = ({ refHandleResize }: TerminalContainerProps) => {
     const newTerminal: TerminalTab = {
       id: newId,
       title: "Terminal",
+      type: "terminal",
       instances: [{ id: `${newId}-1`, title: "1" }],
     };
     setTerminals((prev) => [...prev, newTerminal]);
@@ -78,12 +88,16 @@ const TerminalContainer = ({ refHandleResize }: TerminalContainerProps) => {
 
   const handleSplitTerminal = () => {
     const currentTerminal = terminals.find((t) => t.id === activeTerminal);
-    if (!currentTerminal) return;
+    if (!currentTerminal || currentTerminal.type === 'agent') return; // Cannot split agent tab
 
     const totalInstances = terminals.reduce(
       (acc, term) => acc + term.instances.length,
       0
     );
+    // ... (rest of handleSplitTerminal logic needs to be preserved or I should use multi_replace. I'll stick to replacing chunks carefully)
+    // Wait, I can't easily replace just the start of handleSplitTerminal without providing the rest if I use a massive chunk.
+    // I will just replace `handleNewTerminal` block first.
+
 
     if (totalInstances >= MAX_ROOT_TERMINALS) {
       toast.error("Maximum number of terminals reached at root level.");
@@ -95,9 +109,8 @@ const TerminalContainer = ({ refHandleResize }: TerminalContainerProps) => {
       return;
     }
 
-    const newInstanceId = `${currentTerminal.id}-${
-      currentTerminal.instances.length + 1
-    }`;
+    const newInstanceId = `${currentTerminal.id}-${currentTerminal.instances.length + 1
+      }`;
     const newInstance = {
       id: newInstanceId,
       title: (currentTerminal.instances.length + 1).toString(),
@@ -213,7 +226,7 @@ const TerminalContainer = ({ refHandleResize }: TerminalContainerProps) => {
     if (terminal.instances.length === 1) {
       return (
         <div className="flex flex-1">
-          {renderTerminal(terminal.instances[0].id)}
+          {renderTerminal(terminal.instances[0]!.id)}
           {renderTerminalInstances(terminal)}
         </div>
       );
@@ -251,14 +264,14 @@ const TerminalContainer = ({ refHandleResize }: TerminalContainerProps) => {
         ${activeTerminal === term.id ? "bg-black" : "hover:bg-[#2D2D2D]"}`}
       onClick={() => setActiveTerminal(term.id)}
     >
-      <TerminalIcon className="w-4 h-4 text-gray-500 mr-2" />
+      {term.type === 'agent' ? <Sparkles className="w-3.5 h-3.5 text-purple-500 mr-2" /> : <TerminalIcon className="w-4 h-4 text-gray-500 mr-2" />}
       <span className="mr-2 text-sm">
         {term.title}{" "}
         {term.instances.length > 1 && (
           <span className="text-gray-500">({term.instances.length})</span>
         )}
       </span>
-      {terminals.length > 1 && (
+      {terminals.length > 1 && term.type !== 'agent' && (
         <button
           className="opacity-0 group-hover:opacity-100 hover:text-red-400 ml-2 transition-opacity"
           onClick={(e) => {
@@ -300,9 +313,14 @@ const TerminalContainer = ({ refHandleResize }: TerminalContainerProps) => {
             style={{
               display: term.id === activeTerminal ? "flex" : "none",
               height: "100%",
+              flexDirection: "column"
             }}
           >
-            {renderSplitTerminals(term)}
+            {term.type === 'agent' ? (
+              <AgentActivity />
+            ) : (
+              renderSplitTerminals(term)
+            )}
           </div>
         ))}
       </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import { MagicInput } from "@/components/dashboard/MagicInput";
 import React, { useState, useEffect, useMemo } from "react";
 import {
   Home,
@@ -263,11 +264,10 @@ const DashboardLayout = () => {
                 <div key={label}>
                   <Link
                     href={href}
-                    className={`flex items-center justify-center w-10 h-10 rounded-lg transition-colors duration-200 cursor-pointer ${
-                      active
-                        ? "text-purple-600 dark:text-purple-500 hover:bg-purple-100 dark:hover:bg-purple-500/10"
-                        : "text-gray-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-500 hover:bg-purple-100 dark:hover:bg-purple-500/10"
-                    }`}
+                    className={`flex items-center justify-center w-10 h-10 rounded-lg transition-colors duration-200 cursor-pointer ${active
+                      ? "text-purple-600 dark:text-purple-500 hover:bg-purple-100 dark:hover:bg-purple-500/10"
+                      : "text-gray-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-500 hover:bg-purple-100 dark:hover:bg-purple-500/10"
+                      }`}
                   >
                     <Icon className="w-5 h-5" />
                   </Link>
@@ -302,11 +302,10 @@ const DashboardLayout = () => {
                       <Link
                         key={label}
                         href={href}
-                        className={`p-2 rounded-lg transition-colors ${
-                          active
-                            ? "text-purple-600 dark:text-purple-500 hover:bg-purple-100 dark:hover:bg-purple-500/10"
-                            : "text-gray-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-500 hover:bg-purple-100 dark:hover:bg-purple-500/10"
-                        }`}
+                        className={`p-2 rounded-lg transition-colors ${active
+                          ? "text-purple-600 dark:text-purple-500 hover:bg-purple-100 dark:hover:bg-purple-500/10"
+                          : "text-gray-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-500 hover:bg-purple-100 dark:hover:bg-purple-500/10"
+                          }`}
                       >
                         <Icon className="w-5 h-5" />
                       </Link>
@@ -466,19 +465,17 @@ const DashboardLayout = () => {
                 {notifications.map((notification) => (
                   <div
                     key={notification.id}
-                    className={`p-4 hover:bg-gray-50 dark:hover:bg-white/[0.02] cursor-pointer transition-colors ${
-                      notification.unread
-                        ? "bg-gray-50 dark:bg-white/[0.01]"
-                        : ""
-                    }`}
+                    className={`p-4 hover:bg-gray-50 dark:hover:bg-white/[0.02] cursor-pointer transition-colors ${notification.unread
+                      ? "bg-gray-50 dark:bg-white/[0.01]"
+                      : ""
+                      }`}
                   >
                     <div className="flex items-start gap-3">
                       <div
-                        className={`w-2 h-2 mt-2 rounded-full flex-shrink-0 ${
-                          notification.unread
-                            ? "bg-purple-500"
-                            : "bg-gray-300 dark:bg-gray-600"
-                        }`}
+                        className={`w-2 h-2 mt-2 rounded-full flex-shrink-0 ${notification.unread
+                          ? "bg-purple-500"
+                          : "bg-gray-300 dark:bg-gray-600"
+                          }`}
                       />
                       <div className="flex-1 min-w-0">
                         <h4 className="text-sm font-medium text-gray-900 dark:text-white truncate">
@@ -517,6 +514,7 @@ const DashboardLayout = () => {
 
           {/* Dashboard Content */}
           <div className="p-4 sm:p-8 max-w-7xl mx-auto space-y-6 sm:space-y-8">
+            <MagicInput />
             {/* Your Workspaces Section */}
             <div className="space-y-6">
               {/* Main Workspaces Header */}
