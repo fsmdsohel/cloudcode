@@ -10,44 +10,43 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
 }
 
 model User {
-  id         String     @id @default(uuid())
-  githubId   String?    @unique
-  googleId   String?    @unique
-  email      String?    @unique
-  firstName  String?
-  lastName   String?
-  password   String?
-  privacy    Boolean    @default(false)
-  acceptTerms Boolean   @default(false)
+  id          String         @id @default(uuid())
+  githubId    String?        @unique
+  googleId    String?        @unique
+  email       String?        @unique
+  firstName   String?
+  lastName    String?
+  password    String?
+  privacy     Boolean        @default(false)
+  acceptTerms Boolean        @default(false)
   preferences Json?
-  activities UserActivity[]
-  createdAt  DateTime   @default(now())
-  updatedAt  DateTime   @updatedAt
-  workspaces Workspace[]
-  lastLogout DateTime?
+  activities  UserActivity[]
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  workspaces  Workspace[]
+  lastLogout  DateTime?
 
   @@index([email])
 }
 
 model Workspace {
-  id          String   @id @default(uuid())
-  name        String
-  userId      String
-  user        User     @relation(fields: [userId], references: [id])
-  template    String?
-  language    String?
-  libraries   String[]
-  description String?
-  resources   Json?
-  status      String?
+  id           String   @id @default(uuid())
+  name         String
+  userId       String
+  user         User     @relation(fields: [userId], references: [id])
+  template     String?
+  language     String?
+  libraries    String[]
+  description  String?
+  resources    Json?
+  status       String?
   editorConfig Json?
   editorLayout Json?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
 
   @@index([userId])
 }
