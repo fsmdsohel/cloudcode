@@ -14,6 +14,9 @@ import BottomBar from "@/components/workspace/layout/BottomBar";
 import { Globe, X, Loader2 } from "lucide-react";
 import MonacoEditorContainer from "@/components/workspace/editor/MonacoEditorContainer";
 import { EditorProvider } from "@/components/workspace/editor/EditorProvider";
+import { useDispatch } from "react-redux";
+import { AppDispatch } from "@/redux/store";
+import { getWorkspaceById } from "@/redux/slices/workspaceSlice";
 
 const TerminalContainer = dynamic(
   () => import("@/components/workspace/editor/TerminalContainer"),
@@ -25,6 +28,7 @@ const TerminalContainer = dynamic(
 const WorkspacePage: React.FC = () => {
   const params = useParams() as { workspaceId: string };
   const workspaceId = params?.workspaceId ?? "";
+  const dispatch = useDispatch<AppDispatch>();
 
   const refHandleResize = useRef<Array<{ id: string; fun: () => void }>>([]);
 
@@ -56,7 +60,10 @@ const WorkspacePage: React.FC = () => {
     if (typeof window !== "undefined") {
       setIsMounted(true);
     }
-  }, []);
+    if (workspaceId) {
+      dispatch(getWorkspaceById(workspaceId));
+    }
+  }, [workspaceId, dispatch]);
 
   const layoutCSS: React.CSSProperties = {
     height: "100%",
@@ -79,7 +86,7 @@ const WorkspacePage: React.FC = () => {
       <TopBar workspaceId={workspaceId} />
       <div className="h-[calc(100vh-60px)] flex flex-row">
         <Sidebar />
-        <EditorProvider openFile={editorRef?.openFile || (() => {})}>
+        <EditorProvider openFile={editorRef?.openFile || (() => { })}>
           <SplitPane
             sashRender={() => (
               <SashContent className="bg-gray-800 hover:bg-purple-500 transition-colors" />

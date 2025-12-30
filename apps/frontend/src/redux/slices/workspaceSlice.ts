@@ -1,9 +1,12 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-interface Workspace {
+export interface Workspace {
   id: string;
   name: string;
+  template: string;
+  language: string;
+  libraries: string[];
   description: string | null;
   ownerId: string;
   status: string;
@@ -49,11 +52,29 @@ export const fetchWorkspaces = createAsyncThunk(
 export const createWorkspace = createAsyncThunk(
   "workspace/create",
   async (
-    { name, description }: { name: string; description?: string },
+    {
+      name,
+      template,
+      language,
+      libraries,
+      description,
+    }: {
+      name: string;
+      template: string;
+      language: string;
+      libraries: string[];
+      description?: string;
+    },
     { rejectWithValue }
   ) => {
     try {
-      const response = await api.post("/workspaces", { name, description });
+      const response = await api.post("/workspaces", {
+        name,
+        template,
+        language,
+        libraries,
+        description,
+      });
       return response.data;
     } catch (error: any) {
       return rejectWithValue(
@@ -134,7 +155,8 @@ const workspaceSlice = createSlice({
       })
       .addCase(fetchWorkspaces.fulfilled, (state, action) => {
         state.loading = false;
-        state.workspaces = action.payload;
+        // Backend returns { status: "success", data: { workspaces: [] } }
+        state.workspaces = action.payload.data.workspaces;
       })
       .addCase(fetchWorkspaces.rejected, (state, action) => {
         state.loading = false;
@@ -146,8 +168,10 @@ const workspaceSlice = createSlice({
       })
       .addCase(createWorkspace.fulfilled, (state, action) => {
         state.loading = false;
-        state.workspaces.push(action.payload);
-        state.currentWorkspace = action.payload;
+        // Backend returns { status: "success", data: { workspace: {...} } }
+        const newWorkspace = action.payload.data.workspace;
+        state.workspaces.push(newWorkspace);
+        state.currentWorkspace = newWorkspace;
       })
       .addCase(createWorkspace.rejected, (state, action) => {
         state.loading = false;
@@ -159,14 +183,16 @@ const workspaceSlice = createSlice({
       })
       .addCase(updateWorkspace.fulfilled, (state, action) => {
         state.loading = false;
+        // Backend returns { status: "success", data: { workspace: {...} } }
+        const updatedWorkspace = action.payload.data.workspace;
         const index = state.workspaces.findIndex(
-          (w) => w.id === action.payload.id
+          (w) => w.id === updatedWorkspace.id
         );
         if (index !== -1) {
-          state.workspaces[index] = action.payload;
+          state.workspaces[index] = updatedWorkspace;
         }
-        if (state.currentWorkspace?.id === action.payload.id) {
-          state.currentWorkspace = action.payload;
+        if (state.currentWorkspace?.id === updatedWorkspace.id) {
+          state.currentWorkspace = updatedWorkspace;
         }
       })
       .addCase(updateWorkspace.rejected, (state, action) => {
@@ -196,14 +222,16 @@ const workspaceSlice = createSlice({
       })
       .addCase(getWorkspaceById.fulfilled, (state, action) => {
         state.loading = false;
-        state.currentWorkspace = action.payload;
+        // Backend returns { status: "success", data: { workspace: {...} } }
+        const workspace = action.payload.data.workspace;
+        state.currentWorkspace = workspace;
         const index = state.workspaces.findIndex(
-          (w) => w.id === action.payload.id
+          (w) => w.id === workspace.id
         );
         if (index !== -1) {
-          state.workspaces[index] = action.payload;
+          state.workspaces[index] = workspace;
         } else {
-          state.workspaces.push(action.payload);
+          state.workspaces.push(workspace);
         }
       })
       .addCase(getWorkspaceById.rejected, (state, action) => {

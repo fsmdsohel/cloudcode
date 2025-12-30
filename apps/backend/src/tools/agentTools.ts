@@ -7,16 +7,20 @@ const fileWriteSchema = z.object({
     content: z.string().describe("The full content of the file")
 });
 
+type FileWriteInput = z.infer<typeof fileWriteSchema>;
+
 const terminalExecSchema = z.object({
     command: z.string().describe("The shell command to execute")
 });
 
+type TerminalExecInput = z.infer<typeof terminalExecSchema>;
+
 export const createFileWriteTool = (socket: Socket, workspaceId: string) => {
-    return new DynamicStructuredTool({
+    return new DynamicStructuredTool<typeof fileWriteSchema>({
         name: "file_write",
         description: "Write content to a file in the workspace. Use this to create or update files.",
         schema: fileWriteSchema,
-        func: async ({ path, content }) => {
+        func: async ({ path, content }: FileWriteInput) => {
             socket.emit("agent:log", { workspaceId, message: `Creating file: ${path}`, type: "action" });
             socket.emit("file:write", { path, content, workspaceId });
             return `File ${path} written successfully.`;
@@ -25,11 +29,11 @@ export const createFileWriteTool = (socket: Socket, workspaceId: string) => {
 };
 
 export const createTerminalExecTool = (socket: Socket, workspaceId: string) => {
-    return new DynamicStructuredTool({
+    return new DynamicStructuredTool<typeof terminalExecSchema>({
         name: "terminal_exec",
         description: "Execute a shell command in the workspace terminal. Use this to install dependencies, run tests, etc.",
         schema: terminalExecSchema,
-        func: async ({ command }) => {
+        func: async ({ command }: TerminalExecInput) => {
             socket.emit("agent:log", { workspaceId, message: `Running command: ${command}`, type: "action" });
             socket.emit("input", {
                 terminalId: workspaceId,

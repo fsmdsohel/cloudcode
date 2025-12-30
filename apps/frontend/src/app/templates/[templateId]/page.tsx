@@ -10,9 +10,13 @@ import {
   Loader2,
 } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { useDispatch } from "react-redux";
+import { toast } from "sonner";
 import SettingsHeader from "@/components/settings/SettingsHeader";
 import { templates, languageConfigs } from "../config/templateConfig";
 import { Template } from "../types/templates";
+import { AppDispatch } from "@/redux/store";
+import { createWorkspace } from "@/redux/slices/workspaceSlice";
 
 interface StepConfig {
   number: number;
@@ -38,9 +42,12 @@ const TemplatePage = () => {
   const [template, setTemplate] = useState<Template | null>(null);
   const [isMounted, setIsMounted] = useState(false);
   const [workspaceName, setWorkspaceName] = useState("");
+  const [description, setDescription] = useState("");
+  const [isCreating, setIsCreating] = useState(false);
 
   const router = useRouter();
   const searchParams = useSearchParams();
+  const dispatch = useDispatch<AppDispatch>();
   const templateName = searchParams.get("name");
   const isCustomWorkspace = templateName === "custom";
 
@@ -61,6 +68,38 @@ const TemplatePage = () => {
         ? prev.filter((id) => id !== libraryId)
         : [...prev, libraryId]
     );
+  };
+
+  const handleCreateWorkspace = async () => {
+    if (!workspaceName.trim()) {
+      toast.error("Please enter a workspace name");
+      return;
+    }
+
+    if (!isCustomWorkspace && !selectedLanguage) {
+      toast.error("Please select a programming language");
+      return;
+    }
+
+    try {
+      setIsCreating(true);
+      const result = await dispatch(
+        createWorkspace({
+          name: workspaceName,
+          template: isCustomWorkspace ? "custom" : templateName || "custom",
+          language: selectedLanguage || "javascript", // Default for custom
+          libraries: selectedLibraries,
+          description: description,
+        })
+      ).unwrap();
+
+      toast.success("Workspace created successfully");
+      router.push(`/workspaces/${result.data.workspace.id}`);
+    } catch (error: any) {
+      toast.error(error.message || "Failed to create workspace");
+    } finally {
+      setIsCreating(false);
+    }
   };
 
   if (!isMounted) {
@@ -114,8 +153,8 @@ const TemplatePage = () => {
                       <div className="flex items-center gap-2">
                         <div
                           className={`flex items-center justify-center w-7 h-7 rounded-lg ${currentStep >= step.number
-                              ? "bg-primary-purple-400 text-white"
-                              : "bg-surface-hover text-gray-400"
+                            ? "bg-primary-purple-400 text-white"
+                            : "bg-surface-hover text-gray-400"
                             } text-sm transition-colors duration-300`}
                         >
                           {currentStep > step.number ? (
@@ -182,6 +221,8 @@ const TemplatePage = () => {
                             Description
                           </label>
                           <textarea
+                            value={description}
+                            onChange={(e) => setDescription(e.target.value)}
                             className="w-full px-4 py-2.5 bg-gray-800/50 border border-gray-800 rounded-lg text-white placeholder:text-gray-500 focus:outline-none focus:border-purple-500/50 transition-colors"
                             rows={3}
                             placeholder="Brief description of your workspace"
@@ -216,6 +257,8 @@ const TemplatePage = () => {
                                 Description
                               </label>
                               <textarea
+                                value={description}
+                                onChange={(e) => setDescription(e.target.value)}
                                 className="w-full px-4 py-2.5 bg-gray-800/50 border border-gray-800 rounded-lg text-white placeholder:text-gray-500 focus:outline-none focus:border-purple-500/50 transition-colors"
                                 rows={3}
                                 placeholder="Brief description of your project"
@@ -371,6 +414,7 @@ const TemplatePage = () => {
                     <button
                       onClick={() => setCurrentStep((prev) => prev - 1)}
                       className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+                      disabled={isCreating}
                     >
                       <ArrowLeft className="w-4 h-4" />
                       Previous Step
@@ -388,11 +432,21 @@ const TemplatePage = () => {
                     </button>
                   ) : (
                     <button
-                      onClick={() => router.push(`/workspaces/new`)}
-                      className="flex items-center gap-2 px-4 py-2 bg-primary-purple-400 text-white rounded-lg hover:bg-primary-purple-500 transition-colors"
+                      onClick={handleCreateWorkspace}
+                      disabled={isCreating}
+                      className="flex items-center gap-2 px-4 py-2 bg-primary-purple-400 text-white rounded-lg hover:bg-primary-purple-500 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                     >
-                      Create Workspace
-                      <ArrowRight className="w-4 h-4" />
+                      {isCreating ? (
+                        <>
+                          <Loader2 className="w-4 h-4 animate-spin" />
+                          Creating...
+                        </>
+                      ) : (
+                        <>
+                          Create Workspace
+                          <ArrowRight className="w-4 h-4" />
+                        </>
+                      )}
                     </button>
                   )}
                 </div>

@@ -63,7 +63,7 @@ app.use(docsPath, swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 // API Routes
 app.use(`${basePath}/auth`, authRoutes);
 app.use(`${basePath}/users`, userRoutes);
-app.use(`${basePath}/workspace`, workspaceRoutes);
+app.use(`${basePath}/workspaces`, workspaceRoutes);
 app.use(`${basePath}/agent`, agentRoutes);
 
 // Health check endpoint

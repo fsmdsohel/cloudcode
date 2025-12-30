@@ -36,6 +36,9 @@ import { useDebounce } from "@/hooks/useDebounce";
 import { LoadingSkeleton } from "@/components/dashboard/LoadingSkeleton";
 import { WorkspaceCard } from "@/components/dashboard/WorkspaceCard";
 import { ErrorFallback } from "@/components/shared/ErrorFallback";
+import { fetchWorkspaces, Workspace } from "@/redux/slices/workspaceSlice";
+import { useSelector } from "react-redux";
+import { RootState } from "@/redux/store";
 
 interface UserProfile {
   id: string;
@@ -65,20 +68,22 @@ const DashboardLayout = () => {
     }
   }, []);
 
-  const workspaceItems = [
-    {
-      name: "Project Alpha",
-      lastEdited: "2 days ago",
-      members: 4,
-      workspaceId: "workspace-123",
-    },
-    {
-      name: "Backend API",
-      lastEdited: "5 days ago",
-      members: 2,
-      workspaceId: "workspace-123",
-    },
-  ];
+  const { workspaces, loading: workspacesLoading } = useSelector(
+    (state: RootState) => state.workspace
+  );
+
+  useEffect(() => {
+    dispatch(fetchWorkspaces());
+  }, [dispatch]);
+
+  const workspaceItems = useMemo(() => {
+    return workspaces.map((ws: Workspace) => ({
+      name: ws.name,
+      lastEdited: new Date(ws.updatedAt).toLocaleDateString(),
+      members: 1, // Defaulting to 1 as we don't have members in the slice yet
+      workspaceId: ws.id,
+    }));
+  }, [workspaces]);
 
   const categories = [
     {
@@ -226,15 +231,14 @@ const DashboardLayout = () => {
     return workspaceItems.filter((workspace) =>
       workspace.name.toLowerCase().includes(debouncedSearch.toLowerCase())
     );
-  }, [debouncedSearch]);
+  }, [debouncedSearch, workspaceItems]);
 
   const sortedWorkspaces = useMemo(() => {
     return [...filteredWorkspaces].sort((a, b) => {
       if (sortBy === "name") return a.name.localeCompare(b.name);
       if (sortBy === "members") return b.members - a.members;
-      return (
-        new Date(b.lastEdited).getTime() - new Date(a.lastEdited).getTime()
-      );
+      // Simple date comparison - in a real app use timestamps
+      return new Date(b.lastEdited).getTime() - new Date(a.lastEdited).getTime();
     });
   }, [filteredWorkspaces, sortBy]);
 
